@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "U:\\hlocal\\P3JoseMiguelVillacanas\\P3JoseMiguelVillacanas.csproj": {}
+  },
+  "projects": {
+    "U:\\hlocal\\P3JoseMiguelVillacanas\\P3JoseMiguelVillacanas.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "U:\\hlocal\\P3JoseMiguelVillacanas\\P3JoseMiguelVillacanas.csproj",
+        "projectName": "P3JoseMiguelVillacanas",
+        "projectPath": "U:\\hlocal\\P3JoseMiguelVillacanas\\P3JoseMiguelVillacanas.csproj",
+        "packagesPath": "C:\\Users\\usuario_local\\.nuget\\packages\\",
+        "outputPath": "U:\\hlocal\\P3JoseMiguelVillacanas\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "c:\\software\\programacion\\MSVStudio2017\\Shared\\NuGetPackages",
+          "c:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\usuario_local\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.12, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

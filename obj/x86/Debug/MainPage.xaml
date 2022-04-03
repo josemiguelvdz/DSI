@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="P3JoseMiguelVillacanas.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:P3JoseMiguelVillacanas"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderBrush" Value="Green"/>
+            <Setter Property="FontSize" Value="30px"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center" Spacing="20" Width="300px">
+            <Button x:ConnectionId='2' x:Name="PlayButton" Content="Jugar" HorizontalAlignment="Center" Width="300px"                         ></Button>
+            <Button x:ConnectionId='3' x:Name="ConfigButton" Content="Configurar" HorizontalAlignment="Center"  Width="300px"                           ></Button>
+            <Button x:ConnectionId='4' x:Name="ExitButton" Content="Salir" HorizontalAlignment="Center"  Width="300px"></Button>
+        </StackPanel>
+    </Grid>
+</Page>
+

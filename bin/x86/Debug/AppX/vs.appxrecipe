@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>PTO1011</Machine>
-    <WindowsUser>usuario_local</WindowsUser>
+    <Machine>DESKTOP-G5OMS4N</Machine>
+    <WindowsUser>JoseMiguel</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,16 +10,16 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>af270289-d983-4815-a94a-de185c9322b2</PackageIdentityName>
     <PackageIdentityPublisher>CN=usuario_local</PackageIdentityPublisher>
-    <IntermediateOutputPath>U:\hlocal\P3JoseMiguelVillacanas\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\DSI\DSI\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
-    <WindowsSdkPath>C:\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>U:\hlocal\P3JoseMiguelVillacanas\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>94A28E8B414F3257A8EF6208A75456DEC547B7F60363F1B0C93C1CA32F60E928</RegisteredManifestChecksum>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\DSI\DSI\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>A73AF34E4CAF57FDFE5593612B5BAE36AF332D8211B04EBF64404CC9F50157BB</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>af270289-d983-4815-a94a-de185c9322b2_1.0.0.0_x86__zkx2yv7n2a8b8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>af270289-d983-4815-a94a-de185c9322b2_zkx2yv7n2a8b8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>af270289-d983-4815-a94a-de185c9322b2</RegisteredPackageID>
@@ -27,94 +27,94 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="U:\hlocal\P3JoseMiguelVillacanas\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\DSI\DSI\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-03-03T16:46:54.285</Modified>
+      <Modified>2022-04-03T19:33:46.383</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="U:\hlocal\P3JoseMiguelVillacanas\bin\x86\Debug\P3JoseMiguelVillacanas.exe">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x86\Debug\P3JoseMiguelVillacanas.exe">
       <PackagePath>entrypoint\P3JoseMiguelVillacanas.exe</PackagePath>
-      <Modified>2022-03-03T16:46:53.901</Modified>
+      <Modified>2022-04-03T19:33:44.050</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2021-02-04T23:15:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2020-12-02T02:52:00.000</Modified>
+      <Modified>2020-12-02T03:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="U:\hlocal\P3JoseMiguelVillacanas\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\DSI\DSI\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2022-03-03T15:34:41.699</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="U:\hlocal\P3JoseMiguelVillacanas\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2021-08-23T22:40:23.294</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="U:\hlocal\P3JoseMiguelVillacanas\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-23T22:40:23.298</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="U:\hlocal\P3JoseMiguelVillacanas\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-23T22:40:23.298</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="U:\hlocal\P3JoseMiguelVillacanas\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-23T22:40:23.299</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="U:\hlocal\P3JoseMiguelVillacanas\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-23T22:40:23.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="U:\hlocal\P3JoseMiguelVillacanas\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-23T22:40:23.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="U:\hlocal\P3JoseMiguelVillacanas\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-23T22:40:23.301</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="U:\hlocal\P3JoseMiguelVillacanas\bin\x86\Debug\P3JoseMiguelVillacanas.xr.xml">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x86\Debug\P3JoseMiguelVillacanas.xr.xml">
       <PackagePath>P3JoseMiguelVillacanas.xr.xml</PackagePath>
       <Modified>2022-03-03T16:46:53.829</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="U:\hlocal\P3JoseMiguelVillacanas\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-03-03T16:45:47.680</Modified>
+      <Modified>2022-04-03T19:33:43.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="U:\hlocal\P3JoseMiguelVillacanas\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-03-03T16:45:47.680</Modified>
+      <Modified>2022-04-03T19:33:43.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="U:\hlocal\P3JoseMiguelVillacanas\bin\x86\Debug\Página1.xbf">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x86\Debug\Página1.xbf">
       <PackagePath>Página1.xbf</PackagePath>
-      <Modified>2022-03-03T16:46:53.832</Modified>
+      <Modified>2022-04-03T19:33:43.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="U:\hlocal\P3JoseMiguelVillacanas\bin\x86\Debug\Página2.xbf">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x86\Debug\Página2.xbf">
       <PackagePath>Página2.xbf</PackagePath>
-      <Modified>2022-03-03T16:45:47.680</Modified>
+      <Modified>2022-04-03T19:33:43.964</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2020-12-02T00:52:06.000</Modified>
+      <Modified>2020-12-02T01:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="U:\hlocal\P3JoseMiguelVillacanas\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-03-03T16:32:26.852</Modified>
+      <Modified>2022-04-03T19:33:44.751</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="U:\hlocal\P3JoseMiguelVillacanas\bin\x86\Debug\Core\P3JoseMiguelVillacanas.exe">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x86\Debug\Core\P3JoseMiguelVillacanas.exe">
       <PackagePath>P3JoseMiguelVillacanas.exe</PackagePath>
-      <Modified>2022-03-03T16:46:54.282</Modified>
+      <Modified>2022-04-03T19:33:46.369</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

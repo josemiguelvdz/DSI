@@ -8158,26 +8158,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\usuario_local\\.nuget\\packages\\": {},
-    "c:\\software\\programacion\\MSVStudio2017\\Shared\\NuGetPackages": {},
-    "c:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
+    "C:\\Users\\JoseMiguel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "U:\\hlocal\\P3JoseMiguelVillacanas\\P3JoseMiguelVillacanas.csproj",
+      "projectUniqueName": "D:\\DSI\\DSI\\P3JoseMiguelVillacanas.csproj",
       "projectName": "P3JoseMiguelVillacanas",
-      "projectPath": "U:\\hlocal\\P3JoseMiguelVillacanas\\P3JoseMiguelVillacanas.csproj",
-      "packagesPath": "C:\\Users\\usuario_local\\.nuget\\packages\\",
-      "outputPath": "U:\\hlocal\\P3JoseMiguelVillacanas\\obj\\",
+      "projectPath": "D:\\DSI\\DSI\\P3JoseMiguelVillacanas.csproj",
+      "packagesPath": "C:\\Users\\JoseMiguel\\.nuget\\packages\\",
+      "outputPath": "D:\\DSI\\DSI\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "c:\\software\\programacion\\MSVStudio2017\\Shared\\NuGetPackages",
-        "c:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\usuario_local\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JoseMiguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8185,7 +8185,7 @@
         "uap10.0.17763"
       ],
       "sources": {
-        "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

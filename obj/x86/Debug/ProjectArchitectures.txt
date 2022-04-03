@@ -1,1 +1,1 @@
-U:\hlocal\P3JoseMiguelVillacanas\P3JoseMiguelVillacanas.csproj;x86
+D:\DSI\DSI\P3JoseMiguelVillacanas.csproj;x86

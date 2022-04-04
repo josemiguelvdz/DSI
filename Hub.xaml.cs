@@ -13,29 +13,18 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
+// La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace P3JoseMiguelVillacanas
 {
     /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class Hub : Page
     {
-        public MainPage()
+        public Hub()
         {
             this.InitializeComponent();
         }
-
-        private void PlayButton_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(Hub));
-        }
-
-        private void ConfigButton_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(Graficos));
-        }
-
     }
 }

@@ -9,8 +9,10 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock Text="{x:Bind CurrentTime, Mode=OneWay}" HorizontalAlignment="Center" VerticalAlignment="Center" ></TextBlock>
-        
-        <Button x:Name="BackButton" Style="{StaticResource NavigationBackButtonNormalStyle}" Click="BackButton_Click" VerticalAlignment="Bottom" HorizontalAlignment="Left"></Button>
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center" Spacing="20" Width="300px">
+            <Button x:Name="PlayButton" Content="Jugar" HorizontalAlignment="Center" Width="300px" Click="PlayButton_Click"></Button>
+            <Button x:Name="ConfigButton" Content="Configurar" HorizontalAlignment="Center"  Width="300px" Click="ConfigButton_Click"></Button>
+            <Button x:Name="ExitButton" Content="Salir" HorizontalAlignment="Center"  Width="300px"></Button>
+        </StackPanel>
     </Grid>
 </Page>

@@ -23,39 +23,28 @@ namespace P3JoseMiguelVillacanas
     /// </summary>
     /// 
 
-    public interface INotifyPropertyChanged
+    public sealed partial class Página1 : Page
     {
-        event PropertyChangedEventHandler PropertyChanged;
-    }
-
-    public sealed partial class Página1 : Page, INotifyPropertyChanged
-    {
-        private DispatcherTimer _timer;
 
         public Página1()
         {
             this.InitializeComponent();
 
-            _timer = new DispatcherTimer { Interval = TimeSpan.FromSeconds(1) };
-
-            _timer.Tick += (sender, o) =>
-                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(CurrentTime)));
-
-            _timer.Start();
-
         }
-
-        public string CurrentTime => DateTime.Now.ToLongTimeString();
-        public event PropertyChangedEventHandler PropertyChanged;
-
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame rootFrame = Window.Current.Content as Frame;
-            if (rootFrame.CanGoBack)
-            {
-                rootFrame.GoBack();
-            }
+
+        }
+
+        private void PlayButton_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Página1));
+        }
+
+        private void ConfigButton_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Página2));
         }
     }
 }

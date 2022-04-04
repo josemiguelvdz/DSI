@@ -9,18 +9,27 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Page.Resources>
-        <Style TargetType="Button">
-            <Setter Property="Background" Value="Transparent" />
-            <Setter Property="BorderBrush" Value="Green"/>
-            <Setter Property="FontSize" Value="30px"/>
-        </Style>
+
     </Page.Resources>
 
     <Grid>
-        <StackPanel Orientation="Vertical" VerticalAlignment="Center" Spacing="20" Width="300px">
-            <Button x:Name="PlayButton" Content="Jugar" HorizontalAlignment="Center" Width="300px" Click="PlayButton_Click"></Button>
-            <Button x:Name="ConfigButton" Content="Configurar" HorizontalAlignment="Center"  Width="300px" Click="ConfigButton_Click"></Button>
-            <Button x:Name="ExitButton" Content="Salir" HorizontalAlignment="Center"  Width="300px"></Button>
-        </StackPanel>
+
+        <TextBlock HorizontalAlignment="Center" 
+                   Margin="0,0,0,200" 
+                   Text="ROBOTS VS HUMANS" 
+                   TextWrapping="Wrap" 
+                   VerticalAlignment="Center" 
+                   Height="126" Width="884" 
+                   FontSize="80" 
+                   TextAlignment="Center" 
+                   FontWeight="Bold"/>
+        <Button x:Name="PlayButton"
+                Content="PULSE AQUÍ PARA CONTINUAR" 
+                Height="56" Margin="0,592,0,0" 
+                VerticalAlignment="Top" Width="471" 
+                HorizontalAlignment="Center" 
+                FontSize="24" 
+                FontWeight="Bold" 
+                Click="PlayButton_Click" RequestedTheme="Light"/>
     </Grid>
 </Page>

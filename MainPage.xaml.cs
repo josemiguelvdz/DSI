@@ -36,5 +36,6 @@ namespace P3JoseMiguelVillacanas
         {
             Frame.Navigate(typeof(Página2));
         }
+
     }
 }

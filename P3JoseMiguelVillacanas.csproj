@@ -119,6 +119,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Idioma.xaml.cs">
+      <DependentUpon>Idioma.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -129,8 +132,11 @@
     <Compile Include="Página1.xaml.cs">
       <DependentUpon>Página1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Página2.xaml.cs">
-      <DependentUpon>Página2.xaml</DependentUpon>
+    <Compile Include="Graficos.xaml.cs">
+      <DependentUpon>Graficos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sonido.xaml.cs">
+      <DependentUpon>Sonido.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -154,6 +160,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Idioma.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -166,7 +176,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Página2.xaml">
+    <Page Include="Graficos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sonido.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

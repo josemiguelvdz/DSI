@@ -20,9 +20,9 @@ namespace P3JoseMiguelVillacanas
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Página2 : Page
+    public sealed partial class Graficos : Page
     {
-        public Página2()
+        public Graficos()
         {
             this.InitializeComponent();
         }
@@ -36,20 +36,34 @@ namespace P3JoseMiguelVillacanas
             }
         }
 
-        private void MadridButton_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Frame rootFrame = Window.Current.Content as Frame;
+            if (rootFrame.CanGoBack)
+            {
+                rootFrame.GoBack();
+            }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void BarcelonaButton_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_2(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void BilbaoButton_Click(object sender, RoutedEventArgs e)
-        {
 
+        private void Sonido(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Sonido));
         }
 
+        private void Idioma(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Idioma));
+        }
     }
 }

@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Rodrigo\Desktop\DSI\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-04-04T19:03:46.209</Modified>
+      <Modified>2022-04-04T21:16:38.730</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x86\Debug\P3JoseMiguelVillacanas.exe">
       <PackagePath>entrypoint\P3JoseMiguelVillacanas.exe</PackagePath>
-      <Modified>2022-04-04T19:03:45.653</Modified>
+      <Modified>2022-04-04T21:16:38.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,9 +46,9 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-02T02:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-04-04T18:14:42.997</Modified>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\CardX1.png">
+      <PackagePath>CardX1.png</PackagePath>
+      <Modified>2022-04-04T19:54:05.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -84,25 +84,41 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-04-04T18:14:42.993</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2022-04-04T18:14:42.997</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x86\Debug\P3JoseMiguelVillacanas.xr.xml">
       <PackagePath>P3JoseMiguelVillacanas.xr.xml</PackagePath>
-      <Modified>2022-04-04T19:03:45.574</Modified>
+      <Modified>2022-04-04T21:09:00.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-04-04T19:03:45.582</Modified>
+      <Modified>2022-04-04T21:16:38.242</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x86\Debug\Idioma.xbf">
+      <PackagePath>Idioma.xbf</PackagePath>
+      <Modified>2022-04-04T21:16:38.242</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-04-04T19:03:45.582</Modified>
+      <Modified>2022-04-04T21:16:38.242</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x86\Debug\Pause.xbf">
+      <PackagePath>Pause.xbf</PackagePath>
+      <Modified>2022-04-04T21:16:38.242</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x86\Debug\Página1.xbf">
       <PackagePath>Página1.xbf</PackagePath>
-      <Modified>2022-04-04T19:03:45.582</Modified>
+      <Modified>2022-04-04T21:16:38.242</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x86\Debug\Página2.xbf">
-      <PackagePath>Página2.xbf</PackagePath>
-      <Modified>2022-04-04T19:03:45.582</Modified>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x86\Debug\Graficos.xbf">
+      <PackagePath>Graficos.xbf</PackagePath>
+      <Modified>2022-04-04T21:16:38.238</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x86\Debug\Sonido.xbf">
+      <PackagePath>Sonido.xbf</PackagePath>
+      <Modified>2022-04-04T21:16:38.242</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -110,11 +126,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-04-04T18:27:01.243</Modified>
+      <Modified>2022-04-04T21:09:00.680</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x86\Debug\Core\P3JoseMiguelVillacanas.exe">
       <PackagePath>P3JoseMiguelVillacanas.exe</PackagePath>
-      <Modified>2022-04-04T19:03:46.204</Modified>
+      <Modified>2022-04-04T21:16:38.726</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -34,7 +34,7 @@ namespace P3JoseMiguelVillacanas
 
         private void ConfigButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Página2));
+            Frame.Navigate(typeof(Graficos));
         }
 
     }

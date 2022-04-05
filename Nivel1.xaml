@@ -68,206 +68,75 @@
 
             <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
 
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-  
-                
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
             </StackPanel>
 
 
 
             <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
 
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-            </StackPanel>
-
-
-
-
-            <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
             </StackPanel>
 
 
 
             <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
 
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
             </StackPanel>
 
 
 
             <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
 
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
-                </StackPanel>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+            </StackPanel>
 
 
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
-                </StackPanel>
+
+            <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
+
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo2.jpg"/>
+                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Suelo1.jpg"/>
             </StackPanel>
 
         </StackPanel>

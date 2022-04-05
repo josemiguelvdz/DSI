@@ -42,9 +42,21 @@ namespace P3JoseMiguelVillacanas
             Frame.Navigate(typeof(Nivel1));
         }
 
+        private void Level2_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Nivel1));
+        }
+
+        private void Level3_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Nivel1));
+        }
+
         private void RobotTeam_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(RobotTeam));
         }
+
+
     }
 }

@@ -20,12 +20,24 @@
     </Page.Resources>
 
     <Grid>
-        <!--<Grid.Background>
-            -->
-        <!--<ImageBrush ImageSource="CardX1.png" AlignmentY="Top" AlignmentX="Center" />-->
-        <!--
-        </Grid.Background>-->
-        <Button x:Name="ReturnToMenu" Content="Volver al menú" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="30px" Margin="30" Width="280" Height="70">
+        <Grid.Background>
+            
+        <ImageBrush ImageSource="Assets/bg2.jpg" Stretch="Fill" AlignmentY="Top" AlignmentX="Center" />
+        
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="300px"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button x:Name="ReturnToMenu" Content="Volver al menú" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="30px" Margin="30" Width="280" Height="70" Click="ReturnToMenu_Click">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="CardX1.png" AlignmentY="Top" AlignmentX="Center" />
             </Button.Background>
@@ -46,7 +58,7 @@
                 </ResourceDictionary>
             </Button.Resources>
         </Button>
-        <Button x:Name="RobotTeam" Content="Robots" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="30px" Margin="30" Width="230" Height="70">
+        <Button x:Name="RobotTeam" Content="Robots" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="30px" Margin="30" Width="230" Height="70" Grid.Row="2">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="CardX1.png" AlignmentY="Top" AlignmentX="Center" />
             </Button.Background>
@@ -67,7 +79,7 @@
                 </ResourceDictionary>
             </Button.Resources>
         </Button>
-        <Button x:Name="Settings" Content="Configuración" HorizontalAlignment="Right" VerticalAlignment="Top" FontSize="30px" Margin="30" Width="270" Height="70">
+        <Button x:Name="Settings" Content="Configuración" HorizontalAlignment="Right" VerticalAlignment="Top" FontSize="30px" Margin="30" Width="270" Height="70" Grid.Column="2" Click="Settings_Click">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="CardX1.png" AlignmentY="Top" AlignmentX="Center" />
             </Button.Background>
@@ -89,9 +101,8 @@
             </Button.Resources>
         </Button>
 
-        <Button x:Name="Level1" Content="Nivel 1" Margin="293,256,0,0" VerticalAlignment="Top" Height="98" Width="146" FontSize="30px"/>
-        <Button x:Name="Level2" Content="Nivel 2" Margin="0,433,0,0" VerticalAlignment="Top" Height="98" Width="146" HorizontalAlignment="Center" FontSize="30px"/>
-
-        <Button x:Name="Level3" Content="Nivel 3" Margin="853,256,0,0" VerticalAlignment="Top" Height="98" Width="146" FontSize="30px"/>
+        <Button x:Name="Level1" Content="Nivel 1" VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="98" Width="146" FontSize="30px" Grid.Row="1" Grid.Column="0"/>
+        <Button x:Name="Level2" Content="Nivel 2" VerticalAlignment="Top" Height="98" Width="146" HorizontalAlignment="Center" FontSize="30px" Grid.Row="1" Grid.Column="1"/>
+        <Button x:Name="Level3" Content="Nivel 3" VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="98" Width="146" FontSize="30px" Grid.Row="1" Grid.Column="2"/>
     </Grid>
 </Page>

@@ -26,5 +26,15 @@ namespace P3JoseMiguelVillacanas
         {
             this.InitializeComponent();
         }
+
+        private void ReturnToMenu_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Página1));
+        }
+
+        private void Settings_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Graficos));
+        }
     }
 }

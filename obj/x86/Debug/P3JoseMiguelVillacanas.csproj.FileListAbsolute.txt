@@ -196,3 +196,4 @@ D:\DSI\DSI\obj\x86\Debug\qualifiers.txt.intermediate
 D:\DSI\DSI\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\DSI\DSI\obj\x86\Debug\ProjectArchitectures.txt
 D:\DSI\DSI\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424779200000000.json
+D:\DSI\DSI\obj\x86\Debug\P3JoseMiguelVillacanas.csproj.AssemblyReference.cache

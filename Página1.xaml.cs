@@ -39,7 +39,7 @@ namespace P3JoseMiguelVillacanas
 
         private void PlayButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Página1));
+            Frame.Navigate(typeof(Hub));
         }
 
         private void ConfigButton_Click(object sender, RoutedEventArgs e)

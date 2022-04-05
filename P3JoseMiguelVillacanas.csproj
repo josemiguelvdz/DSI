@@ -148,15 +148,65 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CardX1.png" />
-    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\bg2.jpg" />
+    <Content Include="Assets\Button Active.png" />
+    <Content Include="Assets\Button Disable.png" />
+    <Content Include="Assets\Button Hover.png" />
+    <Content Include="Assets\Button Normal.png" />
+    <Content Include="Assets\Card X1.png" />
+    <Content Include="Assets\Card X2 %282%29.png" />
+    <Content Include="Assets\Card X2.png" />
+    <Content Include="Assets\Card X3 %282%29.png" />
+    <Content Include="Assets\Card X3.png" />
+    <Content Include="Assets\Card X5.png" />
+    <Content Include="Assets\Card X6.png" />
+    <Content Include="Assets\Icons\01.png" />
+    <Content Include="Assets\Icons\02.png" />
+    <Content Include="Assets\Icons\03.png" />
+    <Content Include="Assets\Icons\04.png" />
+    <Content Include="Assets\Icons\05.png" />
+    <Content Include="Assets\Icons\06.png" />
+    <Content Include="Assets\Icons\07.png" />
+    <Content Include="Assets\Icons\08.png" />
+    <Content Include="Assets\Icons\09.png" />
+    <Content Include="Assets\Icons\10.png" />
+    <Content Include="Assets\Icons\11.png" />
+    <Content Include="Assets\Icons\12.png" />
+    <Content Include="Assets\Icons\13.png" />
+    <Content Include="Assets\Icons\14.png" />
+    <Content Include="Assets\Icons\15.png" />
+    <Content Include="Assets\Icons\16.png" />
+    <Content Include="Assets\Icons\17.png" />
+    <Content Include="Assets\Icons\18.png" />
+    <Content Include="Assets\Icons\19.png" />
+    <Content Include="Assets\Icons\20.png" />
+    <Content Include="Assets\Icons\21.png" />
+    <Content Include="Assets\Icons\22.png" />
+    <Content Include="Assets\Icons\23.png" />
+    <Content Include="Assets\Icons\24.png" />
+    <Content Include="Assets\Icons\25.png" />
+    <Content Include="Assets\Icons\26.png" />
+    <Content Include="Assets\Icons\27.png" />
+    <Content Include="Assets\Icons\28.png" />
+    <Content Include="Assets\Icons\29.png" />
+    <Content Include="Assets\Icons\30.png" />
+    <Content Include="Assets\Icons\31.png" />
+    <Content Include="Assets\Icons\32.png" />
+    <Content Include="Assets\Icons\33.png" />
+    <Content Include="Assets\Icons\34.png" />
+    <Content Include="Assets\Icons\35.png" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\Panel Empty Green.png" />
+    <Content Include="Assets\Panel Empty.png" />
+    <Content Include="Assets\Panel Red.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="CardX1.png" />
+    <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

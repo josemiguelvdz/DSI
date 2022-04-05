@@ -94,6 +94,7 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
+      <RootProperty Name="Padding" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="BorderThickness" />
@@ -117,6 +118,11 @@
     <RootType FullName="P3JoseMiguelVillacanas.Pause" />
     <RootType FullName="P3JoseMiguelVillacanas.Página1" />
     <RootType FullName="P3JoseMiguelVillacanas.Graficos" />
+    <RootType FullName="Windows.UI.Xaml.Controls.VariableSizedWrapGrid">
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
+    </RootType>
+    <RootType FullName="P3JoseMiguelVillacanas.RobotTeam" />
     <RootType FullName="P3JoseMiguelVillacanas.Sonido" />
   </Roots.RootTypes>
 </Roots>

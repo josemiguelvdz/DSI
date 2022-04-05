@@ -1,6 +1,7 @@
 WinMetadata\Windows.winmd
 24.png
 Assets\bg2.jpg
+Assets\bg3.png
 Assets\Button Active.png
 Assets\Button Disable.png
 Assets\Button Hover.png
@@ -12,6 +13,8 @@ Assets\Card X3 (2).png
 Assets\Card X3.png
 Assets\Card X5.png
 Assets\Card X6.png
+Assets\deck.png
+Assets\deck2.png
 Assets\Icons\01.png
 Assets\Icons\02.png
 Assets\Icons\03.png
@@ -71,6 +74,7 @@ Nivel1.xbf
 P3JoseMiguelVillacanas.xr.xml
 Página1.xbf
 Pause.xbf
+RobotTeam.xbf
 Sonido.xbf
 CardX1.png
 Properties\Default.rd.xml

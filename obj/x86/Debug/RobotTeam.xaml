@@ -1,0 +1,77 @@
+﻿<Page
+    x:Class="P3JoseMiguelVillacanas.RobotTeam"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:P3JoseMiguelVillacanas"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="Green" />
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Foreground" Value="Azure"/>
+        </Style>
+    </Page.Resources>
+    
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/bg3.png" Stretch="None"></ImageBrush>
+        </Grid.Background>
+        <Button x:ConnectionId='2' x:Name="ReturnToMenu" Content="Volver al hub" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="30px" Width="280" Height="70"                           >
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="CardX1.png" AlignmentY="Top" AlignmentX="Center" />
+            </Button.Background>
+            <Button.Resources>
+                <ResourceDictionary>
+                    <ResourceDictionary.ThemeDictionaries>
+                        <ResourceDictionary x:Key="Dark">
+                            <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Red"/>
+                            <ImageBrush x:Key="ButtonBackgroundPointerOver" ImageSource="CardX1.png"/>
+                            <SolidColorBrush x:Key="ButtonBorderBrushPointerOver" Color="Transparent"/>
+                        </ResourceDictionary>
+                        <ResourceDictionary x:Key="Light">
+                            <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Red"/>
+                            <ImageBrush x:Key="ButtonBackgroundPointerOver" ImageSource="CardX1.png"/>
+                            <SolidColorBrush x:Key="ButtonBorderBrushPointerOver" Color="Transparent"/>
+                        </ResourceDictionary>
+                    </ResourceDictionary.ThemeDictionaries>
+                </ResourceDictionary>
+            </Button.Resources>
+        </Button>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="20">
+            
+            <TextBlock x:ConnectionId='3' x:Name="RobotsUso" Text="Robots en uso" HorizontalAlignment="Center" FontSize="30"></TextBlock>
+            <StackPanel Orientation="Vertical" Spacing="15" Height="280" Width="425">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="Assets/deck.png"></ImageBrush>
+                </StackPanel.Background>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Spacing="10" Margin="0, 10, 0, 0" VariableSizedWrapGrid.RowSpan="30">
+                    <Button x:ConnectionId='12' x:Name="Card1" Content="Card1" Width="80" Height="100"></Button>
+                    <Button x:ConnectionId='13' x:Name="Card2" Content="Card1" Width="80" Height="100"></Button>
+                    <Button x:ConnectionId='14' x:Name="Card3" Content="Card1" Width="80" Height="100"></Button>
+                    <Button x:ConnectionId='15' x:Name="Card4" Content="Card1" Width="80" Height="100"></Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Spacing="10" VariableSizedWrapGrid.RowSpan="30">
+                    <Button x:ConnectionId='8' x:Name="Card5" Content="Card1" Width="80" Height="100"></Button>
+                    <Button x:ConnectionId='9' x:Name="Card6" Content="Card1" Width="80" Height="100"></Button>
+                    <Button x:ConnectionId='10' x:Name="Card7" Content="Card1" Width="80" Height="100"></Button>
+                    <Button x:ConnectionId='11' x:Name="Card8" Content="Card1" Width="80" Height="100"></Button>
+                </StackPanel>
+            </StackPanel>
+            
+            <TextBlock x:ConnectionId='4' x:Name="RobotsDisp" Text="Robots disponibles" HorizontalAlignment="Center" Margin="0, 50, 0, 0" FontSize="30"></TextBlock>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Spacing="10" Padding="60, 10, 60, 10">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="Assets/deck2.png"></ImageBrush>
+                </StackPanel.Background>
+                <Button x:ConnectionId='5' x:Name="Card9" Content="Card2" Width="80" Height="100"></Button>
+                <Button x:ConnectionId='6' x:Name="Card10" Content="Card2" Width="80" Height="100"></Button>
+                <Button x:ConnectionId='7' x:Name="Card11" Content="Card2" Width="80" Height="100"></Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
+

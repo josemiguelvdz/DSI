@@ -20,31 +20,16 @@ namespace P3JoseMiguelVillacanas
     /// <summary>
     /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
-    public sealed partial class Hub : Page
+    public sealed partial class RobotTeam : Page
     {
-        public Hub()
+        public RobotTeam()
         {
             this.InitializeComponent();
         }
 
         private void ReturnToMenu_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Página1));
-        }
-
-        private void Settings_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(Graficos));
-        }
-
-        private void Level1_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(Nivel1));
-        }
-
-        private void RobotTeam_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(RobotTeam));
+            Frame.Navigate(typeof(Hub));
         }
     }
 }

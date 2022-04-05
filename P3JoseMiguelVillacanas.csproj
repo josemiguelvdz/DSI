@@ -141,6 +141,9 @@
     <Compile Include="Graficos.xaml.cs">
       <DependentUpon>Graficos.xaml</DependentUpon>
     </Compile>
+    <Compile Include="RobotTeam.xaml.cs">
+      <DependentUpon>RobotTeam.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Sonido.xaml.cs">
       <DependentUpon>Sonido.xaml</DependentUpon>
     </Compile>
@@ -152,6 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\bg2.jpg" />
+    <Content Include="Assets\bg3.png" />
     <Content Include="Assets\Button Active.png" />
     <Content Include="Assets\Button Disable.png" />
     <Content Include="Assets\Button Hover.png" />
@@ -163,6 +167,8 @@
     <Content Include="Assets\Card X3.png" />
     <Content Include="Assets\Card X5.png" />
     <Content Include="Assets\Card X6.png" />
+    <Content Include="Assets\deck.png" />
+    <Content Include="Assets\deck2.png" />
     <Content Include="Assets\Icons\01.png" />
     <Content Include="Assets\Icons\02.png" />
     <Content Include="Assets\Icons\03.png" />
@@ -247,6 +253,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Graficos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RobotTeam.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

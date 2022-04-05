@@ -22,6 +22,9 @@
 
 
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/bg3.png" Stretch="None"></ImageBrush>
+        </Grid.Background>
         <StackPanel Orientation="Vertical" VerticalAlignment="Center" Spacing="20" Width="400px" Height="500px">
             <StackPanel.Background>
                 <ImageBrush Stretch="Fill" ImageSource="CardX1.png" AlignmentY="Top" AlignmentX="Center" />

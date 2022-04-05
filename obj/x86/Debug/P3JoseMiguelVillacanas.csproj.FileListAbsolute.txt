@@ -197,3 +197,13 @@ D:\DSI\DSI\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\DSI\DSI\obj\x86\Debug\ProjectArchitectures.txt
 D:\DSI\DSI\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424779200000000.json
 D:\DSI\DSI\obj\x86\Debug\P3JoseMiguelVillacanas.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\Desktop\DSI\bin\x86\Debug\Hub.xbf
+C:\Users\Rodrigo\Desktop\DSI\obj\x86\Debug\Hub.g.i.cs
+C:\Users\Rodrigo\Desktop\DSI\obj\x86\Debug\Hub.g.cs
+C:\Users\Rodrigo\Desktop\DSI\obj\x86\Debug\Hub.xaml
+C:\Users\Rodrigo\Desktop\DSI\obj\x86\Debug\Hub.xbf
+C:\Users\Rodrigo\Desktop\DSI\bin\x86\Debug\Nivel1.xbf
+C:\Users\Rodrigo\Desktop\DSI\obj\x86\Debug\Nivel1.g.i.cs
+C:\Users\Rodrigo\Desktop\DSI\obj\x86\Debug\Nivel1.g.cs
+C:\Users\Rodrigo\Desktop\DSI\obj\x86\Debug\Nivel1.xaml
+C:\Users\Rodrigo\Desktop\DSI\obj\x86\Debug\Nivel1.xbf

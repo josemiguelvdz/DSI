@@ -36,5 +36,10 @@ namespace P3JoseMiguelVillacanas
         {
             Frame.Navigate(typeof(Graficos));
         }
+
+        private void Level1_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Nivel1));
+        }
     }
 }

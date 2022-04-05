@@ -101,7 +101,7 @@
             </Button.Resources>
         </Button>
 
-        <Button x:Name="Level1" Content="Nivel 1" VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="98" Width="146" FontSize="30px" Grid.Row="1" Grid.Column="0"/>
+        <Button x:Name="Level1" Content="Nivel 1" VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="98" Width="146" FontSize="30px" Grid.Row="1" Grid.Column="0" Click="Level1_Click"/>
         <Button x:Name="Level2" Content="Nivel 2" VerticalAlignment="Top" Height="98" Width="146" HorizontalAlignment="Center" FontSize="30px" Grid.Row="1" Grid.Column="1"/>
         <Button x:Name="Level3" Content="Nivel 3" VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="98" Width="146" FontSize="30px" Grid.Row="1" Grid.Column="2"/>
     </Grid>

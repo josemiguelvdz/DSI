@@ -8158,18 +8158,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JoseMiguel\\.nuget\\packages\\": {},
+    "C:\\Users\\Rodrigo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DSI\\DSI\\P3JoseMiguelVillacanas.csproj",
+      "projectUniqueName": "C:\\Users\\Rodrigo\\Desktop\\DSI\\P3JoseMiguelVillacanas.csproj",
       "projectName": "P3JoseMiguelVillacanas",
-      "projectPath": "D:\\DSI\\DSI\\P3JoseMiguelVillacanas.csproj",
-      "packagesPath": "C:\\Users\\JoseMiguel\\.nuget\\packages\\",
-      "outputPath": "D:\\DSI\\DSI\\obj\\",
+      "projectPath": "C:\\Users\\Rodrigo\\Desktop\\DSI\\P3JoseMiguelVillacanas.csproj",
+      "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rodrigo\\Desktop\\DSI\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8177,7 +8177,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\JoseMiguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

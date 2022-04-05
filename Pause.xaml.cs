@@ -29,12 +29,12 @@ namespace P3JoseMiguelVillacanas
 
         private void Resume_Click(object sender, RoutedEventArgs e)
         {
-            // Frame.Navigate(typeof(Pause));
+            Frame.Navigate(typeof(Nivel1));
         }
 
         private void ConfigButton_Click(object sender, RoutedEventArgs e)
         {
-            // Frame.Navigate(typeof(Pause));
+             Frame.Navigate(typeof(Graficos));
         }
 
         private void ExitButton_Click(object sender, RoutedEventArgs e)

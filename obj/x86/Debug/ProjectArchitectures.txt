@@ -1,1 +1,1 @@
-D:\DSI\DSI\P3JoseMiguelVillacanas.csproj;x86
+C:\Users\Rodrigo\Desktop\DSI\P3JoseMiguelVillacanas.csproj;x86

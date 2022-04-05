@@ -1,4 +1,5 @@
 WinMetadata\Windows.winmd
+24.png
 Assets\bg2.jpg
 Assets\Button Active.png
 Assets\Button Disable.png
@@ -34,7 +35,6 @@ Assets\Icons\20.png
 Assets\Icons\21.png
 Assets\Icons\22.png
 Assets\Icons\23.png
-Assets\Icons\24.png
 Assets\Icons\25.png
 Assets\Icons\26.png
 Assets\Icons\27.png
@@ -50,17 +50,24 @@ Assets\LockScreenLogo.scale-200.png
 Assets\Panel Empty Green.png
 Assets\Panel Empty.png
 Assets\Panel Red.png
+Assets\Robot1.jpg
+Assets\Robot2.jpg
+Assets\Robot3.png
+Assets\sol.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
+Assets\Suelo1.jpg
+Assets\Suelo2.jpg
 Assets\Wide310x150Logo.scale-200.png
 App.xbf
 Graficos.xbf
 Hub.xbf
 Idioma.xbf
 MainPage.xbf
+Nivel1.xbf
 P3JoseMiguelVillacanas.xr.xml
 Página1.xbf
 Pause.xbf

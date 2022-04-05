@@ -13,24 +13,24 @@
     </Page.Resources>
 
     <Grid>
-
-        <TextBlock HorizontalAlignment="Center" 
-                   Margin="0,0,0,200" 
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="150">
+            <TextBlock HorizontalAlignment="Center" 
                    Text="ROBOTS VS HUMANS" 
                    TextWrapping="Wrap" 
-                   VerticalAlignment="Center" 
-                   Height="126" Width="884" 
+                   VerticalAlignment="Center"
                    FontSize="80" 
                    TextAlignment="Center" 
                    FontWeight="Bold"/>
-        <Button x:ConnectionId='2' x:Name="PlayButton"
+            <Button x:ConnectionId='2' x:Name="PlayButton"
                 Content="PULSE AQUÍ PARA CONTINUAR" 
-                Height="56" Margin="0,592,0,0" 
-                VerticalAlignment="Top" Width="471" 
+                Height="56"
+                Width="471" 
                 HorizontalAlignment="Center" 
                 FontSize="24" 
                 FontWeight="Bold" 
-                                         RequestedTheme="Light"/>
+                                        />
+        </StackPanel>
+        
     </Grid>
 </Page>
 

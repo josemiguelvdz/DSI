@@ -25,7 +25,7 @@
         <!--<ImageBrush ImageSource="CardX1.png" AlignmentY="Top" AlignmentX="Center" />-->
         <!--
         </Grid.Background>-->
-        <Button x:Name="ReturnToMenu" Content="Volver al menú" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="30px" Margin="30" Width="280" Height="70">
+        <Button x:ConnectionId='2' x:Name="ReturnToMenu" Content="Volver al menú" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="30px" Margin="30" Width="280" Height="70">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="CardX1.png" AlignmentY="Top" AlignmentX="Center" />
             </Button.Background>
@@ -46,7 +46,7 @@
                 </ResourceDictionary>
             </Button.Resources>
         </Button>
-        <Button x:Name="RobotTeam" Content="Robots" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="30px" Margin="30" Width="230" Height="70">
+        <Button x:ConnectionId='3' x:Name="RobotTeam" Content="Robots" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="30px" Margin="30" Width="230" Height="70">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="CardX1.png" AlignmentY="Top" AlignmentX="Center" />
             </Button.Background>
@@ -67,7 +67,7 @@
                 </ResourceDictionary>
             </Button.Resources>
         </Button>
-        <Button x:Name="Settings" Content="Configuración" HorizontalAlignment="Right" VerticalAlignment="Top" FontSize="30px" Margin="30" Width="270" Height="70">
+        <Button x:ConnectionId='4' x:Name="Settings" Content="Configuración" HorizontalAlignment="Right" VerticalAlignment="Top" FontSize="30px" Margin="30" Width="270" Height="70">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="CardX1.png" AlignmentY="Top" AlignmentX="Center" />
             </Button.Background>
@@ -89,9 +89,10 @@
             </Button.Resources>
         </Button>
 
-        <Button x:Name="Level1" Content="Nivel 1" Margin="293,256,0,0" VerticalAlignment="Top" Height="98" Width="146" FontSize="30px"/>
-        <Button x:Name="Level2" Content="Nivel 2" Margin="0,433,0,0" VerticalAlignment="Top" Height="98" Width="146" HorizontalAlignment="Center" FontSize="30px"/>
+        <Button x:ConnectionId='5' x:Name="Level1" Content="Nivel 1" Margin="293,256,0,0" VerticalAlignment="Top" Height="98" Width="146" FontSize="30px"/>
+        <Button x:ConnectionId='6' x:Name="Level2" Content="Nivel 2" Margin="0,433,0,0" VerticalAlignment="Top" Height="98" Width="146" HorizontalAlignment="Center" FontSize="30px"/>
 
-        <Button x:Name="Level3" Content="Nivel 3" Margin="853,256,0,0" VerticalAlignment="Top" Height="98" Width="146" FontSize="30px"/>
+        <Button x:ConnectionId='7' x:Name="Level3" Content="Nivel 3" Margin="853,256,0,0" VerticalAlignment="Top" Height="98" Width="146" FontSize="30px"/>
     </Grid>
 </Page>
+

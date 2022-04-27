@@ -21,9 +21,9 @@
 
     <Grid>
         <Grid.Background>
-            
-        <ImageBrush ImageSource="Assets/bg2.jpg" Stretch="Fill" AlignmentY="Top" AlignmentX="Center" />
-        
+
+            <ImageBrush ImageSource="Assets/background.png" Stretch="Fill" AlignmentY="Top" AlignmentX="Center" />
+
         </Grid.Background>
 
         <Grid.ColumnDefinitions>
@@ -33,7 +33,7 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="300px"/>
+            <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
@@ -101,8 +101,11 @@
             </Button.Resources>
         </Button>
 
-        <Button x:Name="Level1" Content="Nivel 1" VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="98" Width="146" FontSize="30px" Grid.Row="1" Grid.Column="0" Click="Level1_Click"/>
-        <Button x:Name="Level2" Content="Nivel 2" VerticalAlignment="Top" Height="98" Width="146" HorizontalAlignment="Center" FontSize="30px" Grid.Row="1" Grid.Column="1" Click="Level2_Click"/>
-        <Button x:Name="Level3" Content="Nivel 3" VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="98" Width="146" FontSize="30px" Grid.Row="1" Grid.Column="2" Click="Level3_Click"/>
+
+        <Image x:Name="n1Img" Source="Assets/nivel1.png" PointerEntered="n1Img_PointerEntered_1"  PointerExited="n1Img_PointerExited" PointerPressed="Level1_Click" Width="225" Height="225" Grid.ColumnSpan="2" Margin="260,120,343,110" Grid.RowSpan="2"/>
+        <Image x:Name="n2Img" Source="Assets/nivel2.png" PointerEntered="n2Img_PointerEntered"  PointerExited="n2Img_PointerExited" PointerPressed="Level2_Click" Width="250" Height="250" Grid.ColumnSpan="2" Margin="305,105,298,125" Grid.RowSpan="2" Grid.Row="1"/>
+        <Image x:Name="n3Img" Source="Assets/nivel3.png" PointerEntered="n3Img_PointerEntered"  PointerExited="n3Img_PointerExited" PointerPressed="Level3_Click" Width="250" Height="250" Grid.ColumnSpan="2" Margin="371,82,233,148" Grid.RowSpan="2" Grid.Column="1"/>
+        <Image x:Name="n4Img" Source="Assets/nivel4.png" PointerEntered="n4Img_PointerEntered"  PointerExited="n4Img_PointerExited" PointerPressed="Level4_Click" Width="250" Height="250" Grid.ColumnSpan="2" Margin="390,164,214,66" Grid.RowSpan="2" Grid.Column="1" Grid.Row="1"/>
+
     </Grid>
 </Page>

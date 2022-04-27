@@ -128,6 +128,7 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model.cs" />
     <Compile Include="Nivel1.xaml.cs">
       <DependentUpon>Nivel1.xaml</DependentUpon>
     </Compile>
@@ -147,6 +148,7 @@
     <Compile Include="Sonido.xaml.cs">
       <DependentUpon>Sonido.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -154,6 +156,8 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\ajustes.png" />
+    <Content Include="Assets\background.png" />
     <Content Include="Assets\bg2.jpg" />
     <Content Include="Assets\bg3.png" />
     <Content Include="Assets\Button Active.png" />
@@ -205,9 +209,16 @@
     <Content Include="Assets\Icons\34.png" />
     <Content Include="Assets\Icons\35.png" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\menu.png" />
+    <Content Include="Assets\nivel1.png" />
+    <Content Include="Assets\nivel2.png" />
+    <Content Include="Assets\nivel3.png" />
+    <Content Include="Assets\nivel4.png" />
+    <Content Include="Assets\niveles background.png" />
     <Content Include="Assets\Panel Empty Green.png" />
     <Content Include="Assets\Panel Empty.png" />
     <Content Include="Assets\Panel Red.png" />
+    <Content Include="Assets\play.png" />
     <Content Include="Assets\Robot1.jpg" />
     <Content Include="Assets\Robot2.jpg" />
     <Content Include="Assets\Robot3.png" />

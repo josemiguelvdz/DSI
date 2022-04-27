@@ -32,33 +32,14 @@
         
         <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="20">
 
-            <StackPanel.Background>
-                <ImageBrush Stretch="Fill" ImageSource="CardX1.png" AlignmentY="Top" AlignmentX="Center" />
-            </StackPanel.Background>
-            
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot1.jpg"/>
-            </StackPanel>
-
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot2.jpg"/>
-            </StackPanel>
-
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot3.png"/>
-            </StackPanel>
-
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot1.jpg"/>
-            </StackPanel>
-
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot2.jpg"/>
-            </StackPanel>
-
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot3.png"/>
-            </StackPanel>
+            <ListView x:Name="ImageGridView" 
+                  TabIndex="1"
+                  CanDragItems="True"
+                  DragItemsStarting="ImageGridView_DragItems"
+                  IsItemClickEnabled="True"
+                  Grid.Row="1" Grid.Column="1" 
+                  ItemsSource= "{x:Bind ListaRobots}"
+                  />
         </StackPanel>
         <StackPanel Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Button Content="Pausa" FontWeight="Bold" FontSize="24" Click="Pause" />

@@ -218,3 +218,7 @@ D:\DSI\DSI\obj\x86\Debug\RobotTeam.xaml
 D:\DSI\DSI\obj\x86\Debug\Nivel1.xbf
 D:\DSI\DSI\obj\x86\Debug\RobotTeam.xbf
 D:\DSI\DSI\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424743200000000.json
+C:\Users\Rodrigo\Desktop\DSI\obj\x86\Debug\RobotTeam.g.i.cs
+C:\Users\Rodrigo\Desktop\DSI\obj\x86\Debug\RobotTeam.g.cs
+C:\Users\Rodrigo\Desktop\DSI\obj\x86\Debug\RobotTeam.xaml
+C:\Users\Rodrigo\Desktop\DSI\obj\x86\Debug\RobotTeam.xbf

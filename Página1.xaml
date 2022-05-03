@@ -30,6 +30,16 @@
             </StackPanel>
                 
 
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right"  Width="330" Height="60" Spacing="30">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"  >
+                    <Image HorizontalAlignment="Center" Height="80"   VerticalAlignment="Center" Width="80" Source="/Assets/diamond.png"/>
+                    <TextBlock x:Name="DiamantesTotales" Text="0" FontWeight="Bold" Height="50" Width="110" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"  >
+                    <Image HorizontalAlignment="Center" Height="80"   VerticalAlignment="Center" Width="80" Source="/Assets/diamond.png"/>
+                </StackPanel>
+            </StackPanel>
+
         </Grid>
     </Viewbox>
 

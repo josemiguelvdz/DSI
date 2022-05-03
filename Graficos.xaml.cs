@@ -34,12 +34,11 @@ namespace P3JoseMiguelVillacanas
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-            //Frame rootFrame = Window.Current.Content as Frame;
-            //if (rootFrame.CanGoBack)
-            //{
-            //    rootFrame.GoBack();
-            //}
-            this.Frame.Navigate(typeof(MainPage));
+            Frame rootFrame = Window.Current.Content as Frame;
+            if (rootFrame.CanGoBack)
+            {
+                rootFrame.GoBack();
+            }
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)

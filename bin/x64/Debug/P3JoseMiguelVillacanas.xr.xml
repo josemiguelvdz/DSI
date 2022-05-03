@@ -41,21 +41,24 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="FontWeight" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
-      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Setter">
       <RootProperty Name="Property" />
       <RootProperty Name="Value" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
+      <RootProperty Name="Child" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Background" />
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootMethod Name="GetRow" />
@@ -108,24 +111,27 @@
       <RootProperty Name="AllowDrop" />
       <RootProperty Name="Background" />
       <RootProperty Name="Height" />
-      <RootProperty Name="CanDrag" />
       <RootProperty Name="Visibility" />
+      <RootProperty Name="CanDrag" />
       <RootProperty Name="Padding" />
       <RootEvent Name="DragOver" />
       <RootEvent Name="Drop" />
       <RootEvent Name="DragStarting" />
     </RootType>
     <RootType FullName="P3JoseMiguelVillacanas.MainPage" />
-    <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
-      <RootProperty Name="Child" />
+    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Items" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ProgressBar">
       <RootProperty Name="Value" />
       <RootProperty Name="Maximum" />
       <RootProperty Name="Foreground" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="P3JoseMiguelVillacanas.Nivel1" />
-    <RootType FullName="P3JoseMiguelVillacanas.Pause" />
     <RootType FullName="P3JoseMiguelVillacanas.Página1" />
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="BorderThickness" />

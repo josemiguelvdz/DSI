@@ -28,7 +28,15 @@
 
             <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10" Width="200">
                 <Image HorizontalAlignment="Center" Height="80"   VerticalAlignment="Center" Width="80" Source="/Assets/sol.png" />
-                <TextBlock x:Name="EnergiaTotal" Text="0" FontWeight="Bold" Height="50" Width="110" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" />
+                <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                    <TextBlock x:Name="EnergiaTotal" Text="0" FontWeight="Bold" Height="50" Width="110" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" />
+                    <ProgressBar x:Name="EnergiaGratis" VerticalAlignment="Bottom" Value="0" Maximum="100" Foreground="Yellow" Width="75" HorizontalAlignment="Left"/>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center" VerticalAlignment="Top" Spacing="10" Width="200" Grid.Column="0" Grid.Row="1">
+                <Image HorizontalAlignment="Center" Height="80"   VerticalAlignment="Center" Width="80" Source="/Assets/diamond.png"/>
+                <TextBlock x:Name="DiamantesTotales" Text="0" FontWeight="Bold" Height="50" Width="110" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" />
             </StackPanel>
 
             <StackPanel Orientation="Horizontal"  HorizontalAlignment="Left" VerticalAlignment="Center"  Grid.Column="0" Grid.Row="2" Margin="30,0,0,0">
@@ -230,6 +238,66 @@
 
 
             </StackPanel>
+            <GridView Grid.Column="1" Grid.Row="1 " HorizontalAlignment="Center">
+                <StackPanel x:Name="Pausa" Orientation="Vertical" VerticalAlignment="Center" Spacing="20" Width="400px" Height="500px" Visibility="Collapsed">
+                    <StackPanel.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="CardX1.png" AlignmentY="Top" AlignmentX="Center" />
+                    </StackPanel.Background>
+
+                    <TextBlock x:Name="PauseTitle" Text="Pausa" HorizontalAlignment="Center" FontSize="100px" Margin="50"></TextBlock>
+
+                    <Button x:Name="Resume" Content="Continuar" HorizontalAlignment="Center" Width="200px" Height="50px" FontSize="20px" Click="Resume_Click">
+                        <Button.Resources>
+                            <ResourceDictionary>
+                                <ResourceDictionary.ThemeDictionaries>
+                                    <ResourceDictionary x:Key="Dark">
+                                        <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Red"/>
+                                        <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="DarkGreen"/>
+                                    </ResourceDictionary>
+                                    <ResourceDictionary x:Key="Light">
+                                        <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Red"/>
+                                        <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="DarkGreen"/>
+                                    </ResourceDictionary>
+                                </ResourceDictionary.ThemeDictionaries>
+                            </ResourceDictionary>
+                        </Button.Resources>
+
+                    </Button>
+                    <Button x:Name="ConfigButton" Content="Configuracion" HorizontalAlignment="Center"  Width="200px" Height="50px" FontSize="20px" Click="ConfigButton_Click">
+                        <Button.Resources>
+                            <ResourceDictionary>
+                                <ResourceDictionary.ThemeDictionaries>
+                                    <ResourceDictionary x:Key="Dark">
+                                        <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Red"/>
+                                        <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="DarkGreen"/>
+                                    </ResourceDictionary>
+                                    <ResourceDictionary x:Key="Light">
+                                        <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Red"/>
+                                        <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="DarkGreen"/>
+                                    </ResourceDictionary>
+                                </ResourceDictionary.ThemeDictionaries>
+                            </ResourceDictionary>
+                        </Button.Resources>
+                    </Button>
+                    <Button x:Name="ExitButton" Content="Salir al menu" HorizontalAlignment="Center"  Width="200px" Height="50px" FontSize="20px" Click="ExitButton_Click">
+                        <Button.Resources>
+                            <ResourceDictionary>
+                                <ResourceDictionary.ThemeDictionaries>
+                                    <ResourceDictionary x:Key="Dark">
+                                        <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Red"/>
+                                        <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="DarkGreen"/>
+                                    </ResourceDictionary>
+                                    <ResourceDictionary x:Key="Light">
+                                        <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Red"/>
+                                        <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="DarkGreen"/>
+                                    </ResourceDictionary>
+                                </ResourceDictionary.ThemeDictionaries>
+                            </ResourceDictionary>
+                        </Button.Resources>
+                    </Button>
+                </StackPanel>
+            </GridView>
+            
         </Grid>
     </Viewbox>
 </Page>

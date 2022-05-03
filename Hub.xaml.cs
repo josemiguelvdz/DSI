@@ -24,9 +24,19 @@ namespace P3JoseMiguelVillacanas
     /// </summary>
     public sealed partial class Hub : Page
     {
+        private int diamonds;
         public Hub()
         {
             this.InitializeComponent();
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            if (e.Parameter is int)
+            {
+                diamonds = (int)e.Parameter;
+            }
+            base.OnNavigatedTo(e);
         }
 
         private void ReturnToMenu_Click(object sender, RoutedEventArgs e)
@@ -41,22 +51,22 @@ namespace P3JoseMiguelVillacanas
 
         private void Level1_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Nivel1));
+            Frame.Navigate(typeof(Nivel1),diamonds);
         }
 
         private void Level2_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Nivel1));
+            Frame.Navigate(typeof(Nivel1), diamonds);
         }
 
         private void Level3_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Nivel1));
+            Frame.Navigate(typeof(Nivel1), diamonds);
         }
 
         private void Level4_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Nivel1));
+            Frame.Navigate(typeof(Nivel1), diamonds);
         }
 
         private void RobotTeam_Click(object sender, RoutedEventArgs e)

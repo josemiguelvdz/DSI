@@ -13,23 +13,24 @@
        
     </Page.Resources>
 
-    <Grid>
-        <Grid.Background>
+    <Viewbox>
+        <Grid Width="1280" Height="720">
+            <Grid.Background>
 
-            <ImageBrush ImageSource="Assets/mainBackground.jpg" Stretch="Fill" AlignmentY="Top" AlignmentX="Center" />
+                <ImageBrush ImageSource="Assets/mainBackground.jpg" Stretch="Fill" AlignmentY="Top" AlignmentX="Center" />
 
-        </Grid.Background>
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="150">
-            <TextBlock HorizontalAlignment="Center" 
+            </Grid.Background>
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="150">
+                <TextBlock HorizontalAlignment="Center" 
                    Text="ROBOTS VS HUMANS" 
                    TextWrapping="Wrap" 
                    VerticalAlignment="Center"
                    FontSize="80" 
                    TextAlignment="Center" 
                    FontWeight="Bold"/>
-            <Image Source="Assets/mainLogo.png" Width="600" Height="auto"></Image>
-            <Image x:ConnectionId='2' Source="Assets/mainButton.png" Width="471"                                      ></Image>
-            <Button x:ConnectionId='3' x:Name="PlayButton"
+                <Image Source="Assets/mainLogo.png" Width="600" Height="auto"></Image>
+                <Image x:ConnectionId='2' Source="Assets/mainButton.png" Width="471"                                      ></Image>
+                <Button x:ConnectionId='3' x:Name="PlayButton"
                 Content="PULSE AQUÍ PARA CONTINUAR" 
                 Height="56"
                 Width="471" 
@@ -37,8 +38,9 @@
                 FontSize="24" 
                 FontWeight="Bold" 
                                         />
-        </StackPanel>
-        
-    </Grid>
+            </StackPanel>
+        </Grid>
+    </Viewbox>
+   
 </Page>
 

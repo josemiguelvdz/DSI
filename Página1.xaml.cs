@@ -23,19 +23,24 @@ namespace P3JoseMiguelVillacanas
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
     /// 
-
     public sealed partial class Página1 : Page
     {
+        private int diamonds=500;
 
         public Página1()
         {
             this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
             this.InitializeComponent();
+            DiamantesTotales.Text = diamonds.ToString();
 
         }
-
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            if (e.Parameter is int)
+            {
+                diamonds = (int)e.Parameter;
+                DiamantesTotales.Text = diamonds.ToString();
+            }
             base.OnNavigatedTo(e);
         }
 
@@ -47,7 +52,7 @@ namespace P3JoseMiguelVillacanas
 
         private void PlayButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Hub));
+            Frame.Navigate(typeof(Hub),diamonds);
         }
 
         private void ConfigButton_Click(object sender, RoutedEventArgs e)

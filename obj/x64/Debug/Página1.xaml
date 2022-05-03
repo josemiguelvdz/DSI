@@ -19,18 +19,24 @@
 
     <Viewbox>
         <Grid Width="1280" Height="720">
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"  Width="430">
-                <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="30" Width="100">
-                        <Image x:ConnectionId='5' x:Name="play" Source="Assets/Play.png" Width="80" Height="80" />
-                        <Image x:ConnectionId='6' x:Name="ajustes" Source="Assets/Ajustes.png" Width="70" Height="70" />
-                        <Image x:ConnectionId='7' x:Name="menu" Source="Assets/Menu.png" Width="80" Height="80" />
-                    </StackPanel>
+            <Grid.Background>
+                <ImageBrush ImageSource="Assets/background2.png" Stretch="Fill" AlignmentY="Top" AlignmentX="Center" />
+            </Grid.Background>
+
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Image x:ConnectionId='3' Source="Assets/playButton.png" Width="300"                                  ></Image>
+                <Image x:ConnectionId='4' Source="Assets/confButton.png" Width="300"                                    ></Image>
+                <Image x:ConnectionId='5' Source="Assets/exitButton.png" Width="300"                                  ></Image>
+            </StackPanel>
+                
+
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right"  Width="330" Height="60" Spacing="30">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"  >
+                    <Image HorizontalAlignment="Center" Height="80"   VerticalAlignment="Center" Width="80" Source="/Assets/diamond.png"/>
+                    <TextBlock x:ConnectionId='2' x:Name="DiamantesTotales" Text="0" FontWeight="Bold" Height="50" Width="110" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" />
                 </StackPanel>
-                <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center"  Width="330" Spacing="30">
-                    <Button x:ConnectionId='2' x:Name="PlayButton" Content="Jugar" HorizontalAlignment="Center" Width="330"                          FontSize="45"/>
-                    <Button x:ConnectionId='3' x:Name="ConfigButton" Content="Configuración" HorizontalAlignment="Center"  Width="330"                            FontSize="45"/>
-                    <Button x:ConnectionId='4' x:Name="ExitButton" Content="Salir" HorizontalAlignment="Center"  Width="330" FontSize="45"/>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"  >
+                    <Image HorizontalAlignment="Center" Height="80"   VerticalAlignment="Center" Width="80" Source="/Assets/diamond.png"/>
                 </StackPanel>
             </StackPanel>
 

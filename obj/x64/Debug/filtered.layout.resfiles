@@ -2,6 +2,7 @@ WinMetadata\Windows.winmd
 24.png
 Assets\ajustes.png
 Assets\background.png
+Assets\background2.png
 Assets\baldosa1.png
 Assets\bg2.jpg
 Assets\bg3.png
@@ -16,9 +17,11 @@ Assets\Card X3 (2).png
 Assets\Card X3.png
 Assets\Card X5.png
 Assets\Card X6.png
+Assets\confButton.png
 Assets\deck.png
 Assets\deck2.png
 Assets\diamond.png
+Assets\exitButton.png
 Assets\Icons\01.png
 Assets\Icons\02.png
 Assets\Icons\03.png
@@ -68,19 +71,12 @@ Assets\Panel Empty Green.png
 Assets\Panel Empty.png
 Assets\Panel Red.png
 Assets\play.png
+Assets\playButton.png
 Assets\Robot1.jpg
 Assets\Robot2.jpg
 Assets\Robot3.png
 Assets\Robots1.png
 Assets\sol.png
-Assets\SplashScreen.scale-200.png
-Assets\Square150x150Logo.scale-200.png
-Assets\Square44x44Logo.scale-200.png
-Assets\Square44x44Logo.targetsize-24_altform-unplated.png
-Assets\StoreLogo.png
-Assets\Suelo1.jpg
-Assets\Suelo2.jpg
-Assets\Wide310x150Logo.scale-200.png
 App.xbf
 Graficos.xbf
 Hub.xbf
@@ -88,7 +84,87 @@ MainPage.xbf
 Nivel1.xbf
 P3JoseMiguelVillacanas.xr.xml
 Página1.xbf
-Pause.xbf
 RobotTeam.xbf
 CardX1.png
+obj\Assets\ajustes.png
+obj\Assets\background.png
+obj\Assets\baldosa1.png
+obj\Assets\bg2.jpg
+obj\Assets\bg3.png
+obj\Assets\Button Active.png
+obj\Assets\Button Disable.png
+obj\Assets\Button Hover.png
+obj\Assets\Button Normal.png
+obj\Assets\Card X1.png
+obj\Assets\Card X2 (2).png
+obj\Assets\Card X2.png
+obj\Assets\Card X3 (2).png
+obj\Assets\Card X3.png
+obj\Assets\Card X5.png
+obj\Assets\Card X6.png
+obj\Assets\deck.png
+obj\Assets\deck2.png
+obj\Assets\diamond.png
+obj\Assets\Icons\01.png
+obj\Assets\Icons\02.png
+obj\Assets\Icons\03.png
+obj\Assets\Icons\04.png
+obj\Assets\Icons\05.png
+obj\Assets\Icons\06.png
+obj\Assets\Icons\07.png
+obj\Assets\Icons\08.png
+obj\Assets\Icons\09.png
+obj\Assets\Icons\10.png
+obj\Assets\Icons\11.png
+obj\Assets\Icons\12.png
+obj\Assets\Icons\13.png
+obj\Assets\Icons\14.png
+obj\Assets\Icons\15.png
+obj\Assets\Icons\16.png
+obj\Assets\Icons\17.png
+obj\Assets\Icons\18.png
+obj\Assets\Icons\19.png
+obj\Assets\Icons\20.png
+obj\Assets\Icons\21.png
+obj\Assets\Icons\22.png
+obj\Assets\Icons\23.png
+obj\Assets\Icons\25.png
+obj\Assets\Icons\26.png
+obj\Assets\Icons\27.png
+obj\Assets\Icons\28.png
+obj\Assets\Icons\29.png
+obj\Assets\Icons\30.png
+obj\Assets\Icons\31.png
+obj\Assets\Icons\32.png
+obj\Assets\Icons\33.png
+obj\Assets\Icons\34.png
+obj\Assets\Icons\35.png
+obj\Assets\LockScreenLogo.scale-200.png
+obj\Assets\mainBackground.jpg
+obj\Assets\mainButton.png
+obj\Assets\mainLogo.png
+obj\Assets\menu.png
+obj\Assets\nivel1.png
+obj\Assets\nivel2.png
+obj\Assets\nivel3.png
+obj\Assets\nivel4.png
+obj\Assets\niveles background.png
+obj\Assets\pala.png
+obj\Assets\Panel Empty Green.png
+obj\Assets\Panel Empty.png
+obj\Assets\Panel Red.png
+obj\Assets\play.png
+obj\Assets\Robot1.jpg
+obj\Assets\Robot2.jpg
+obj\Assets\Robot3.png
+obj\Assets\Robots1.png
+obj\Assets\sol.png
+obj\Assets\SplashScreen.scale-200.png
+obj\Assets\Square150x150Logo.scale-200.png
+obj\Assets\Square44x44Logo.scale-200.png
+obj\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+obj\Assets\StoreLogo.png
+obj\Assets\Suelo1.jpg
+obj\Assets\Suelo2.jpg
+obj\Assets\Wide310x150Logo.scale-200.png
 Properties\Default.rd.xml

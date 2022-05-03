@@ -26,9 +26,10 @@ namespace P3JoseMiguelVillacanas
     /// </summary>
     /// 
 
+
     public sealed partial class Nivel1 : Page
     {
-
+        private int diamonds;
         public Nivel1()
         {
             this.InitializeComponent();

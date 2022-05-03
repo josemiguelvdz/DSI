@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rodrigo\\Desktop\\PracticasDSI\\DSI\\P3JoseMiguelVillacanas.csproj": {}
+    "C:\\Users\\Rodrigo\\Desktop\\DSI\\P3JoseMiguelVillacanas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rodrigo\\Desktop\\PracticasDSI\\DSI\\P3JoseMiguelVillacanas.csproj": {
+    "C:\\Users\\Rodrigo\\Desktop\\DSI\\P3JoseMiguelVillacanas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodrigo\\Desktop\\PracticasDSI\\DSI\\P3JoseMiguelVillacanas.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo\\Desktop\\DSI\\P3JoseMiguelVillacanas.csproj",
         "projectName": "P3JoseMiguelVillacanas",
-        "projectPath": "C:\\Users\\Rodrigo\\Desktop\\PracticasDSI\\DSI\\P3JoseMiguelVillacanas.csproj",
+        "projectPath": "C:\\Users\\Rodrigo\\Desktop\\DSI\\P3JoseMiguelVillacanas.csproj",
         "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodrigo\\Desktop\\PracticasDSI\\DSI\\obj\\",
+        "outputPath": "C:\\Users\\Rodrigo\\Desktop\\DSI\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

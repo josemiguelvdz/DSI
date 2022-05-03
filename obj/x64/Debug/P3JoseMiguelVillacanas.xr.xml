@@ -103,10 +103,10 @@
       <RootProperty Name="Children" />
       <RootProperty Name="AllowDrop" />
       <RootProperty Name="Background" />
-      <RootProperty Name="CanDrag" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="CanDrag" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="Padding" />
       <RootEvent Name="DragOver" />

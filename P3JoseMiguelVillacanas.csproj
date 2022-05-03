@@ -203,6 +203,9 @@
     <Content Include="Assets\Icons\34.png" />
     <Content Include="Assets\Icons\35.png" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\mainBackground.jpg" />
+    <Content Include="Assets\mainButton.png" />
+    <Content Include="Assets\mainLogo.png" />
     <Content Include="Assets\menu.png" />
     <Content Include="Assets\nivel1.png" />
     <Content Include="Assets\nivel2.png" />

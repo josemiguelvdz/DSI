@@ -40,5 +40,9 @@ namespace P3JoseMiguelVillacanas
             Frame.Navigate(typeof(Página1));
         }
 
+        private void Image_PointerPressed(object sender, PointerRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Página1));
+        }
     }
 }

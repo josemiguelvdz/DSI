@@ -122,9 +122,6 @@
     <Compile Include="Hub.xaml.cs">
       <DependentUpon>Hub.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Idioma.xaml.cs">
-      <DependentUpon>Idioma.xaml</DependentUpon>
-    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -144,9 +141,6 @@
     </Compile>
     <Compile Include="RobotTeam.xaml.cs">
       <DependentUpon>RobotTeam.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Sonido.xaml.cs">
-      <DependentUpon>Sonido.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModel.cs" />
   </ItemGroup>
@@ -243,10 +237,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Idioma.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -268,10 +258,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="RobotTeam.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Sonido.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

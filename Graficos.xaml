@@ -21,7 +21,8 @@
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Content="Gráficos"
+            <Button x:Name="Graficos_"
+                    Content="Gráficos"
                     Margin="0,0,0,0"
                     Grid.Row="2" 
                     VerticalAlignment="Top" 
@@ -31,8 +32,10 @@
                     FontSize="24" FontWeight="Bold" 
                     Grid.RowSpan="1" 
                     Background="#33FFFFFF" 
-                    Foreground="#FF14ADB0"/>
-            <Button Content="Sonido"
+                    Foreground="#FF14ADB0"
+                    Click="GraficosKeyDown"/>
+            <Button x:Name="Sonido_"
+                    Content="Sonido"
                     Margin="0,15,0,0"
                     Grid.Row="2" 
                     VerticalAlignment="Top" 
@@ -42,8 +45,9 @@
                     FontSize="24" FontWeight="Bold" 
                     Grid.RowSpan="1" 
                     Background="#33FFFFFF" 
-                    Foreground="Black" Click="Sonido"/>
-            <Button Content="Idioma"
+                    Foreground="Black" Click="SonidosKeyDown"/>
+            <Button x:Name="Idioma_"
+                    Content="Idioma"
                     Margin="0,15,0,0"
                     Grid.Row="2" 
                     VerticalAlignment="Top" 
@@ -53,81 +57,118 @@
                     FontSize="24" FontWeight="Bold" 
                     Grid.RowSpan="1" 
                     Background="#33FFFFFF" 
-                    Foreground="Black" Click="Idioma"/>
+                    Foreground="Black" Click="IdiomasKeyDown"/>
         </StackPanel >
 
-        <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal" Spacing="50">
-            <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical" Spacing="20">
-                <TextBlock HorizontalAlignment="Center" Text="Modo de pantalla"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black" />
+        <StackPanel x:Name="PrincipalStack" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal" Spacing="50" Width="800">
+            <StackPanel x:Name="GraficosIzquierda" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical" Spacing="20">
+                <TextBlock HorizontalAlignment="Center" Text="Modo de pantalla"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black"/>
                 <TextBlock HorizontalAlignment="Center" Text="Resolución"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black"/>
                 <TextBlock HorizontalAlignment="Center" Text="Calidad de gráficos"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black"/>
                 <TextBlock HorizontalAlignment="Center" Text="Brillo"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black" />
             </StackPanel>
-            <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical" Spacing="10">
-                <Button Content="&lt;"
-                    Grid.Row="2" 
-                    VerticalAlignment="Center" 
-                    HorizontalAlignment="Center" 
-                    FontSize="20" FontWeight="Bold" 
-                    Background="#33FFFFFF" 
-                    Foreground="Black" Click="Button_Click_1"/>
-                <Button Content="&lt;"
-                    Grid.Row="2" 
-                    VerticalAlignment="Center" 
-                    HorizontalAlignment="Center" 
-                    FontSize="20" FontWeight="Bold" 
-                    Background="#33FFFFFF" 
-                    Foreground="Black" Click="Button_Click_1"/>
-                <Button Content="&lt;"
-                    Grid.Row="2" 
-                    VerticalAlignment="Center" 
-                    HorizontalAlignment="Center" 
-                    FontSize="20" FontWeight="Bold" 
-                    Background="#33FFFFFF" 
-                    Foreground="Black" Click="Button_Click_1"/>
-                <Button Content="&lt;"
-                    Grid.Row="2" 
-                    VerticalAlignment="Center" 
-                    HorizontalAlignment="Center" 
-                    FontSize="20" FontWeight="Bold" 
-                    Background="#33FFFFFF" 
-                    Foreground="Black" Click="Button_Click_1"/>
+            <StackPanel x:Name="SonidoIzquierda" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical" Spacing="20" Visibility="Collapsed">
+                <TextBlock HorizontalAlignment="Center" Text="Volumen principal"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black" />
+                <TextBlock HorizontalAlignment="Center" Text="Volumen de efectos"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black"/>
+                <TextBlock HorizontalAlignment="Center" Text="Volumen de música"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black"/>
+                <TextBlock HorizontalAlignment="Center" Text="Música del lobby"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black" />
             </StackPanel>
-            <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical" Spacing="20">
-                <TextBlock HorizontalAlignment="Center" Text="Ventana sin bordes"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black"/>
-                <TextBlock HorizontalAlignment="Center" Text="3440 x 1440"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black"/>
-                <TextBlock HorizontalAlignment="Center" Text="100%"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black"/>
-                <TextBlock HorizontalAlignment="Center" Text="100%"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black" />
+            <StackPanel x:Name="IdiomaIzquierda" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical" Spacing="20" Visibility="Collapsed">
+                <TextBlock HorizontalAlignment="Center" Text="Idioma actual"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black" />
+                <TextBlock HorizontalAlignment="Center" Text="Idiomas"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black"/>
             </StackPanel>
             <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical" Spacing="10">
-                <Button Content="&gt;"
+                <Button 
+                    x:Name="Avanza1Izquierda"
+                    Content="&lt;"
                     Grid.Row="2" 
                     VerticalAlignment="Center" 
                     HorizontalAlignment="Center" 
                     FontSize="20" FontWeight="Bold" 
                     Background="#33FFFFFF" 
-                    Foreground="Black" Click="Button_Click_2"/>
-                <Button Content="&gt;"
+                    Foreground="Black" Click="Avanza1Izquierda_"/>
+                <Button 
+                    x:Name="Avanza2Izquierda"
+                    Content="&lt;"
                     Grid.Row="2" 
                     VerticalAlignment="Center" 
                     HorizontalAlignment="Center" 
                     FontSize="20" FontWeight="Bold" 
                     Background="#33FFFFFF" 
-                    Foreground="Black" Click="Button_Click_2"/>
-                <Button Content="&gt;"
+                    Foreground="Black" Click="Avanza2Izquierda_"/>
+                <Button 
+                    x:Name="Avanza3Izquierda"
+                    Content="&lt;"
                     Grid.Row="2" 
                     VerticalAlignment="Center" 
                     HorizontalAlignment="Center" 
                     FontSize="20" FontWeight="Bold" 
                     Background="#33FFFFFF" 
-                    Foreground="Black" Click="Button_Click_2"/>
-                <Button Content="&gt;"
+                    Foreground="Black" Click="Avanza3Izquierda_"/>
+                <Button 
+                    x:Name="Avanza4Izquierda"
+                    Content="&lt;"
                     Grid.Row="2" 
                     VerticalAlignment="Center" 
                     HorizontalAlignment="Center" 
                     FontSize="20" FontWeight="Bold" 
                     Background="#33FFFFFF" 
-                    Foreground="Black" Click="Button_Click_2"/>
+                    Foreground="Black" Click="Avanza4Izquierda_"/>
+            </StackPanel>
+            <StackPanel x:Name="SonidoDerecha" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical" Spacing="20" Visibility="Collapsed">
+                <TextBlock x:Name="Sonido1" HorizontalAlignment="Center" Text="100"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black"/>
+                <TextBlock x:Name="Sonido2" HorizontalAlignment="Center" Text="100"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black"/>
+                <TextBlock x:Name="Sonido3" HorizontalAlignment="Center" Text="100"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black"/>
+                <TextBlock x:Name="Sonido4" HorizontalAlignment="Center" Text="100"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black" />
+            </StackPanel>
+            <StackPanel x:Name="GraficosDerecha" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical" Spacing="20" Visibility="Visible">
+                <TextBlock x:Name="Graficos1" HorizontalAlignment="Center" Text="Ventana"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black"/>
+                <TextBlock x:Name="Graficos2" HorizontalAlignment="Center" Text="100"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black"/>
+                <TextBlock x:Name="Graficos3" HorizontalAlignment="Center" Text="100"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black"/>
+                <TextBlock x:Name="Graficos4" HorizontalAlignment="Center" Text="100"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black" />
+            </StackPanel>
+            <StackPanel x:Name="IdiomaDerecha" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical" Spacing="20" Visibility="Collapsed">
+                <TextBlock x:Name="Idioma1" HorizontalAlignment="Center" Text="Español"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black"/>
+                <TextBlock x:Name="Idioma2" HorizontalAlignment="Center" Text="Ingles"  VerticalAlignment="Center" FontSize="20" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="Black" Margin="0,0,0,10" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical" Spacing="10">
+                <Button 
+                    x:Name="Avanza1Derecha"
+                    Content="&gt;"
+                    Grid.Row="2" 
+                    VerticalAlignment="Center" 
+                    HorizontalAlignment="Center" 
+                    FontSize="20" FontWeight="Bold" 
+                    Background="#33FFFFFF" 
+                    Foreground="Black" Click="Avanza1Derecha_"/>
+                <Button 
+                    x:Name="Avanza2Derecha"
+                    Content="&gt;"
+                    Grid.Row="2" 
+                    VerticalAlignment="Center" 
+                    HorizontalAlignment="Center" 
+                    FontSize="20" FontWeight="Bold" 
+                    Background="#33FFFFFF" 
+                    Foreground="Black" Click="Avanza2Derecha_"/>
+                <Button 
+                    x:Name="Avanza3Derecha"
+                    Content="&gt;"
+                    Grid.Row="2" 
+                    VerticalAlignment="Center" 
+                    HorizontalAlignment="Center" 
+                    FontSize="20" FontWeight="Bold" 
+                    Background="#33FFFFFF" 
+                    Foreground="Black" Click="Avanza3Derecha_"/>
+                <Button 
+                    x:Name="Avanza4Derecha"
+                    Content="&gt;"
+                    Grid.Row="2" 
+                    VerticalAlignment="Center" 
+                    HorizontalAlignment="Center" 
+                    FontSize="20" FontWeight="Bold" 
+                    Background="#33FFFFFF" 
+                    Foreground="Black" Click="Avanza4Derecha_"/>
             </StackPanel>
         </StackPanel>
 
@@ -139,6 +180,7 @@
             <Button Content="Back" Grid.Column="1"  Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Click="BackButton_Click" FontWeight="Bold" FontSize="22" />
             <Button Content="Accept" Click="Button_Click" FontWeight="Bold" FontSize="22" />
         </StackPanel>
+
     </Grid>
 
 </Page>

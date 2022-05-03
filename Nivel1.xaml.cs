@@ -7,12 +7,14 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel.DataTransfer;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
@@ -26,7 +28,6 @@ namespace P3JoseMiguelVillacanas
 
     public sealed partial class Nivel1 : Page
     {
-        public ObservableCollection<RobotVM> ListaRobots { get; } = new ObservableCollection<RobotVM>();
 
         public Nivel1()
         {
@@ -38,35 +39,28 @@ namespace P3JoseMiguelVillacanas
             Frame.Navigate(typeof(Pause));
         }
 
-        private async void Image_DropAsync(object sender, DragEventArgs e)
+        private void image_DragStarting(UIElement sender, DragStartingEventArgs args)
+        {
+            StackPanel O = sender as StackPanel;
+
+            string id = O.Name.ToString();
+
+            args.Data.SetText(id);
+
+            args.Data.RequestedOperation = DataPackageOperation.Move;
+        }
+
+        private async void Image_Drop(object sender, DragEventArgs e)
         {
             var id = await e.DataView.GetTextAsync();
-            var number = int.Parse(id);
-            //Point PD = e.GetPosition(MiCanvas);
-            //MiDron.Source = ListaDrones[number].Img.Source;
-            //MiImagen.Source = ListaDrones[number].Img.Source;
-            //Point pos = e.GetPosition(mi_mapa);
-
-            //MiDron.Visibility = Visibility.Visible;
-            //Texto.Text = ListaDrones[number].Explicacion;
-            //Sel = int.Parse(id);
-
-            //ListaRobots[Sel].Transformacion.TranslateX = pos.X;
-            //ListaRobots[Sel].Transformacion.TranslateY = pos.Y;
-            //MiDronCC.RenderTransform = ListaDrones[Sel].Transformacion;
+            StackPanel s = sender as StackPanel;
+            Image i = (FindName(id) as StackPanel).Children[0] as Image;
+            (s.Children[0] as Image).Source = i.Source;
         }
-
         private void Image_DragOver(object sender, DragEventArgs e)
         {
-            e.AcceptedOperation = DataPackageOperation.Copy;
+            e.AcceptedOperation = DataPackageOperation.Move;
         }
 
-        private void ImageGridView_DragItems(object sender, DragItemsStartingEventArgs e)
-        {
-            RobotVM d = e.Items[0] as RobotVM;
-            string id = d.Id.ToString();
-            e.Data.SetText(id);
-            e.Data.RequestedOperation = DataPackageOperation.Copy;
-        }
     }
 }

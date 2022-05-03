@@ -22,19 +22,22 @@ namespace P3JoseMiguelVillacanas
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
         public MainPage()
         {
+            this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
             this.InitializeComponent();
+
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
         }
 
         private void PlayButton_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(Página1));
-        }
-
-        private void ConfigButton_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(Graficos));
         }
 
     }

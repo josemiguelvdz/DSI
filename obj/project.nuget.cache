@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qpvVt3dZoSOTF/DBLlMz4lUvtLt0L9LgluMXnOelZlYwsotd3zmoeTTTpiOX3fHQJv1hs1ob6ZYpk/QB4eteIA==",
+  "dgSpecHash": "tcadMYC7gTs2VK3Sdk6jGJLwAHCxX/RSfwEYkqngvzZsjkcRymiJ8Rb/5HFYzs5sRS+DsV9ENr/AeG+OciVJ8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodrigo\\Desktop\\DSI\\P3JoseMiguelVillacanas.csproj",
+  "projectFilePath": "C:\\Users\\Rodrigo\\Desktop\\PracticasDSI\\DSI\\P3JoseMiguelVillacanas.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",

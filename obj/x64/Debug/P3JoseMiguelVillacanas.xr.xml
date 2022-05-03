@@ -14,7 +14,6 @@
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Margin" />
@@ -22,6 +21,7 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Background" />
       <RootProperty Name="Resources" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="Foreground" />
       <RootEvent Name="Click" />
@@ -36,14 +36,14 @@
       <RootProperty Name="Foreground" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Text" />
+      <RootProperty Name="TextWrapping" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontSize" />
-      <RootProperty Name="FontWeight" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="TextWrapping" />
       <RootProperty Name="TextAlignment" />
+      <RootProperty Name="FontWeight" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Setter">
       <RootProperty Name="Property" />
@@ -61,10 +61,10 @@
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
-      <RootMethod Name="GetColumnSpan" />
-      <RootMethod Name="SetColumnSpan" />
       <RootMethod Name="GetRowSpan" />
       <RootMethod Name="SetRowSpan" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="ImageSource" />
@@ -81,10 +81,9 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
       <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
       <RootEvent Name="PointerEntered" />
       <RootEvent Name="PointerExited" />
       <RootEvent Name="PointerPressed" />
@@ -97,17 +96,27 @@
     </RootType>
     <RootType FullName="P3JoseMiguelVillacanas.Hub" />
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Orientation" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Children" />
-      <RootProperty Name="Orientation" />
       <RootProperty Name="Spacing" />
-      <RootProperty Name="Margin" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="AllowDrop" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="CanDrag" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
-      <RootProperty Name="Background" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Visibility" />
       <RootProperty Name="Padding" />
+      <RootEvent Name="DragOver" />
+      <RootEvent Name="Drop" />
+      <RootEvent Name="DragStarting" />
     </RootType>
+    <RootType FullName="P3JoseMiguelVillacanas.MainPage" />
+    <RootType FullName="P3JoseMiguelVillacanas.Nivel1" />
+    <RootType FullName="P3JoseMiguelVillacanas.Pause" />
+    <RootType FullName="P3JoseMiguelVillacanas.Página1" />
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="BorderBrush" />
@@ -117,25 +126,11 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
     </RootType>
-    <RootType FullName="P3JoseMiguelVillacanas.Idioma" />
-    <RootType FullName="P3JoseMiguelVillacanas.MainPage" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
-      <RootProperty Name="TabIndex" />
-      <RootProperty Name="CanDragItems" />
-      <RootProperty Name="IsItemClickEnabled" />
-      <RootProperty Name="ItemsSource" />
-      <RootEvent Name="DragItemsStarting" />
-    </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
-    <RootType FullName="P3JoseMiguelVillacanas.Nivel1" />
-    <RootType FullName="P3JoseMiguelVillacanas.Pause" />
-    <RootType FullName="P3JoseMiguelVillacanas.Página1" />
     <RootType FullName="P3JoseMiguelVillacanas.Graficos" />
     <RootType FullName="Windows.UI.Xaml.Controls.VariableSizedWrapGrid">
       <RootMethod Name="GetRowSpan" />
       <RootMethod Name="SetRowSpan" />
     </RootType>
     <RootType FullName="P3JoseMiguelVillacanas.RobotTeam" />
-    <RootType FullName="P3JoseMiguelVillacanas.Sonido" />
   </Roots.RootTypes>
 </Roots>

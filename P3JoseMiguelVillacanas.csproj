@@ -152,6 +152,7 @@
   <ItemGroup>
     <Content Include="Assets\ajustes.png" />
     <Content Include="Assets\background.png" />
+    <Content Include="Assets\background2.png" />
     <Content Include="Assets\baldosa1.png" />
     <Content Include="Assets\bg2.jpg" />
     <Content Include="Assets\bg3.png" />
@@ -166,9 +167,11 @@
     <Content Include="Assets\Card X3.png" />
     <Content Include="Assets\Card X5.png" />
     <Content Include="Assets\Card X6.png" />
+    <Content Include="Assets\confButton.png" />
     <Content Include="Assets\deck.png" />
     <Content Include="Assets\deck2.png" />
     <Content Include="Assets\diamond.png" />
+    <Content Include="Assets\exitButton.png" />
     <Content Include="Assets\Icons\01.png" />
     <Content Include="Assets\Icons\02.png" />
     <Content Include="Assets\Icons\03.png" />
@@ -219,6 +222,7 @@
     <Content Include="Assets\Panel Empty.png" />
     <Content Include="Assets\Panel Red.png" />
     <Content Include="Assets\play.png" />
+    <Content Include="Assets\playButton.png" />
     <Content Include="Assets\Robot1.jpg" />
     <Content Include="Assets\Robot2.jpg" />
     <Content Include="Assets\Robot3.png" />

@@ -41,7 +41,8 @@ namespace P3JoseMiguelVillacanas
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-
+            // var window = Window.Current;
+            // window.Close();
         }
 
         private void PlayButton_Click(object sender, RoutedEventArgs e)

@@ -164,18 +164,17 @@ namespace P3JoseMiguelVillacanas
                     {
                         if (robotsEnergia[i] != null)
                         {
-                            if ((robotsEnergia[i] as StackPanel).Children[0] as ProgressBar != null) ((robotsEnergia[i] as StackPanel).Children[0] as ProgressBar).Value += 0.3f;
+                            if ((robotsEnergia[i] as StackPanel).Children[0] as ProgressBar != null) 
+                                ((robotsEnergia[i] as StackPanel).Children[0] as ProgressBar).Value += 0.3f;
                             if ((robotsEnergia[i] as StackPanel).Children[0] as ProgressBar != null && ((robotsEnergia[i] as StackPanel).Children[0] as ProgressBar).Value == 100)
                             {
                                 ((robotsEnergia[i] as StackPanel).Children[0] as ProgressBar).Value = 0;
                                 energia += 25;
                             }
-
-
                         }
-
                     }
                 EnergiaGratis.Value += 0.3;
+                HumanosBarra.Value += 0.01f; 
             }
         }
 

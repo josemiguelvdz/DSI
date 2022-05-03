@@ -59,7 +59,7 @@ namespace P3JoseMiguelVillacanas
         {
             if (GraficosIzquierda.Visibility == Visibility.Visible)
             {
-                StackPanel o = FindName("GraficosDerecha") as StackPanel;
+                StackPanel o = (FindName("GraficosDerecha") as Grid).Children[0] as StackPanel; 
 
                 GraficosIzquierda.Visibility = Visibility.Collapsed;
                 GraficosDerecha.Visibility = Visibility.Collapsed;

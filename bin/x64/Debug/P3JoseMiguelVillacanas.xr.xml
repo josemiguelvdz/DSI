@@ -23,6 +23,7 @@
       <RootProperty Name="Resources" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="FontWeight" />
+      <RootProperty Name="BorderBrush" />
       <RootProperty Name="Foreground" />
       <RootEvent Name="Click" />
     </RootType>
@@ -61,6 +62,7 @@
       <RootProperty Name="Children" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Visibility" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
@@ -119,19 +121,28 @@
       <RootEvent Name="DragStarting" />
     </RootType>
     <RootType FullName="P3JoseMiguelVillacanas.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ProgressBar">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Value" />
+      <RootProperty Name="Maximum" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Background" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.GridView">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Items" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ProgressBar">
-      <RootProperty Name="Value" />
-      <RootProperty Name="Maximum" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="HorizontalAlignment" />
-    </RootType>
     <RootType FullName="P3JoseMiguelVillacanas.Nivel1" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalScrollBarVisibility" />
+      <RootProperty Name="Content" />
+    </RootType>
     <RootType FullName="P3JoseMiguelVillacanas.Página1" />
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="BorderThickness" />

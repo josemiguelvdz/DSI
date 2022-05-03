@@ -34,6 +34,13 @@
                 </StackPanel>
             </StackPanel>
 
+            <ProgressBar x:Name="HumanosBarra" VerticalAlignment="Center" Value="0" Maximum="100" Foreground="Yellow" Width="500" Height="30" HorizontalAlignment="Right" Grid.Column="1" Grid.Row="2" Margin="0,0,95,0"> 
+                <ProgressBar.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/bg2.jpg" AlignmentY="Top" AlignmentX="Center" />
+                </ProgressBar.Background>
+            </ProgressBar>
+
+
             <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center" VerticalAlignment="Top" Spacing="10" Width="200" Grid.Column="0" Grid.Row="1">
                 <Image HorizontalAlignment="Center" Height="80"   VerticalAlignment="Center" Width="80" Source="/Assets/diamond.png"/>
                 <TextBlock x:Name="DiamantesTotales" Text="0" FontWeight="Bold" Height="50" Width="110" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" />

@@ -97,6 +97,12 @@
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\exitButton.png">
       <PackagePath>Assets\exitButton.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\fondoTienda.png">
+      <PackagePath>Assets\fondoTienda.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\gemas.png">
+      <PackagePath>Assets\gemas.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\01.png">
       <PackagePath>Assets\Icons\01.png</PackagePath>
     </AppxPackagedFile>

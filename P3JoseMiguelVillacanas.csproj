@@ -125,7 +125,6 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Model.cs" />
     <Compile Include="Nivel1.xaml.cs">
       <DependentUpon>Nivel1.xaml</DependentUpon>
     </Compile>
@@ -139,7 +138,6 @@
     <Compile Include="RobotTeam.xaml.cs">
       <DependentUpon>RobotTeam.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -169,6 +167,8 @@
     <Content Include="Assets\deck2.png" />
     <Content Include="Assets\diamond.png" />
     <Content Include="Assets\exitButton.png" />
+    <Content Include="Assets\fondoTienda.png" />
+    <Content Include="Assets\gemas.png" />
     <Content Include="Assets\Icons\01.png" />
     <Content Include="Assets\Icons\02.png" />
     <Content Include="Assets\Icons\03.png" />

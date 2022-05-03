@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-03T19:18:01.203</Modified>
+      <Modified>2022-05-03T23:38:18.852</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\P3JoseMiguelVillacanas.exe">
       <PackagePath>entrypoint\P3JoseMiguelVillacanas.exe</PackagePath>
-      <Modified>2022-05-03T19:18:00.429</Modified>
+      <Modified>2022-05-03T23:38:18.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -129,6 +129,14 @@
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\exitButton.png">
       <PackagePath>Assets\exitButton.png</PackagePath>
       <Modified>2022-05-03T19:15:30.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\fondoTienda.png">
+      <PackagePath>Assets\fondoTienda.png</PackagePath>
+      <Modified>2022-05-03T21:22:16.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\gemas.png">
+      <PackagePath>Assets\gemas.png</PackagePath>
+      <Modified>2022-05-03T22:36:57.231</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\01.png">
       <PackagePath>Assets\Icons\01.png</PackagePath>
@@ -692,35 +700,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\P3JoseMiguelVillacanas.xr.xml">
       <PackagePath>P3JoseMiguelVillacanas.xr.xml</PackagePath>
-      <Modified>2022-05-03T19:15:32.759</Modified>
+      <Modified>2022-05-03T23:14:45.069</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-05-03T19:18:00.332</Modified>
+      <Modified>2022-05-03T23:34:49.694</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Hub.xbf">
       <PackagePath>Hub.xbf</PackagePath>
-      <Modified>2022-05-03T19:18:00.332</Modified>
+      <Modified>2022-05-03T23:34:49.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-05-03T19:18:00.332</Modified>
+      <Modified>2022-05-03T23:34:49.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Nivel1.xbf">
       <PackagePath>Nivel1.xbf</PackagePath>
-      <Modified>2022-05-03T19:18:00.318</Modified>
+      <Modified>2022-05-03T23:34:49.674</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Página1.xbf">
       <PackagePath>Página1.xbf</PackagePath>
-      <Modified>2022-05-03T19:18:00.332</Modified>
+      <Modified>2022-05-03T23:34:49.685</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Graficos.xbf">
       <PackagePath>Graficos.xbf</PackagePath>
-      <Modified>2022-05-03T19:18:00.329</Modified>
+      <Modified>2022-05-03T23:38:18.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\RobotTeam.xbf">
       <PackagePath>RobotTeam.xbf</PackagePath>
-      <Modified>2022-05-03T19:18:00.333</Modified>
+      <Modified>2022-05-03T23:34:49.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -728,11 +736,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-03T19:18:00.818</Modified>
+      <Modified>2022-05-03T22:38:03.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Core\P3JoseMiguelVillacanas.exe">
       <PackagePath>P3JoseMiguelVillacanas.exe</PackagePath>
-      <Modified>2022-05-03T19:18:01.200</Modified>
+      <Modified>2022-05-03T23:38:18.849</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

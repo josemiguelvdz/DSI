@@ -222,6 +222,7 @@
     <Content Include="Assets\Robot1.jpg" />
     <Content Include="Assets\Robot2.jpg" />
     <Content Include="Assets\Robot3.png" />
+    <Content Include="Assets\Robots1.png" />
     <Content Include="Assets\sol.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />

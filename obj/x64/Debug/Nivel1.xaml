@@ -24,15 +24,15 @@
                 <RowDefinition Height="75px"/>
             </Grid.RowDefinitions>
 
-            <Image x:Name="baldosa1" HorizontalAlignment="Center" Height="90" VerticalAlignment="Center" Source="/Assets/baldosa1.png"/>
+            <Image x:ConnectionId='2' x:Name="baldosa1" HorizontalAlignment="Center" Height="90" VerticalAlignment="Center" Source="/Assets/baldosa1.png"/>
 
             <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10" Width="200">
                 <Image HorizontalAlignment="Center" Height="80"   VerticalAlignment="Center" Width="80" Source="/Assets/sol.png" />
-                <TextBlock x:Name="EnergiaTotal" Text="0" FontWeight="Bold" Height="50" Width="110" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" />
+                <TextBlock x:ConnectionId='58' x:Name="EnergiaTotal" Text="0" FontWeight="Bold" Height="50" Width="110" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" />
             </StackPanel>
 
             <StackPanel Orientation="Horizontal"  HorizontalAlignment="Left" VerticalAlignment="Center"  Grid.Column="0" Grid.Row="2" Margin="30,0,0,0">
-                <StackPanel x:Name="pala" Orientation="Horizontal"  HorizontalAlignment="Left" VerticalAlignment="Center"  Grid.Column="0" Grid.Row="2" Margin="30,0,0,0" AllowDrop="True" CanDrag="True" DragOver="Image_DragOver" DragStarting="image_DragStarting">
+                <StackPanel x:ConnectionId='57' x:Name="pala" Orientation="Horizontal"  HorizontalAlignment="Left" VerticalAlignment="Center"  Grid.Column="0" Grid.Row="2" Margin="30,0,0,0" AllowDrop="True" CanDrag="True"                                                            >
                     <Image HorizontalAlignment="Center" Height="60"   VerticalAlignment="Center" Width="60" Source="/Assets/pala.png" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal"  HorizontalAlignment="Left" VerticalAlignment="Center"  Grid.Column="0" Grid.Row="2" Margin="30,0,0,0" >
@@ -40,190 +40,190 @@
                 </StackPanel>
             </StackPanel>
 
-            <StackPanel x:Name="Robots" Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" AllowDrop="True" VerticalAlignment="Center" Spacing="20"  DragOver="Image_DragOver">
+            <StackPanel x:ConnectionId='3' x:Name="Robots" Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" AllowDrop="True" VerticalAlignment="Center" Spacing="20"                           >
 
                 <StackPanel.Background>
                     <ImageBrush Stretch="Fill" ImageSource="CardX1.png" AlignmentY="Top" AlignmentX="Center" />
                 </StackPanel.Background>
 
-                <StackPanel x:Name="Robot1" HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"  DragStarting="image_DragStarting"  DragOver="Image_DragOver">
+                <StackPanel x:ConnectionId='51' x:Name="Robot1" HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"                                                              >
                     <Image Height="100" Width="100" Source="/Assets/Robots1.png"/>
                     <ProgressBar Value="0" Maximum="100" Foreground="Yellow"></ProgressBar>
                 </StackPanel>
 
-                <StackPanel x:Name="Robot2"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"  DragStarting="image_DragStarting"  DragOver="Image_DragOver" >
+                <StackPanel x:ConnectionId='52' x:Name="Robot2"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"                                                               >
                     <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot3.png"/>
                 </StackPanel>
 
-                <StackPanel x:Name="Robot3"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"  DragStarting="image_DragStarting" DragOver="Image_DragOver">
+                <StackPanel x:ConnectionId='53' x:Name="Robot3"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"                                                             >
                     <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot3.png"/>
                 </StackPanel>
 
-                <StackPanel x:Name="Robot4"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"  DragStarting="image_DragStarting" DragOver="Image_DragOver">
+                <StackPanel x:ConnectionId='54' x:Name="Robot4"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"                                                             >
                     <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot3.png"/>
                 </StackPanel>
 
-                <StackPanel x:Name="Robot5"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"  DragStarting="image_DragStarting" DragOver="Image_DragOver">
+                <StackPanel x:ConnectionId='55' x:Name="Robot5"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"                                                             >
                     <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot3.png"/>
                 </StackPanel>
 
-                <StackPanel x:Name="Robot6"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"  DragStarting="image_DragStarting" DragOver="Image_DragOver" >
+                <StackPanel x:ConnectionId='56' x:Name="Robot6"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"                                                              >
                     <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot3.png"/>
                 </StackPanel>
             </StackPanel>
             <StackPanel Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Button Content="Pausa" FontWeight="Bold" FontSize="24" Click="Pause" />
+                <Button x:ConnectionId='50' Content="Pausa" FontWeight="Bold" FontSize="24"               />
             </StackPanel>
 
-            <StackPanel Grid.Row="1" Grid.Column="1"  HorizontalAlignment="Right" VerticalAlignment="Center" Orientation="Vertical" Grid.RowSpan="1" AllowDrop="True" Grid.ColumnSpan="1"  DragOver="Image_DragOver" Width="650" Height="450" Margin="0,30,15,0">
+            <StackPanel x:ConnectionId='4' Grid.Row="1" Grid.Column="1"  HorizontalAlignment="Right" VerticalAlignment="Center" Orientation="Vertical" Grid.RowSpan="1" AllowDrop="True" Grid.ColumnSpan="1"                            Width="650" Height="450" Margin="0,30,15,0">
 
                 <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" Height="90" Width="650" HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop" Height="90" Width="72" >
+                    <StackPanel x:ConnectionId='41'  AllowDrop="True"                   Height="90" Width="72" >
                         <Image  HorizontalAlignment="Center" Height="90" VerticalAlignment="Center" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='42' AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72"  Source="/Assets/baldosa1.png" AllowDrop="True" />
                     </StackPanel>
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='43'  AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='44'  AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='45' AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='46' AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='47'  AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='48' AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='49' AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
                 </StackPanel>
 
 
                 <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" Height="90" Width="650" HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop" Height="90" Width="72">
+                    <StackPanel x:ConnectionId='32'  AllowDrop="True"                   Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90" VerticalAlignment="Center" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='33' AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72"  Source="/Assets/baldosa1.png" AllowDrop="True" />
                     </StackPanel>
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='34'  AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='35'  AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='36' AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='37' AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='38'  AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='39' AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='40' AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
                 </StackPanel>
 
                 <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" Height="90" Width="650" HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop" Height="90" Width="72">
+                    <StackPanel x:ConnectionId='23'  AllowDrop="True"                   Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90" VerticalAlignment="Center" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='24' AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72"  Source="/Assets/baldosa1.png" AllowDrop="True" />
                     </StackPanel>
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='25'  AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='26'  AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='27' AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='28' AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='29'  AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='30' AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='31' AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
                 </StackPanel>
 
                 <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" Height="90" Width="650" HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop" Height="90" Width="72">
+                    <StackPanel x:ConnectionId='14'  AllowDrop="True"                   Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90" VerticalAlignment="Center" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='15' AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72"  Source="/Assets/baldosa1.png" AllowDrop="True" />
                     </StackPanel>
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='16'  AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='17'  AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='18' AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='19' AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='20'  AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='21' AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='22' AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
                 </StackPanel>
 
                 <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" Height="90" Width="650" HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop" Height="90" Width="72">
+                    <StackPanel x:ConnectionId='5'  AllowDrop="True"                   Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90" VerticalAlignment="Center" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='6' AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72"  Source="/Assets/baldosa1.png" AllowDrop="True" />
                     </StackPanel>
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='7'  AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='8'  AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='9' AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='10' AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel  AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='11'  AllowDrop="True"                    Height="90" Width="72">
                         <Image  HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='12' AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
-                    <StackPanel AllowDrop="True" Drop="Image_Drop"  Height="90" Width="72">
+                    <StackPanel x:ConnectionId='13' AllowDrop="True"                    Height="90" Width="72">
                         <Image HorizontalAlignment="Center" Height="90"   VerticalAlignment="Center" Width="72" Source="/Assets/baldosa1.png" AllowDrop="True"/>
                     </StackPanel>
                 </StackPanel>
@@ -233,3 +233,4 @@
         </Grid>
     </Viewbox>
 </Page>
+

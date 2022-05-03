@@ -29,10 +29,30 @@ namespace P3JoseMiguelVillacanas
 
     public sealed partial class Nivel1 : Page
     {
-        private int diamonds;
+        private int diamonds=500;
+        private int energia = 100;
+        List<object> robotsEnergia = new List<object>();
+        int aux = 0;
+        DispatcherTimer energiaTimer;
+
         public Nivel1()
         {
             this.InitializeComponent();
+            TimerSetup();
+        }
+
+        public void TimerSetup()
+        {
+            energiaTimer = new DispatcherTimer();
+            energiaTimer.Tick += TimerSetup_Tick;// dispatcherTimer_Tick;
+            energiaTimer.Interval = new TimeSpan(100000); //100000*10^-7s=1cs;
+            energiaTimer.Start();
+        }
+
+        void TimerSetup_Tick(object sender, object e)
+        { //Función de respuesta al Timer cada 0.01s
+            subeProgressBar();
+            EnergiaTotal.Text = energia.ToString();
         }
 
         private void Pause(object sender, RoutedEventArgs e)
@@ -55,13 +75,68 @@ namespace P3JoseMiguelVillacanas
         {
             var id = await e.DataView.GetTextAsync();
             StackPanel s = sender as StackPanel;
-            Image i = (FindName(id) as StackPanel).Children[0] as Image;
-            (s.Children[0] as Image).Source = i.Source;
+            StackPanel i = FindName(id) as StackPanel;
+
+
+            if (i.Children[1] as ProgressBar != null)
+            {
+                if (s.Children[0] as Image != null && ((s.Children[0] as Image).Source as BitmapImage).UriSource.AbsolutePath == ((baldosa1.Source) as BitmapImage).UriSource.AbsolutePath && energia>=50)
+                {
+                    (s.Children[0] as Image).Source = (i.Children[0] as Image).Source;
+                    ProgressBar p = new ProgressBar();
+                    p.Value = 0;
+                    p.Maximum = 100;
+                    p.Foreground = (i.Children[1] as ProgressBar).Foreground;
+                    Image image = s.Children[0] as Image;
+                    s.Children[0] = p;
+                    s.Children.Add(image);
+                    robotsEnergia.Add(s);
+                    aux++;
+                    energia -= 50;
+                }
+            }
+            else if (s.Children[0] as Image != null && ((s.Children[0] as Image).Source as BitmapImage).UriSource.AbsolutePath == ((baldosa1.Source) as BitmapImage).UriSource.AbsolutePath)
+            {
+                if (((i.Children[0] as Image).Source as BitmapImage).UriSource.AbsolutePath == "/Assets/Robot3.png" && energia>=100)
+                {
+                    (s.Children[0] as Image).Source = (i.Children[0] as Image).Source;
+                    energia -= 100;
+                }
+            }
+            else if(((i.Children[0] as Image).Source as BitmapImage).UriSource.AbsolutePath == "/Assets/pala.png")
+            {
+                if (s.Children[0] as ProgressBar != null)
+                {
+                    Image image = s.Children[1] as Image;
+                    robotsEnergia.Remove(s);
+                    s.Children.Remove(s.Children[1]);
+                    s.Children[0] = image;
+                    (s.Children[0] as Image).Source = baldosa1.Source;
+                }
+            }
         }
+
         private void Image_DragOver(object sender, DragEventArgs e)
         {
             e.AcceptedOperation = DataPackageOperation.Move;
         }
+        private void subeProgressBar()
+        {
+            if(robotsEnergia!=null)
+            for(int i=0;i< robotsEnergia.Count; i++) {
+                if (robotsEnergia[i] != null)
+                {
+                    if((robotsEnergia[i] as StackPanel).Children[0] as ProgressBar!=null) ((robotsEnergia[i] as StackPanel).Children[0] as ProgressBar).Value += 0.3f;
+                    if((robotsEnergia[i] as StackPanel).Children[0] as ProgressBar != null && ((robotsEnergia[i] as StackPanel).Children[0] as ProgressBar).Value == 100)
+                    {
+                        ((robotsEnergia[i] as StackPanel).Children[0] as ProgressBar).Value = 0;
+                        energia += 25;
+                    }
 
+                    
+                }
+
+            }
+        }
     }
 }

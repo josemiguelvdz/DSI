@@ -22,15 +22,15 @@
             <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"  Width="430">
                 <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="30" Width="100">
-                        <Image x:Name="play" Source="Assets/Play.png" Width="80" Height="80" />
-                        <Image x:Name="ajustes" Source="Assets/Ajustes.png" Width="70" Height="70" />
-                        <Image x:Name="menu" Source="Assets/Menu.png" Width="80" Height="80" />
+                        <Image x:ConnectionId='5' x:Name="play" Source="Assets/Play.png" Width="80" Height="80" />
+                        <Image x:ConnectionId='6' x:Name="ajustes" Source="Assets/Ajustes.png" Width="70" Height="70" />
+                        <Image x:ConnectionId='7' x:Name="menu" Source="Assets/Menu.png" Width="80" Height="80" />
                     </StackPanel>
                 </StackPanel>
                 <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center"  Width="330" Spacing="30">
-                    <Button x:Name="PlayButton" Content="Jugar" HorizontalAlignment="Center" Width="330" Click="PlayButton_Click" FontSize="45"/>
-                    <Button x:Name="ConfigButton" Content="Configuración" HorizontalAlignment="Center"  Width="330" Click="ConfigButton_Click" FontSize="45"/>
-                    <Button x:Name="ExitButton" Content="Salir" HorizontalAlignment="Center"  Width="330" FontSize="45"/>
+                    <Button x:ConnectionId='2' x:Name="PlayButton" Content="Jugar" HorizontalAlignment="Center" Width="330"                          FontSize="45"/>
+                    <Button x:ConnectionId='3' x:Name="ConfigButton" Content="Configuración" HorizontalAlignment="Center"  Width="330"                            FontSize="45"/>
+                    <Button x:ConnectionId='4' x:Name="ExitButton" Content="Salir" HorizontalAlignment="Center"  Width="330" FontSize="45"/>
                 </StackPanel>
             </StackPanel>
 
@@ -38,3 +38,4 @@
     </Viewbox>
 
 </Page>
+

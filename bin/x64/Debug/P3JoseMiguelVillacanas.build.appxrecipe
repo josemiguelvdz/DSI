@@ -196,6 +196,12 @@
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\mainButton.png">
+      <PackagePath>Assets\mainButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\mainLogo.png">
+      <PackagePath>Assets\mainLogo.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\menu.png">
       <PackagePath>Assets\menu.png</PackagePath>
     </AppxPackagedFile>
@@ -232,6 +238,9 @@
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Robot3.png">
       <PackagePath>Assets\Robot3.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Robots1.png">
+      <PackagePath>Assets\Robots1.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\sol.png">
       <PackagePath>Assets\sol.png</PackagePath>
     </AppxPackagedFile>
@@ -264,6 +273,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\bg2.jpg">
       <PackagePath>Assets\bg2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\mainBackground.jpg">
+      <PackagePath>Assets\mainBackground.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Robot1.jpg">
       <PackagePath>Assets\Robot1.jpg</PackagePath>

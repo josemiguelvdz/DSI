@@ -166,6 +166,7 @@
     <Content Include="Assets\deck.png" />
     <Content Include="Assets\deck2.png" />
     <Content Include="Assets\diamond.png" />
+    <Content Include="Assets\diamondButton.png" />
     <Content Include="Assets\exitButton.png" />
     <Content Include="Assets\fondoTienda.png" />
     <Content Include="Assets\gemas.png" />
@@ -203,6 +204,7 @@
     <Content Include="Assets\Icons\33.png" />
     <Content Include="Assets\Icons\34.png" />
     <Content Include="Assets\Icons\35.png" />
+    <Content Include="Assets\legendButton.png" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\mainBackground.jpg" />
     <Content Include="Assets\mainButton.png" />
@@ -223,6 +225,8 @@
     <Content Include="Assets\Robot2.jpg" />
     <Content Include="Assets\Robot3.png" />
     <Content Include="Assets\Robots1.png" />
+    <Content Include="Assets\shopButton.png" />
+    <Content Include="Assets\skinButton.png" />
     <Content Include="Assets\sol.png" />
     <Content Include="obj\Assets\ajustes.png" />
     <Content Include="obj\Assets\background.png" />

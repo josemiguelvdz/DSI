@@ -31,7 +31,7 @@ namespace P3JoseMiguelVillacanas
         {
             this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
             this.InitializeComponent();
-            DiamantesTotales.Text = diamonds.ToString();
+            //DiamantesTotales.Text = diamonds.ToString();
 
         }
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -39,7 +39,7 @@ namespace P3JoseMiguelVillacanas
             if (e.Parameter is int)
             {
                 diamonds = (int)e.Parameter;
-                DiamantesTotales.Text = diamonds.ToString();
+                // DiamantesTotales.Text = diamonds.ToString();
             }
             base.OnNavigatedTo(e);
         }
@@ -66,25 +66,27 @@ namespace P3JoseMiguelVillacanas
             OfertasDiamante.Visibility = Visibility.Visible;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void ShopButton_Click(object sender, RoutedEventArgs e)
         {
-            if ((string)(sender as Button).Content == "0,99$")
-                diamonds += 100;
-            else if((string)(sender as Button).Content == "4,99$")
-                diamonds += 600;
-            else if ((string)(sender as Button).Content == "9,99$")
-                diamonds += 1250;
-            else if ((string)(sender as Button).Content == "14,99$")
-                diamonds += 2000;
-            else if ((string)(sender as Button).Content == "19,99$")
-                diamonds += 2650;
-            else if ((string)(sender as Button).Content == "29,99$")
-                diamonds += 4500;
-            else if ((string)(sender as Button).Content == "49,99$")
-                diamonds += 10000;
-            else if ((string)(sender as Button).Content == "99,99$")
-                diamonds += 22500;
-            DiamantesTotales.Text = diamonds.ToString();
+            Ofertas.Visibility = Visibility.Visible;
+            OfertasDiamante.Visibility = Visibility.Visible;
+            //if ((string)(sender as Button).Content == "0,99$")
+            //    diamonds += 100;
+            //else if((string)(sender as Button).Content == "4,99$")
+            //    diamonds += 600;
+            //else if ((string)(sender as Button).Content == "9,99$")
+            //    diamonds += 1250;
+            //else if ((string)(sender as Button).Content == "14,99$")
+            //    diamonds += 2000;
+            //else if ((string)(sender as Button).Content == "19,99$")
+            //    diamonds += 2650;
+            //else if ((string)(sender as Button).Content == "29,99$")
+            //    diamonds += 4500;
+            //else if ((string)(sender as Button).Content == "49,99$")
+            //    diamonds += 10000;
+            //else if ((string)(sender as Button).Content == "99,99$")
+            //    diamonds += 22500;
+            // DiamantesTotales.Text = diamonds.ToString();
         }
 
         private async void Image_PointerPressed(object sender, PointerRoutedEventArgs e)

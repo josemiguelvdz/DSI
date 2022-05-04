@@ -60,11 +60,6 @@ namespace P3JoseMiguelVillacanas
         {
             Frame.Navigate(typeof(Graficos));
         }
-        private void Tienda_PointerPressed(object sender, PointerRoutedEventArgs e)
-        {
-            Ofertas.Visibility = Visibility.Visible;
-            OfertasDiamante.Visibility = Visibility.Visible;
-        }
 
         private void ShopButton_Click(object sender, RoutedEventArgs e)
         {
@@ -89,33 +84,39 @@ namespace P3JoseMiguelVillacanas
             // DiamantesTotales.Text = diamonds.ToString();
         }
 
-        private async void Image_PointerPressed(object sender, PointerRoutedEventArgs e)
+        private void ExitShopButton_Click(object sender, RoutedEventArgs e)
         {
-            if((sender as Image).Name == "SalirTienda")
-            {
-                OfertasPala.Visibility = Visibility.Collapsed;
-                OfertasRobot.Visibility = Visibility.Collapsed;
-                OfertasDiamante.Visibility = Visibility.Collapsed;
-                Ofertas.Visibility = Visibility.Collapsed;
-            }
-            if((sender as Image).Name == "OfertasDiamantes")
+            OfertasPala.Visibility = Visibility.Collapsed;
+            OfertasRobot.Visibility = Visibility.Collapsed;
+            OfertasDiamante.Visibility = Visibility.Collapsed;
+            Ofertas.Visibility = Visibility.Collapsed;
+        }
+
+        private void NavButton_Click(object sender, RoutedEventArgs e)
+        {
+            if ((sender as Button).Name == "OfertasDiamantes")
             {
                 OfertasPala.Visibility = Visibility.Collapsed;
                 OfertasRobot.Visibility = Visibility.Collapsed;
                 OfertasDiamante.Visibility = Visibility.Visible;
             }
-            else if ((sender as Image).Name == "OfertasPalas")
+            else if ((sender as Button).Name == "OfertasSkins")
             {
                 OfertasPala.Visibility = Visibility.Visible;
                 OfertasRobot.Visibility = Visibility.Collapsed;
                 OfertasDiamante.Visibility = Visibility.Collapsed;
             }
-            else if ((sender as Image).Name == "OfertasRobots")
+            else if ((sender as Button).Name == "OfertasLegend")
             {
                 OfertasPala.Visibility = Visibility.Collapsed;
                 OfertasRobot.Visibility = Visibility.Visible;
                 OfertasDiamante.Visibility = Visibility.Collapsed;
             }
+        }
+
+        private void BuyButton_Click(object sender, RoutedEventArgs e)
+        {
+            diamonds += 2000;
         }
     }
 }

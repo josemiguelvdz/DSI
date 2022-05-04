@@ -170,6 +170,7 @@
     <Content Include="Assets\exitButton.png" />
     <Content Include="Assets\fondoTienda.png" />
     <Content Include="Assets\gemas.png" />
+    <Content Include="Assets\Icon78.png" />
     <Content Include="Assets\Icons\01.png" />
     <Content Include="Assets\Icons\02.png" />
     <Content Include="Assets\Icons\03.png" />
@@ -204,6 +205,7 @@
     <Content Include="Assets\Icons\33.png" />
     <Content Include="Assets\Icons\34.png" />
     <Content Include="Assets\Icons\35.png" />
+    <Content Include="Assets\legendabot.png" />
     <Content Include="Assets\legendButton.png" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\mainBackground.jpg" />
@@ -227,6 +229,7 @@
     <Content Include="Assets\Robots1.png" />
     <Content Include="Assets\shopButton.png" />
     <Content Include="Assets\skinButton.png" />
+    <Content Include="Assets\skincard.png" />
     <Content Include="Assets\sol.png" />
     <Content Include="obj\Assets\ajustes.png" />
     <Content Include="obj\Assets\background.png" />

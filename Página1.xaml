@@ -41,7 +41,7 @@
                 </Button>
             </StackPanel>
 
-            <Button x:Name="ShopButton" Background="Transparent" Click="ShopButton_Click" Width="300" VerticalAlignment="Top" HorizontalAlignment="Right">
+            <Button x:Name="ShopButton" Background="Transparent" Click="ShopButton_Click" Width="300" VerticalAlignment="Bottom" HorizontalAlignment="Right">
                 <Grid>
                     <Image Source="Assets/shopButton.png"></Image>
                 </Grid>
@@ -65,54 +65,65 @@
 
                 <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Spacing="100" Margin="0,-45,0,0" Grid.Column="1">
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0, -20, 0, 0">
-                        <Image x:Name="OfertasDiamantes" Source="Assets/diamondButton.png" Width="300" PointerPressed="Image_PointerPressed"></Image>
-                        <Image x:Name="OfertasPalas" Source="Assets/skinButton.png" Width="300" PointerPressed="Image_PointerPressed"></Image>
-                        <Image x:Name="OfertasRobots" Source="Assets/legendButton.png" Width="300" PointerPressed="Image_PointerPressed"></Image>
+                        <Button x:Name="OfertasDiamantes" Background="Transparent" Click="NavButton_Click" Width="300">
+                            <Grid>
+                                <Image Source="Assets/diamondButton.png"></Image>
+                            </Grid>
+                        </Button>
+                        <Button x:Name="OfertasSkins" Background="Transparent" Click="NavButton_Click" Width="300">
+                            <Grid>
+                                <Image Source="Assets/skinButton.png"></Image>
+                            </Grid>
+                        </Button>
+                        <Button x:Name="OfertasLegend" Background="Transparent" Click="NavButton_Click" Width="300">
+                            <Grid>
+                                <Image Source="Assets/legendButton.png"></Image>
+                            </Grid>
+                        </Button>
                     </StackPanel>
                 </StackPanel>
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="2" Margin="0,-45,0,0">
-                    <Image x:Name="SalirTienda" Source="Assets/Icons/03.png" Width="50" Height="50" PointerPressed="Image_PointerPressed"></Image>
-                </StackPanel>
+
+                <Button x:Name="ExitShopButton" Background="Transparent" Click="ExitShopButton_Click" Width="100" Height="100"
+                        Grid.Column="2" Margin="0, -10, 0, 0">
+                    <Grid>
+                        <Image Source="Assets/Icon78.png"></Image>
+                    </Grid>
+                </Button>
 
                 <Grid x:Name="OfertasDiamante" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Visibility="Collapsed">
 
                     <ScrollViewer Height="400" Width="900" HorizontalScrollBarVisibility="Auto" Grid.Row="1">
                         <StackPanel Height="400" Width="1450" Orientation="Horizontal" Spacing="10">
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="oferta1" Width="170" Content="0,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="#FF52E7F0" Click="ShopButton_Click" BorderBrush="#FF1A85D0" >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="oferta2" Width="170" Content="4,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="#FF52E7F0" BorderBrush="#FF1A85D0" Click="ShopButton_Click">
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="oferta3" Width="170" Content="9,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="#FF52E7F0" BorderBrush="#FF1A85D0" Click="ShopButton_Click">
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="oferta4" Width="170" Content="14,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="#FF52E7F0" BorderBrush="#FF1A85D0" Click="ShopButton_Click">
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="oferta5" Width="170" Content="19,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="#FF52E7F0" BorderBrush="#FF1A85D0" Click="ShopButton_Click">
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="oferta6" Width="170" Content="49,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="#FF52E7F0" BorderBrush="#FF1A85D0" Click="ShopButton_Click">
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="oferta7" Width="170" Content="99,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="#FF52E7F0" BorderBrush="#FF1A85D0" Click="ShopButton_Click">
-                                </Button>
-                            </Grid>
+                            <Button Background="Transparent" Click="BuyButton_Click" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/gemas.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Click="BuyButton_Click" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/gemas.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Click="BuyButton_Click" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/gemas.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Click="BuyButton_Click" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/gemas.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Click="BuyButton_Click" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/gemas.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Click="BuyButton_Click" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/gemas.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
                         </StackPanel>
                     </ScrollViewer>
 
@@ -122,41 +133,36 @@
 
                     <ScrollViewer Height="400" Width="900" HorizontalScrollBarVisibility="Auto" Grid.Row="1">
                         <StackPanel Height="400" Width="1450" Orientation="Horizontal" Spacing="10">
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="ofertaPala1" Width="170" Content="0,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Red" Click="ShopButton_Click" BorderBrush="DarkRed" >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="ofertaPala2" Width="170" Content="4,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Red" BorderBrush="DarkRed" Click="ShopButton_Click">
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="ofertaPala3" Width="170" Content="9,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Red" BorderBrush="DarkRed" Click="ShopButton_Click">
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="ofertaPala4" Width="170" Content="14,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Red" BorderBrush="DarkRed" Click="ShopButton_Click">
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="ofertaPala5" Width="170" Content="19,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Red" BorderBrush="DarkRed" Click="ShopButton_Click">
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="ofertaPala6" Width="170" Content="49,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Red" BorderBrush="DarkRed" Click="ShopButton_Click">
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="ofertaPala7" Width="170" Content="99,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Red" BorderBrush="DarkRed" Click="ShopButton_Click">
-                                </Button>
-                            </Grid>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/skincard.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/skincard.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/skincard.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/skincard.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/skincard.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/skincard.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
                         </StackPanel>
                     </ScrollViewer>
 
@@ -166,41 +172,36 @@
 
                     <ScrollViewer Height="400" Width="900" HorizontalScrollBarVisibility="Auto" Grid.Row="1">
                         <StackPanel Height="400" Width="1450" Orientation="Horizontal" Spacing="10">
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="ofertaRobot1" Width="170" Content="0,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Yellow" Click="ShopButton_Click" BorderBrush="LightGoldenrodYellow" >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="ofertaRobot2" Width="170" Content="4,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Yellow" BorderBrush="LightGoldenrodYellow" Click="ShopButton_Click">
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="ofertaRobot3" Width="170" Content="9,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Yellow" BorderBrush="LightGoldenrodYellow" Click="ShopButton_Click">
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="ofertaRobot4" Width="170" Content="14,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Yellow" BorderBrush="LightGoldenrodYellow" Click="ShopButton_Click">
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="ofertaRobot5" Width="170" Content="19,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Yellow" BorderBrush="LightGoldenrodYellow" Click="ShopButton_Click">
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="ofertaRobot6" Width="170" Content="49,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Yellow" BorderBrush="LightGoldenrodYellow" Click="ShopButton_Click">
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:Name="ofertaRobot7" Width="170" Content="99,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Yellow" BorderBrush="LightGoldenrodYellow" Click="ShopButton_Click">
-                                </Button>
-                            </Grid>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/legendabot.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/legendabot.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/legendabot.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/legendabot.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/legendabot.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/legendabot.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
                         </StackPanel>
                     </ScrollViewer>
 

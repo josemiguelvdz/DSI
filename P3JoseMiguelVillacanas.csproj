@@ -228,6 +228,7 @@
     <Content Include="Assets\Robot3.png" />
     <Content Include="Assets\Robots1.png" />
     <Content Include="Assets\shopButton.png" />
+    <Content Include="Assets\showDiamond.png" />
     <Content Include="Assets\skinButton.png" />
     <Content Include="Assets\skincard.png" />
     <Content Include="Assets\sol.png" />

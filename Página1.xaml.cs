@@ -65,6 +65,9 @@ namespace P3JoseMiguelVillacanas
         {
             Ofertas.Visibility = Visibility.Visible;
             OfertasDiamante.Visibility = Visibility.Visible;
+            ShowDiamante.Visibility = Visibility.Visible;
+            ShopButton.Visibility = Visibility.Collapsed;
+
             //if ((string)(sender as Button).Content == "0,99$")
             //    diamonds += 100;
             //else if((string)(sender as Button).Content == "4,99$")
@@ -90,6 +93,8 @@ namespace P3JoseMiguelVillacanas
             OfertasRobot.Visibility = Visibility.Collapsed;
             OfertasDiamante.Visibility = Visibility.Collapsed;
             Ofertas.Visibility = Visibility.Collapsed;
+            ShowDiamante.Visibility = Visibility.Collapsed;
+            ShopButton.Visibility = Visibility.Visible;
         }
 
         private void NavButton_Click(object sender, RoutedEventArgs e)

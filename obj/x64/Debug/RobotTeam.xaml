@@ -52,29 +52,53 @@
                         <ImageBrush ImageSource="Assets/deck.png"></ImageBrush>
                     </StackPanel.Background>
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Spacing="10" Margin="0, 10, 0, 0">
-                        <Image Source="/Assets/Robots1.png" Width="80" Height="110"></Image>
-                        <Image Source="/Assets/Robots1.png" Width="80" Height="110"></Image>
-                        <Image Source="/Assets/Robots1.png" Width="80" Height="110"></Image>
-                        <Image Source="/Assets/Robots1.png" Width="80" Height="110"></Image>
+                        <Image x:ConnectionId='23' x:Name="RobotEnUso1" Source="/Assets/Robots1.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                        <Image x:ConnectionId='24' x:Name="RobotEnUso2" Source="/Assets/Robots1.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                        <Image x:ConnectionId='25' x:Name="RobotEnUso3" Source="/Assets/Robots1.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
 
                     </StackPanel>
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Spacing="10" >
-                        <Image Source="/Assets/Robots1.png" Width="80" Height="110"></Image>
-                        <Image Source="/Assets/Robots1.png" Width="80" Height="110"></Image>
-                        <Image Source="/Assets/Robots1.png" Width="80" Height="110"></Image>
-                        <Image Source="/Assets/Robots1.png" Width="80" Height="110"></Image>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0, -10, 0, 0" Spacing="10" >
+                        <Image x:ConnectionId='20' x:Name="RobotEnUso4" Source="/Assets/Robots1.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                        <Image x:ConnectionId='21' x:Name="RobotEnUso5" Source="/Assets/Robots1.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                        <Image x:ConnectionId='22' x:Name="RobotEnUso6" Source="/Assets/Robots1.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+
                     </StackPanel>
                 </StackPanel>
 
                 <TextBlock x:ConnectionId='4' x:Name="RobotsDisp" Text="Robots disponibles" HorizontalAlignment="Center" Margin="0, 50, 0, 0" FontSize="30"></TextBlock>
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Spacing="10" Padding="60, 10, 60, 10">
-                    <StackPanel.Background>
+                <ScrollViewer Width="450" Height="200">
+                    <ScrollViewer.Background>
                         <ImageBrush ImageSource="Assets/deck2.png"></ImageBrush>
-                    </StackPanel.Background>
-                    <Button x:ConnectionId='5' x:Name="Card9" Content="Card2" Width="80" Height="100"></Button>
-                    <Button x:ConnectionId='6' x:Name="Card10" Content="Card2" Width="80" Height="100"></Button>
-                    <Button x:ConnectionId='7' x:Name="Card11" Content="Card2" Width="80" Height="100"></Button>
-                </StackPanel>
+                    </ScrollViewer.Background>
+                    <StackPanel Height="700">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Spacing="10" Padding="60, 10, 60, 10">
+                            <Image x:ConnectionId='17' x:Name="RobotSinUso1" Source="/Assets/Robots1.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                            <Image x:ConnectionId='18' x:Name="RobotSinUso2" Source="/Assets/Robots1.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                            <Image x:ConnectionId='19' x:Name="RobotSinUso3" Source="/Assets/Robots1.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Spacing="10" Padding="60, 10, 60, 10">
+                            <Image x:ConnectionId='14' x:Name="RobotSinUso4" Source="/Assets/Robots1.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                            <Image x:ConnectionId='15' x:Name="RobotSinUso5" Source="/Assets/Robots1.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                            <Image x:ConnectionId='16' x:Name="RobotSinUso6" Source="/Assets/Robots1.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Spacing="10" Padding="60, 10, 60, 10">
+                            <Image x:ConnectionId='11' x:Name="RobotSinUso7" Source="/Assets/Robots1.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                            <Image x:ConnectionId='12' x:Name="RobotSinUso8" Source="/Assets/Robots1.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                            <Image x:ConnectionId='13' x:Name="RobotSinUso9" Source="/Assets/Robots1.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Spacing="10" Padding="60, 10, 60, 10">
+                            <Image x:ConnectionId='8' x:Name="RobotSinUso10" Source="/Assets/Robot3.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                            <Image x:ConnectionId='9' x:Name="RobotSinUso11" Source="/Assets/Robot3.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                            <Image x:ConnectionId='10' x:Name="RobotSinUso12" Source="/Assets/Robot3.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Spacing="10" Padding="60, 10, 60, 10">
+                            <Image x:ConnectionId='5' x:Name="RobotSinUso13" Source="/Assets/Robot3.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                            <Image x:ConnectionId='6' x:Name="RobotSinUso14" Source="/Assets/Robot3.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                            <Image x:ConnectionId='7' x:Name="RobotSinUso15" Source="/Assets/Robot3.png" Width="80" Height="110" CanDrag="True"                                                               AllowDrop="True"                  ></Image>
+                        </StackPanel>
+                    </StackPanel>
+                    
+                </ScrollViewer>
             </StackPanel>
         </Grid>
     </Viewbox>

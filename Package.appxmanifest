@@ -7,9 +7,8 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="af270289-d983-4815-a94a-de185c9322b2"
     Publisher="CN=usuario_local"
-    Version="1.0.0.0" />
+    Version="1.0.0.0"  Name="af270289-d983-4815-a94a-de185c9322b2"/>
 
   <mp:PhoneIdentity PhoneProductId="af270289-d983-4815-a94a-de185c9322b2" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
@@ -37,8 +36,13 @@
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="P3JoseMiguelVillacanas"
         BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\Square44x44Logo.png" Square71x71Logo="Assets\Square150x150Logo.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square310x310Logo"/>
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile >
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:LockScreen BadgeLogo="Assets\Square150x150Logo.png"/>
       </uap:VisualElements>
     </Application>
   </Applications>

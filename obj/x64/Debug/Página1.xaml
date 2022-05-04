@@ -24,23 +24,30 @@
             </Grid.Background>
 
             <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <Image x:ConnectionId='33' Source="Assets/playButton.png" Width="300"                                  ></Image>
-                <Image x:ConnectionId='34' Source="Assets/confButton.png" Width="300"                                    ></Image>
-                <Image x:ConnectionId='35' Source="Assets/exitButton.png" Width="300"                                  ></Image>
+                <Button x:ConnectionId='19' x:Name="PlayButton" Background="Transparent" Width="300"                         >
+                    <Grid>
+                        <Image Source="Assets/playButton.png"></Image>
+                    </Grid>
+                </Button>
+                <Button x:ConnectionId='20' x:Name="ConfButton" Background="Transparent"                            Width="300">
+                    <Grid>
+                        <Image Source="Assets/confButton.png"></Image>
+                    </Grid>
+                </Button>
+                <Button x:ConnectionId='21' x:Name="ExitButton" Background="Transparent"                          Width="300">
+                    <Grid>
+                        <Image Source="Assets/exitButton.png"></Image>
+                    </Grid>
+                </Button>
             </StackPanel>
-                
 
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right"  Width="330" Height="60" Spacing="30">
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"  >
-                    <Image HorizontalAlignment="Center" Height="80"   VerticalAlignment="Center" Width="80" Source="/Assets/diamond.png"/>
-                    <TextBlock x:ConnectionId='32' x:Name="DiamantesTotales" Text="0" FontWeight="Bold" Height="50" Width="110" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" Foreground="White" />
-                </StackPanel>
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"  >
-                    <Image x:ConnectionId='31' x:Name="Tienda" HorizontalAlignment="Center" Height="80"   VerticalAlignment="Center" Width="80" Source="/Assets/diamond.png"                                       />
-                </StackPanel>
-            </StackPanel>
+            <Button x:ConnectionId='2' x:Name="ShopButton" Background="Transparent"                          Width="300" VerticalAlignment="Bottom" HorizontalAlignment="Right">
+                <Grid>
+                    <Image Source="Assets/shopButton.png"></Image>
+                </Grid>
+            </Button>
 
-            <Grid x:ConnectionId='2' x:Name="Ofertas" HorizontalAlignment="Center" VerticalAlignment="Center" Width="1100" Height="500" Visibility="Collapsed">
+            <Grid x:ConnectionId='3' x:Name="Ofertas" HorizontalAlignment="Center" VerticalAlignment="Center" Width="1100" Height="500" Visibility="Collapsed">
                 <Grid.Background>
                     <ImageBrush Stretch="Fill" ImageSource="Assets/fondoTienda.png" AlignmentY="Top" AlignmentX="Center" />
                 </Grid.Background>
@@ -55,151 +62,161 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="40px"/>
                 </Grid.RowDefinitions>
-
+                
+                
+                
+                
                 <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Spacing="100" Margin="0,-45,0,0" Grid.Column="1">
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <Image x:ConnectionId='28' x:Name="OfertasDiamantes" Source="Assets/playButton.png" Width="300"                                      ></Image>
-                        <Image x:ConnectionId='29' x:Name="OfertasPalas" Source="Assets/confButton.png" Width="300"                                      ></Image>
-                        <Image x:ConnectionId='30' x:Name="OfertasRobots" Source="Assets/exitButton.png" Width="300"                                      ></Image>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0, -20, 0, 0">
+                        <Button x:ConnectionId='16' x:Name="OfertasDiamantes" Background="Transparent"                         Width="300">
+                            <Grid>
+                                <Image Source="Assets/diamondButton.png"></Image>
+                            </Grid>
+                        </Button>
+                        <Button x:ConnectionId='17' x:Name="OfertasSkins" Background="Transparent"                         Width="300">
+                            <Grid>
+                                <Image Source="Assets/skinButton.png"></Image>
+                            </Grid>
+                        </Button>
+                        <Button x:ConnectionId='18' x:Name="OfertasLegend" Background="Transparent"                         Width="300">
+                            <Grid>
+                                <Image Source="Assets/legendButton.png"></Image>
+                            </Grid>
+                        </Button>
                     </StackPanel>
                 </StackPanel>
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="2" Margin="0,-45,0,0">
-                    <Image x:ConnectionId='27' x:Name="SalirTienda" Source="Assets/Icons/03.png" Width="50" Height="50"                                      ></Image>
-                </StackPanel>
 
-                <Grid x:ConnectionId='3' x:Name="OfertasDiamante" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Visibility="Collapsed">
+                <Button x:ConnectionId='6' x:Name="ExitShopButton" Background="Transparent"                              Width="100" Height="100"
+                        Grid.Column="2" Margin="0, -10, 0, 0">
+                    <Grid>
+                        <Image Source="Assets/Icon78.png"></Image>
+                    </Grid>
+                </Button>
+
+                <Grid x:ConnectionId='7' x:Name="OfertasDiamante" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Visibility="Collapsed">
 
                     <ScrollViewer Height="400" Width="900" HorizontalScrollBarVisibility="Auto" Grid.Row="1">
                         <StackPanel Height="400" Width="1450" Orientation="Horizontal" Spacing="10">
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='26' x:Name="oferta1" Width="170" Content="0,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="#FF52E7F0"                      BorderBrush="#FF1A85D0" >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='25' x:Name="oferta2" Width="170" Content="4,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="#FF52E7F0" BorderBrush="#FF1A85D0"                     >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='24' x:Name="oferta3" Width="170" Content="9,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="#FF52E7F0" BorderBrush="#FF1A85D0"                     >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='23' x:Name="oferta4" Width="170" Content="14,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="#FF52E7F0" BorderBrush="#FF1A85D0"                     >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='22' x:Name="oferta5" Width="170" Content="19,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="#FF52E7F0" BorderBrush="#FF1A85D0"                     >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='21' x:Name="oferta6" Width="170" Content="49,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="#FF52E7F0" BorderBrush="#FF1A85D0"                     >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='20' x:Name="oferta7" Width="170" Content="99,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="#FF52E7F0" BorderBrush="#FF1A85D0"                     >
-                                </Button>
-                            </Grid>
+                            <Button x:ConnectionId='10' Background="Transparent"                         Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/gemas.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button x:ConnectionId='11' Background="Transparent"                         Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/gemas.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button x:ConnectionId='12' Background="Transparent"                         Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/gemas.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button x:ConnectionId='13' Background="Transparent"                         Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/gemas.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button x:ConnectionId='14' Background="Transparent"                         Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/gemas.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button x:ConnectionId='15' Background="Transparent"                         Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/gemas.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
                         </StackPanel>
                     </ScrollViewer>
 
                 </Grid>
 
-                <Grid x:ConnectionId='4' x:Name="OfertasPala" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="1" Visibility="Collapsed" Grid.Column="1">
+                <Grid x:ConnectionId='8' x:Name="OfertasPala" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="1" Visibility="Collapsed" Grid.Column="1">
 
                     <ScrollViewer Height="400" Width="900" HorizontalScrollBarVisibility="Auto" Grid.Row="1">
                         <StackPanel Height="400" Width="1450" Orientation="Horizontal" Spacing="10">
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='19' x:Name="ofertaPala1" Width="170" Content="0,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Red"                      BorderBrush="DarkRed" >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='18' x:Name="ofertaPala2" Width="170" Content="4,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Red" BorderBrush="DarkRed"                     >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='17' x:Name="ofertaPala3" Width="170" Content="9,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Red" BorderBrush="DarkRed"                     >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='16' x:Name="ofertaPala4" Width="170" Content="14,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Red" BorderBrush="DarkRed"                     >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='15' x:Name="ofertaPala5" Width="170" Content="19,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Red" BorderBrush="DarkRed"                     >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='14' x:Name="ofertaPala6" Width="170" Content="49,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Red" BorderBrush="DarkRed"                     >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='13' x:Name="ofertaPala7" Width="170" Content="99,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Red" BorderBrush="DarkRed"                     >
-                                </Button>
-                            </Grid>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/skincard.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/skincard.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/skincard.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/skincard.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/skincard.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/skincard.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
                         </StackPanel>
                     </ScrollViewer>
 
                 </Grid>
 
-                <Grid x:ConnectionId='5' x:Name="OfertasRobot" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="1" Visibility="Collapsed" Grid.Column="1">
+                <Grid x:ConnectionId='9' x:Name="OfertasRobot" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="1" Visibility="Collapsed" Grid.Column="1">
 
                     <ScrollViewer Height="400" Width="900" HorizontalScrollBarVisibility="Auto" Grid.Row="1">
                         <StackPanel Height="400" Width="1450" Orientation="Horizontal" Spacing="10">
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='12' x:Name="ofertaRobot1" Width="170" Content="0,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Yellow"                      BorderBrush="LightGoldenrodYellow" >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='11' x:Name="ofertaRobot2" Width="170" Content="4,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Yellow" BorderBrush="LightGoldenrodYellow"                     >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='10' x:Name="ofertaRobot3" Width="170" Content="9,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Yellow" BorderBrush="LightGoldenrodYellow"                     >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='9' x:Name="ofertaRobot4" Width="170" Content="14,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Yellow" BorderBrush="LightGoldenrodYellow"                     >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='8' x:Name="ofertaRobot5" Width="170" Content="19,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Yellow" BorderBrush="LightGoldenrodYellow"                     >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='7' x:Name="ofertaRobot6" Width="170" Content="49,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Yellow" BorderBrush="LightGoldenrodYellow"                     >
-                                </Button>
-                            </Grid>
-                            <Grid Height="350" Width="200">
-                                <Image Source="Assets/gemas.png" HorizontalAlignment="Center" Width="200" Height="350"></Image>
-                                <Button x:ConnectionId='6' x:Name="ofertaRobot7" Width="170" Content="99,99$" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,58" Background="Yellow" BorderBrush="LightGoldenrodYellow"                     >
-                                </Button>
-                            </Grid>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/legendabot.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/legendabot.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/legendabot.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/legendabot.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/legendabot.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
+                            <Button Background="Transparent" Width="220" Height="260">
+                                <Grid>
+                                    <Image Source="Assets/legendabot.png" Stretch="Fill"></Image>
+                                </Grid>
+                            </Button>
                         </StackPanel>
                     </ScrollViewer>
 
                 </Grid>
 
             </Grid>
+            
+            <StackPanel x:ConnectionId='4' x:Name="ShowDiamante" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Left" Height="150" Visibility="Collapsed">
+                <Image Source="Assets/showDiamond.png" Width="300" Height="300"></Image>
+                <TextBlock x:ConnectionId='5' x:Name="Diamonds" Text="0" Foreground="White" FontSize="50" Margin="-170, 60, 0, 0"></TextBlock>
+            </StackPanel>
+            
         </Grid>
 
     </Viewbox>

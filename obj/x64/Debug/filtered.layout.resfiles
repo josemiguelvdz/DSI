@@ -21,9 +21,11 @@ Assets\confButton.png
 Assets\deck.png
 Assets\deck2.png
 Assets\diamond.png
+Assets\diamondButton.png
 Assets\exitButton.png
 Assets\fondoTienda.png
 Assets\gemas.png
+Assets\Icon78.png
 Assets\Icons\01.png
 Assets\Icons\02.png
 Assets\Icons\03.png
@@ -58,6 +60,8 @@ Assets\Icons\32.png
 Assets\Icons\33.png
 Assets\Icons\34.png
 Assets\Icons\35.png
+Assets\legendabot.png
+Assets\legendButton.png
 Assets\LockScreenLogo.scale-200.png
 Assets\mainBackground.jpg
 Assets\mainButton.png
@@ -78,6 +82,10 @@ Assets\Robot1.jpg
 Assets\Robot2.jpg
 Assets\Robot3.png
 Assets\Robots1.png
+Assets\shopButton.png
+Assets\showDiamond.png
+Assets\skinButton.png
+Assets\skincard.png
 Assets\sol.png
 App.xbf
 Graficos.xbf

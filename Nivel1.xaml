@@ -14,7 +14,7 @@
                 <ImageBrush Stretch="Fill" ImageSource="Assets/bg2.jpg" AlignmentY="Top" AlignmentX="Center" />
             </Grid.Background>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="225px"/>
+                <ColumnDefinition Width="300px"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="150px"/>
             </Grid.ColumnDefinitions>
@@ -26,41 +26,53 @@
 
             <Image x:Name="baldosa1" HorizontalAlignment="Center" Height="90" VerticalAlignment="Center" Source="/Assets/baldosa1.png"/>
 
-            <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10" Width="200">
-                <Image HorizontalAlignment="Center" Height="80"   VerticalAlignment="Center" Width="80" Source="/Assets/sol.png" />
-                <StackPanel Orientation="Vertical" VerticalAlignment="Center">
-                    <TextBlock x:Name="EnergiaTotal" Text="0" FontWeight="Bold" Height="50" Width="110" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" />
-                    <ProgressBar x:Name="EnergiaGratis" VerticalAlignment="Bottom" Value="0" Maximum="100" Foreground="Yellow" Width="75" HorizontalAlignment="Left"/>
-                </StackPanel>
+            <!--<StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left" Height="150">
+                
+            </StackPanel>-->
+
+            <Image Source="Assets/showEnergy.png" Width="300"></Image>
+
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock x:Name="EnergiaTotal" Text="0" Foreground="White" FontSize="50" Margin="40, 20, 0, 0" HorizontalAlignment="Center"></TextBlock>
+                <ProgressBar x:Name="EnergiaGratis" Height="15" Width="130" Value="0" Maximum="100" Foreground="Yellow" Margin="70, 0, 0, 0"></ProgressBar>
             </StackPanel>
 
-            <ProgressBar x:Name="HumanosBarra" VerticalAlignment="Center" Value="0" Maximum="100" Foreground="Yellow" Width="500" Height="30" HorizontalAlignment="Right" Grid.Column="1" Grid.Row="2" Margin="0,0,95,0"> 
+            <Canvas Grid.Row="1" Grid.Column="0" VerticalAlignment="Top">
+                <Image Source="Assets/showDiamond2.png" Width="290" Canvas.Left="10" ></Image>
+                <TextBlock x:Name="DiamantesTotales" Text="0" FontWeight="Bold" Width="130" Height="50" FontSize="40" Canvas.Left="114" Canvas.Top="46" />
+            </Canvas>
+
+            <ProgressBar x:Name="HumanosBarra" VerticalAlignment="Center" Value="0" Maximum="100" Foreground="Yellow" Width="500" Height="30" HorizontalAlignment="Right" Grid.Column="1" Grid.Row="2" Margin="0,0,95,0">
                 <ProgressBar.Background>
                     <ImageBrush Stretch="Fill" ImageSource="Assets/bg2.jpg" AlignmentY="Top" AlignmentX="Center" />
                 </ProgressBar.Background>
             </ProgressBar>
 
 
-            <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center" VerticalAlignment="Top" Spacing="10" Width="200" Grid.Column="0" Grid.Row="1">
+
+            <!--<StackPanel Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center" Height="130">
+                
+            </StackPanel>-->
+            <!--<StackPanel Orientation="Horizontal"  HorizontalAlignment="Center" VerticalAlignment="Top" Spacing="10" Width="200" Grid.Column="0" Grid.Row="1">
                 <Image HorizontalAlignment="Center" Height="80"   VerticalAlignment="Center" Width="80" Source="/Assets/diamond.png"/>
                 <TextBlock x:Name="DiamantesTotales" Text="0" FontWeight="Bold" Height="50" Width="110" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" />
-            </StackPanel>
+            </StackPanel>-->
 
-            <StackPanel Orientation="Horizontal"  HorizontalAlignment="Left" VerticalAlignment="Center"  Grid.Column="0" Grid.Row="2" Margin="30,0,0,0">
-                <StackPanel x:Name="pala" Orientation="Horizontal"  HorizontalAlignment="Left" VerticalAlignment="Center"  Grid.Column="0" Grid.Row="2" Margin="30,0,0,0" AllowDrop="True" CanDrag="True" DragOver="Image_DragOver" DragStarting="image_DragStarting">
-                    <Image HorizontalAlignment="Center" Height="60"   VerticalAlignment="Center" Width="60" Source="/Assets/pala.png" />
-                </StackPanel>
-                <StackPanel Orientation="Horizontal"  HorizontalAlignment="Left" VerticalAlignment="Center"  Grid.Column="0" Grid.Row="2" Margin="30,0,0,0" >
-                    <Image HorizontalAlignment="left" Height="60"   VerticalAlignment="Center" Width="60" Source="/Assets/diamond.png" />
-                </StackPanel>
-            </StackPanel>
-
-            <StackPanel x:Name="Robots" Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" AllowDrop="True" VerticalAlignment="Center" Spacing="20"  DragOver="Image_DragOver">
-
+            <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="2" Width="260" Height="150" Margin="0, -35, 0, 0">
                 <StackPanel.Background>
-                    <ImageBrush Stretch="Fill" ImageSource="CardX1.png" AlignmentY="Top" AlignmentX="Center" />
+                    <ImageBrush ImageSource="Assets/showPala.png"></ImageBrush>
                 </StackPanel.Background>
 
+                <StackPanel x:Name="pala" CanDrag="True" DragOver="Image_DragOver" DragStarting="image_DragStarting" Height="80" Margin="10, -10, 0, 0" Width="80">
+                    <Image HorizontalAlignment="Center" VerticalAlignment="Center" Source="/Assets/pala.png" />
+                </StackPanel>
+                <TextBlock Text="100" FontSize="50" VerticalAlignment="Center" Margin="10, 0, 0, 0" Foreground="White"></TextBlock>
+                <Image Source="Assets/diamond.png" Width="60" Height="60" Margin="0, 10, 0, 0"></Image>
+                
+            </StackPanel>
+
+            <Image Source="Assets/showRobots.png" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Stretch="Fill" Height="290" Width="830" Margin="0, -70, 0, 0" HorizontalAlignment="Left"></Image>
+            <StackPanel x:Name="Robots" Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" AllowDrop="True" VerticalAlignment="Center" Spacing="20"  DragOver="Image_DragOver">
                 <StackPanel x:Name="Robot1" HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"  DragStarting="image_DragStarting"  DragOver="Image_DragOver">
                     <Image Height="100" Width="100" Source="/Assets/Robots1.png"/>
                     <ProgressBar Value="0" Maximum="100" Foreground="Yellow"></ProgressBar>
@@ -71,19 +83,19 @@
                 </StackPanel>
 
                 <StackPanel x:Name="Robot3"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"  DragStarting="image_DragStarting" DragOver="Image_DragOver">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot3.png"/>
+                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot2.png"/>
                 </StackPanel>
 
                 <StackPanel x:Name="Robot4"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"  DragStarting="image_DragStarting" DragOver="Image_DragOver">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot3.png"/>
+                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot4.png"/>
                 </StackPanel>
 
                 <StackPanel x:Name="Robot5"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"  DragStarting="image_DragStarting" DragOver="Image_DragOver">
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot3.png"/>
+                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot5.png"/>
                 </StackPanel>
 
                 <StackPanel x:Name="Robot6"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"  DragStarting="image_DragStarting" DragOver="Image_DragOver" >
-                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot3.png"/>
+                    <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot6.png"/>
                 </StackPanel>
             </StackPanel>
             <StackPanel Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -304,7 +316,7 @@
                     </Button>
                 </StackPanel>
             </GridView>
-            
+
         </Grid>
     </Viewbox>
 </Page>

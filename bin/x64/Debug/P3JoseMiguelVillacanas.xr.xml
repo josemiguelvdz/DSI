@@ -42,8 +42,8 @@
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="Height" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Setter">
       <RootProperty Name="Property" />
@@ -66,10 +66,10 @@
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
-      <RootMethod Name="GetRowSpan" />
-      <RootMethod Name="SetRowSpan" />
       <RootMethod Name="GetColumnSpan" />
       <RootMethod Name="SetColumnSpan" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="ImageSource" />
@@ -90,8 +90,9 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="Height" />
-      <RootProperty Name="AllowDrop" />
       <RootProperty Name="Stretch" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="AllowDrop" />
       <RootProperty Name="CanDrag" />
       <RootEvent Name="PointerEntered" />
       <RootEvent Name="PointerExited" />
@@ -114,10 +115,10 @@
       <RootProperty Name="Spacing" />
       <RootProperty Name="Children" />
       <RootProperty Name="Width" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="AllowDrop" />
-      <RootProperty Name="Background" />
       <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="AllowDrop" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="CanDrag" />
       <RootProperty Name="Padding" />
@@ -126,6 +127,14 @@
       <RootEvent Name="DragStarting" />
     </RootType>
     <RootType FullName="P3JoseMiguelVillacanas.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetLeft" />
+      <RootMethod Name="SetLeft" />
+      <RootMethod Name="GetTop" />
+      <RootMethod Name="SetTop" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ProgressBar">
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Value" />

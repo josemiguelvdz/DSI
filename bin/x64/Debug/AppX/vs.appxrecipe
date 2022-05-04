@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-9Q2KIU0</Machine>
-    <WindowsUser>Rodrigo</WindowsUser>
+    <Machine>DESKTOP-G5OMS4N</Machine>
+    <WindowsUser>JoseMiguel</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>af270289-d983-4815-a94a-de185c9322b2</PackageIdentityName>
     <PackageIdentityPublisher>CN=usuario_local</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\DSI\DSI\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\DSI\DSI\bin\x64\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>5CD7FB9E267B05EB4DD10270C3165B096B7C9DB703DB9037DCF251C8140FD326</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>af270289-d983-4815-a94a-de185c9322b2_1.0.0.0_x64__zkx2yv7n2a8b8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>af270289-d983-4815-a94a-de185c9322b2_zkx2yv7n2a8b8!App</RegisteredUserModeAppID>
@@ -27,773 +27,805 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\DSI\DSI\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-04T16:27:52.745</Modified>
+      <Modified>2022-05-04T20:26:47.781</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\P3JoseMiguelVillacanas.exe">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\P3JoseMiguelVillacanas.exe">
       <PackagePath>entrypoint\P3JoseMiguelVillacanas.exe</PackagePath>
-      <Modified>2022-05-04T16:27:51.848</Modified>
+      <Modified>2022-05-04T20:26:26.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2021-02-05T00:15:54.000</Modified>
+      <Modified>2021-02-04T23:15:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2020-12-02T02:52:00.000</Modified>
+      <Modified>2020-12-02T03:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\ajustes.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\ajustes.png">
       <PackagePath>Assets\ajustes.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.219</Modified>
+      <Modified>2022-04-27T11:55:07.103</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\background.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\background.png">
       <PackagePath>Assets\background.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.265</Modified>
+      <Modified>2022-04-27T10:28:24.779</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\background2.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\background2.png">
       <PackagePath>Assets\background2.png</PackagePath>
-      <Modified>2022-05-03T19:15:30.033</Modified>
+      <Modified>2022-05-03T19:01:36.134</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\baldosa1.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\baldosa1.png">
       <PackagePath>Assets\baldosa1.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.266</Modified>
+      <Modified>2022-05-03T10:42:57.902</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\bg3.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\bg3.png">
       <PackagePath>Assets\bg3.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.288</Modified>
+      <Modified>2022-04-05T18:11:39.493</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Button Active.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Button Active.png">
       <PackagePath>Assets\Button Active.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.293</Modified>
+      <Modified>2022-01-24T14:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Button Disable.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Button Disable.png">
       <PackagePath>Assets\Button Disable.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.296</Modified>
+      <Modified>2022-01-24T14:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Button Hover.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Button Hover.png">
       <PackagePath>Assets\Button Hover.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.300</Modified>
+      <Modified>2022-01-24T14:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Button Normal.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Button Normal.png">
       <PackagePath>Assets\Button Normal.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.303</Modified>
+      <Modified>2022-01-24T14:18:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Card X1.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Card X1.png">
       <PackagePath>Assets\Card X1.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.310</Modified>
+      <Modified>2022-01-24T14:10:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Card X2 %282%29.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Card X2 %282%29.png">
       <PackagePath>Assets\Card X2 %282%29.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.314</Modified>
+      <Modified>2022-01-25T20:07:08.602</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Card X2.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Card X2.png">
       <PackagePath>Assets\Card X2.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.341</Modified>
+      <Modified>2022-01-24T14:10:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Card X3 %282%29.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Card X3 %282%29.png">
       <PackagePath>Assets\Card X3 %282%29.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.347</Modified>
+      <Modified>2022-01-25T20:07:27.571</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Card X3.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Card X3.png">
       <PackagePath>Assets\Card X3.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.348</Modified>
+      <Modified>2022-01-25T20:07:27.571</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Card X5.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Card X5.png">
       <PackagePath>Assets\Card X5.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.354</Modified>
+      <Modified>2022-01-25T20:05:57.242</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Card X6.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Card X6.png">
       <PackagePath>Assets\Card X6.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.358</Modified>
+      <Modified>2022-01-25T20:05:38.828</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\confButton.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\confButton.png">
       <PackagePath>Assets\confButton.png</PackagePath>
-      <Modified>2022-05-03T19:15:30.038</Modified>
+      <Modified>2022-05-03T18:35:45.424</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\deck.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\deck.png">
       <PackagePath>Assets\deck.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.372</Modified>
+      <Modified>2022-04-05T18:13:07.870</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\deck2.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\deck2.png">
       <PackagePath>Assets\deck2.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.382</Modified>
+      <Modified>2022-04-05T18:39:02.356</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\diamond.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\diamond.png">
       <PackagePath>Assets\diamond.png</PackagePath>
-      <Modified>2022-05-04T08:28:22.823</Modified>
+      <Modified>2022-05-04T07:24:27.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\diamondButton.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\diamondButton.png">
       <PackagePath>Assets\diamondButton.png</PackagePath>
-      <Modified>2022-05-04T08:28:22.832</Modified>
+      <Modified>2022-05-04T08:09:24.523</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\exitButton.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\exitButton.png">
       <PackagePath>Assets\exitButton.png</PackagePath>
-      <Modified>2022-05-03T19:15:30.042</Modified>
+      <Modified>2022-05-03T18:50:18.772</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\fondoTienda.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\fondoTienda.png">
       <PackagePath>Assets\fondoTienda.png</PackagePath>
-      <Modified>2022-05-03T21:22:16.693</Modified>
+      <Modified>2022-05-04T07:04:26.984</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\gemas.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\gemas.png">
       <PackagePath>Assets\gemas.png</PackagePath>
-      <Modified>2022-05-03T22:36:57.231</Modified>
+      <Modified>2022-05-04T07:04:26.990</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icon78.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icon78.png">
       <PackagePath>Assets\Icon78.png</PackagePath>
-      <Modified>2022-05-04T09:42:25.421</Modified>
+      <Modified>2020-07-27T15:22:25.038</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\01.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\01.png">
       <PackagePath>Assets\Icons\01.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.388</Modified>
+      <Modified>2022-01-24T12:12:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\02.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\02.png">
       <PackagePath>Assets\Icons\02.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.391</Modified>
+      <Modified>2022-01-24T12:12:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\03.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\03.png">
       <PackagePath>Assets\Icons\03.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.394</Modified>
+      <Modified>2022-01-24T12:12:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\04.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\04.png">
       <PackagePath>Assets\Icons\04.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.398</Modified>
+      <Modified>2022-01-24T12:12:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\05.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\05.png">
       <PackagePath>Assets\Icons\05.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.402</Modified>
+      <Modified>2022-01-24T12:12:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\06.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\06.png">
       <PackagePath>Assets\Icons\06.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.405</Modified>
+      <Modified>2022-01-24T12:12:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\07.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\07.png">
       <PackagePath>Assets\Icons\07.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.408</Modified>
+      <Modified>2022-01-24T12:12:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\08.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\08.png">
       <PackagePath>Assets\Icons\08.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.411</Modified>
+      <Modified>2022-01-24T12:12:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\09.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\09.png">
       <PackagePath>Assets\Icons\09.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.415</Modified>
+      <Modified>2022-01-24T12:12:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\10.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\10.png">
       <PackagePath>Assets\Icons\10.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.419</Modified>
+      <Modified>2022-01-24T12:11:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\11.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\11.png">
       <PackagePath>Assets\Icons\11.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.422</Modified>
+      <Modified>2022-01-24T12:11:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\12.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\12.png">
       <PackagePath>Assets\Icons\12.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.425</Modified>
+      <Modified>2022-01-24T12:11:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\13.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\13.png">
       <PackagePath>Assets\Icons\13.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.429</Modified>
+      <Modified>2022-01-24T12:11:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\14.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\14.png">
       <PackagePath>Assets\Icons\14.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.434</Modified>
+      <Modified>2022-01-24T12:11:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\15.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\15.png">
       <PackagePath>Assets\Icons\15.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.437</Modified>
+      <Modified>2022-01-24T12:11:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\16.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\16.png">
       <PackagePath>Assets\Icons\16.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.440</Modified>
+      <Modified>2022-01-24T12:11:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\17.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\17.png">
       <PackagePath>Assets\Icons\17.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.442</Modified>
+      <Modified>2022-01-24T12:11:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\18.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\18.png">
       <PackagePath>Assets\Icons\18.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.445</Modified>
+      <Modified>2022-01-24T12:11:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\19.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\19.png">
       <PackagePath>Assets\Icons\19.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.449</Modified>
+      <Modified>2022-01-24T12:11:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\20.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\20.png">
       <PackagePath>Assets\Icons\20.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.453</Modified>
+      <Modified>2022-01-24T12:11:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\21.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\21.png">
       <PackagePath>Assets\Icons\21.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.456</Modified>
+      <Modified>2022-01-24T12:11:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\22.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\22.png">
       <PackagePath>Assets\Icons\22.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.460</Modified>
+      <Modified>2022-01-24T12:11:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\23.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\23.png">
       <PackagePath>Assets\Icons\23.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.463</Modified>
+      <Modified>2022-01-24T12:11:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\25.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\25.png">
       <PackagePath>Assets\Icons\25.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.466</Modified>
+      <Modified>2022-01-24T12:11:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\26.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\26.png">
       <PackagePath>Assets\Icons\26.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.470</Modified>
+      <Modified>2022-01-24T12:11:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\27.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\27.png">
       <PackagePath>Assets\Icons\27.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.473</Modified>
+      <Modified>2022-01-24T12:11:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\28.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\28.png">
       <PackagePath>Assets\Icons\28.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.476</Modified>
+      <Modified>2022-01-24T12:11:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\29.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\29.png">
       <PackagePath>Assets\Icons\29.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.479</Modified>
+      <Modified>2022-01-24T12:11:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\30.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\30.png">
       <PackagePath>Assets\Icons\30.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.483</Modified>
+      <Modified>2022-01-24T12:11:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\31.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\31.png">
       <PackagePath>Assets\Icons\31.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.486</Modified>
+      <Modified>2022-01-24T12:11:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\32.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\32.png">
       <PackagePath>Assets\Icons\32.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.490</Modified>
+      <Modified>2022-01-24T12:11:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\33.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\33.png">
       <PackagePath>Assets\Icons\33.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.494</Modified>
+      <Modified>2022-01-24T12:11:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\34.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\34.png">
       <PackagePath>Assets\Icons\34.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.497</Modified>
+      <Modified>2022-01-24T12:11:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\35.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Icons\35.png">
       <PackagePath>Assets\Icons\35.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.501</Modified>
+      <Modified>2022-01-24T12:11:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\legendabot.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\legendabot.png">
       <PackagePath>Assets\legendabot.png</PackagePath>
-      <Modified>2022-05-04T09:42:25.428</Modified>
+      <Modified>2022-05-04T09:29:58.896</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\legendButton.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\legendButton.png">
       <PackagePath>Assets\legendButton.png</PackagePath>
-      <Modified>2022-05-04T08:28:22.839</Modified>
+      <Modified>2022-05-04T08:18:37.746</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.502</Modified>
+      <Modified>2021-08-23T22:40:23.294</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\mainButton.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\mainButton.png">
       <PackagePath>Assets\mainButton.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.504</Modified>
+      <Modified>2022-05-03T10:36:40.695</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\mainLogo.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\mainLogo.png">
       <PackagePath>Assets\mainLogo.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.505</Modified>
+      <Modified>2022-05-03T10:03:28.038</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\menu.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\menu.png">
       <PackagePath>Assets\menu.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.509</Modified>
+      <Modified>2022-04-27T11:55:07.103</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\nivel1.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\nivel1.png">
       <PackagePath>Assets\nivel1.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.516</Modified>
+      <Modified>2022-04-27T10:39:16.737</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\nivel1Block.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\nivel1Block.png">
       <PackagePath>Assets\nivel1Block.png</PackagePath>
-      <Modified>2022-05-04T14:09:52.852</Modified>
+      <Modified>2022-05-04T18:27:07.567</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\nivel2.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\nivel2.png">
       <PackagePath>Assets\nivel2.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.523</Modified>
+      <Modified>2022-04-27T10:40:01.185</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\nivel2Block.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\nivel2Block.png">
       <PackagePath>Assets\nivel2Block.png</PackagePath>
-      <Modified>2022-05-04T14:10:44.274</Modified>
+      <Modified>2022-05-04T18:27:07.576</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\nivel3.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\nivel3.png">
       <PackagePath>Assets\nivel3.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.530</Modified>
+      <Modified>2022-04-27T10:30:29.084</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\nivel3Block.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\nivel3Block.png">
       <PackagePath>Assets\nivel3Block.png</PackagePath>
-      <Modified>2022-05-04T14:11:13.215</Modified>
+      <Modified>2022-05-04T18:27:07.581</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\nivel4.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\nivel4.png">
       <PackagePath>Assets\nivel4.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.535</Modified>
+      <Modified>2022-04-27T10:29:27.311</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\nivel4Block.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\nivel4Block.png">
       <PackagePath>Assets\nivel4Block.png</PackagePath>
-      <Modified>2022-05-04T14:11:42.632</Modified>
+      <Modified>2022-05-04T18:27:07.585</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\niveles background.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\niveles background.png">
       <PackagePath>Assets\niveles background.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.580</Modified>
+      <Modified>2022-04-20T22:46:54.151</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\pala.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\pala.png">
       <PackagePath>Assets\pala.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.581</Modified>
+      <Modified>2022-05-03T10:42:57.933</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Panel Empty Green.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Panel Empty Green.png">
       <PackagePath>Assets\Panel Empty Green.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.585</Modified>
+      <Modified>2022-01-24T14:11:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Panel Empty.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Panel Empty.png">
       <PackagePath>Assets\Panel Empty.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.589</Modified>
+      <Modified>2022-01-24T14:11:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Panel Red.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Panel Red.png">
       <PackagePath>Assets\Panel Red.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.593</Modified>
+      <Modified>2022-01-24T14:11:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\play.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\play.png">
       <PackagePath>Assets\play.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.596</Modified>
+      <Modified>2022-04-27T11:55:07.104</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\playButton.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\playButton.png">
       <PackagePath>Assets\playButton.png</PackagePath>
-      <Modified>2022-05-03T19:15:30.047</Modified>
+      <Modified>2022-05-03T18:19:18.568</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Robot3.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Robot2.png">
+      <PackagePath>Assets\Robot2.png</PackagePath>
+      <Modified>2022-05-04T20:21:33.713</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Robot3.png">
       <PackagePath>Assets\Robot3.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.612</Modified>
+      <Modified>2022-05-04T20:16:41.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Robots1.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Robot4.png">
+      <PackagePath>Assets\Robot4.png</PackagePath>
+      <Modified>2022-05-04T20:24:28.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Robot5.png">
+      <PackagePath>Assets\Robot5.png</PackagePath>
+      <Modified>2022-05-04T20:24:46.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Robot6.png">
+      <PackagePath>Assets\Robot6.png</PackagePath>
+      <Modified>2022-05-04T20:26:09.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Robots1.png">
       <PackagePath>Assets\Robots1.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.616</Modified>
+      <Modified>2022-05-04T20:08:52.529</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\shopButton.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\shopButton.png">
       <PackagePath>Assets\shopButton.png</PackagePath>
-      <Modified>2022-05-04T08:28:22.849</Modified>
+      <Modified>2022-05-04T07:57:21.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\showDiamond.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\showDiamond.png">
       <PackagePath>Assets\showDiamond.png</PackagePath>
-      <Modified>2022-05-04T10:20:40.292</Modified>
+      <Modified>2022-05-04T10:03:03.451</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\skinButton.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\showDiamond2.png">
+      <PackagePath>Assets\showDiamond2.png</PackagePath>
+      <Modified>2022-05-04T18:44:42.431</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\showEnergy.png">
+      <PackagePath>Assets\showEnergy.png</PackagePath>
+      <Modified>2022-05-04T18:41:04.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\showPala.png">
+      <PackagePath>Assets\showPala.png</PackagePath>
+      <Modified>2022-05-04T19:43:30.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\showRobots.png">
+      <PackagePath>Assets\showRobots.png</PackagePath>
+      <Modified>2022-05-04T18:47:57.351</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\skinButton.png">
       <PackagePath>Assets\skinButton.png</PackagePath>
-      <Modified>2022-05-04T08:28:22.858</Modified>
+      <Modified>2022-05-04T08:13:58.960</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\skincard.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\skincard.png">
       <PackagePath>Assets\skincard.png</PackagePath>
-      <Modified>2022-05-04T09:42:25.432</Modified>
+      <Modified>2022-05-04T09:39:14.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\sol.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\sol.png">
       <PackagePath>Assets\sol.png</PackagePath>
-      <Modified>2022-05-03T18:53:00.620</Modified>
+      <Modified>2022-04-05T14:14:41.118</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\ajustes.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\ajustes.png">
       <PackagePath>obj\Assets\ajustes.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.653</Modified>
+      <Modified>2022-05-03T19:19:20.447</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\background.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\background.png">
       <PackagePath>obj\Assets\background.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.663</Modified>
+      <Modified>2022-05-03T19:19:20.456</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\baldosa1.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\baldosa1.png">
       <PackagePath>obj\Assets\baldosa1.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.664</Modified>
+      <Modified>2022-05-03T19:19:20.457</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\bg3.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\bg3.png">
       <PackagePath>obj\Assets\bg3.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.678</Modified>
+      <Modified>2022-05-03T19:19:20.470</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Button Active.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Button Active.png">
       <PackagePath>obj\Assets\Button Active.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.606</Modified>
+      <Modified>2022-05-03T19:19:20.375</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Button Disable.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Button Disable.png">
       <PackagePath>obj\Assets\Button Disable.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.607</Modified>
+      <Modified>2022-05-03T19:19:20.376</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Button Hover.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Button Hover.png">
       <PackagePath>obj\Assets\Button Hover.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.607</Modified>
+      <Modified>2022-05-03T19:19:20.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Button Normal.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Button Normal.png">
       <PackagePath>obj\Assets\Button Normal.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.608</Modified>
+      <Modified>2022-05-03T19:19:20.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Card X1.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Card X1.png">
       <PackagePath>obj\Assets\Card X1.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.609</Modified>
+      <Modified>2022-05-03T19:19:20.378</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Card X2 %282%29.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Card X2 %282%29.png">
       <PackagePath>obj\Assets\Card X2 %282%29.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.610</Modified>
+      <Modified>2022-05-03T19:19:20.380</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Card X2.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Card X2.png">
       <PackagePath>obj\Assets\Card X2.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.611</Modified>
+      <Modified>2022-05-03T19:19:20.381</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Card X3 %282%29.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Card X3 %282%29.png">
       <PackagePath>obj\Assets\Card X3 %282%29.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.612</Modified>
+      <Modified>2022-05-03T19:19:20.381</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Card X3.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Card X3.png">
       <PackagePath>obj\Assets\Card X3.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.614</Modified>
+      <Modified>2022-05-03T19:19:20.382</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Card X5.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Card X5.png">
       <PackagePath>obj\Assets\Card X5.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.615</Modified>
+      <Modified>2022-05-03T19:19:20.383</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Card X6.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Card X6.png">
       <PackagePath>obj\Assets\Card X6.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.616</Modified>
+      <Modified>2022-05-03T19:19:20.384</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\deck.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\deck.png">
       <PackagePath>obj\Assets\deck.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.685</Modified>
+      <Modified>2022-05-03T19:19:20.476</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\deck2.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\deck2.png">
       <PackagePath>obj\Assets\deck2.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.688</Modified>
+      <Modified>2022-05-03T19:19:20.479</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\diamond.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\diamond.png">
       <PackagePath>obj\Assets\diamond.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.688</Modified>
+      <Modified>2022-05-03T19:19:20.480</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\01.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\01.png">
       <PackagePath>obj\Assets\Icons\01.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.617</Modified>
+      <Modified>2022-05-03T19:19:20.384</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\02.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\02.png">
       <PackagePath>obj\Assets\Icons\02.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.617</Modified>
+      <Modified>2022-05-03T19:19:20.384</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\03.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\03.png">
       <PackagePath>obj\Assets\Icons\03.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.618</Modified>
+      <Modified>2022-05-03T19:19:20.385</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\04.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\04.png">
       <PackagePath>obj\Assets\Icons\04.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.619</Modified>
+      <Modified>2022-05-03T19:19:20.385</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\05.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\05.png">
       <PackagePath>obj\Assets\Icons\05.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.619</Modified>
+      <Modified>2022-05-03T19:19:20.386</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\06.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\06.png">
       <PackagePath>obj\Assets\Icons\06.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.620</Modified>
+      <Modified>2022-05-03T19:19:20.386</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\07.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\07.png">
       <PackagePath>obj\Assets\Icons\07.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.620</Modified>
+      <Modified>2022-05-03T19:19:20.387</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\08.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\08.png">
       <PackagePath>obj\Assets\Icons\08.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.621</Modified>
+      <Modified>2022-05-03T19:19:20.388</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\09.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\09.png">
       <PackagePath>obj\Assets\Icons\09.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.622</Modified>
+      <Modified>2022-05-03T19:19:20.388</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\10.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\10.png">
       <PackagePath>obj\Assets\Icons\10.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.622</Modified>
+      <Modified>2022-05-03T19:19:20.388</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\11.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\11.png">
       <PackagePath>obj\Assets\Icons\11.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.623</Modified>
+      <Modified>2022-05-03T19:19:20.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\12.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\12.png">
       <PackagePath>obj\Assets\Icons\12.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.623</Modified>
+      <Modified>2022-05-03T19:19:20.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\13.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\13.png">
       <PackagePath>obj\Assets\Icons\13.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.624</Modified>
+      <Modified>2022-05-03T19:19:20.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\14.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\14.png">
       <PackagePath>obj\Assets\Icons\14.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.624</Modified>
+      <Modified>2022-05-03T19:19:20.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\15.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\15.png">
       <PackagePath>obj\Assets\Icons\15.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.625</Modified>
+      <Modified>2022-05-03T19:19:20.422</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\16.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\16.png">
       <PackagePath>obj\Assets\Icons\16.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.626</Modified>
+      <Modified>2022-05-03T19:19:20.422</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\17.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\17.png">
       <PackagePath>obj\Assets\Icons\17.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.626</Modified>
+      <Modified>2022-05-03T19:19:20.423</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\18.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\18.png">
       <PackagePath>obj\Assets\Icons\18.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.627</Modified>
+      <Modified>2022-05-03T19:19:20.423</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\19.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\19.png">
       <PackagePath>obj\Assets\Icons\19.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.627</Modified>
+      <Modified>2022-05-03T19:19:20.425</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\20.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\20.png">
       <PackagePath>obj\Assets\Icons\20.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.628</Modified>
+      <Modified>2022-05-03T19:19:20.426</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\21.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\21.png">
       <PackagePath>obj\Assets\Icons\21.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.628</Modified>
+      <Modified>2022-05-03T19:19:20.426</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\22.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\22.png">
       <PackagePath>obj\Assets\Icons\22.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.629</Modified>
+      <Modified>2022-05-03T19:19:20.427</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\23.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\23.png">
       <PackagePath>obj\Assets\Icons\23.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.630</Modified>
+      <Modified>2022-05-03T19:19:20.427</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\24.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\24.png">
       <PackagePath>24.png</PackagePath>
-      <Modified>2022-04-04T19:05:37.571</Modified>
+      <Modified>2022-04-05T14:14:41.085</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\25.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\25.png">
       <PackagePath>obj\Assets\Icons\25.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.630</Modified>
+      <Modified>2022-05-03T19:19:20.428</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\26.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\26.png">
       <PackagePath>obj\Assets\Icons\26.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.631</Modified>
+      <Modified>2022-05-03T19:19:20.428</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\27.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\27.png">
       <PackagePath>obj\Assets\Icons\27.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.631</Modified>
+      <Modified>2022-05-03T19:19:20.428</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\28.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\28.png">
       <PackagePath>obj\Assets\Icons\28.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.632</Modified>
+      <Modified>2022-05-03T19:19:20.429</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\29.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\29.png">
       <PackagePath>obj\Assets\Icons\29.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.633</Modified>
+      <Modified>2022-05-03T19:19:20.429</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\30.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\30.png">
       <PackagePath>obj\Assets\Icons\30.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.633</Modified>
+      <Modified>2022-05-03T19:19:20.430</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\31.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\31.png">
       <PackagePath>obj\Assets\Icons\31.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.634</Modified>
+      <Modified>2022-05-03T19:19:20.430</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\32.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\32.png">
       <PackagePath>obj\Assets\Icons\32.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.634</Modified>
+      <Modified>2022-05-03T19:19:20.431</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\33.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\33.png">
       <PackagePath>obj\Assets\Icons\33.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.635</Modified>
+      <Modified>2022-05-03T19:19:20.431</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\34.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\34.png">
       <PackagePath>obj\Assets\Icons\34.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.636</Modified>
+      <Modified>2022-05-03T19:19:20.432</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Icons\35.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Icons\35.png">
       <PackagePath>obj\Assets\Icons\35.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.636</Modified>
+      <Modified>2022-05-03T19:19:20.433</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>obj\Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.637</Modified>
+      <Modified>2022-05-03T19:19:20.433</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\mainButton.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\mainButton.png">
       <PackagePath>obj\Assets\mainButton.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.690</Modified>
+      <Modified>2022-05-03T19:19:20.481</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\mainLogo.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\mainLogo.png">
       <PackagePath>obj\Assets\mainLogo.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.691</Modified>
+      <Modified>2022-05-03T19:19:20.482</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\menu.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\menu.png">
       <PackagePath>obj\Assets\menu.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.691</Modified>
+      <Modified>2022-05-03T19:19:20.482</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\nivel1.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\nivel1.png">
       <PackagePath>obj\Assets\nivel1.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.693</Modified>
+      <Modified>2022-05-03T19:19:20.484</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\nivel2.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\nivel2.png">
       <PackagePath>obj\Assets\nivel2.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.694</Modified>
+      <Modified>2022-05-03T19:19:20.485</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\nivel3.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\nivel3.png">
       <PackagePath>obj\Assets\nivel3.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.696</Modified>
+      <Modified>2022-05-03T19:19:20.487</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\nivel4.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\nivel4.png">
       <PackagePath>obj\Assets\nivel4.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.697</Modified>
+      <Modified>2022-05-03T19:19:20.488</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\niveles background.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\niveles background.png">
       <PackagePath>obj\Assets\niveles background.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.706</Modified>
+      <Modified>2022-05-03T19:19:20.499</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\pala.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\pala.png">
       <PackagePath>obj\Assets\pala.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.707</Modified>
+      <Modified>2022-05-03T19:19:20.499</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Panel Empty Green.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Panel Empty Green.png">
       <PackagePath>obj\Assets\Panel Empty Green.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.637</Modified>
+      <Modified>2022-05-03T19:19:20.434</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Panel Empty.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Panel Empty.png">
       <PackagePath>obj\Assets\Panel Empty.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.638</Modified>
+      <Modified>2022-05-03T19:19:20.434</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Panel Red.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Panel Red.png">
       <PackagePath>obj\Assets\Panel Red.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.638</Modified>
+      <Modified>2022-05-03T19:19:20.435</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\play.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\play.png">
       <PackagePath>obj\Assets\play.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.708</Modified>
+      <Modified>2022-05-03T19:19:20.500</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Robot3.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Robot3.png">
       <PackagePath>obj\Assets\Robot3.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.642</Modified>
+      <Modified>2022-05-03T19:19:20.438</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Robots1.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Robots1.png">
       <PackagePath>obj\Assets\Robots1.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.647</Modified>
+      <Modified>2022-05-03T19:19:20.442</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\sol.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\sol.png">
       <PackagePath>obj\Assets\sol.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.708</Modified>
+      <Modified>2022-05-03T19:19:20.500</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-03T19:15:32.847</Modified>
+      <Modified>2022-05-04T18:27:07.514</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>obj\Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.845</Modified>
+      <Modified>2022-05-03T19:19:20.443</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>obj\Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.844</Modified>
+      <Modified>2022-05-03T19:19:20.444</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>obj\Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.843</Modified>
+      <Modified>2022-05-03T19:19:20.444</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\StoreLogo.png">
       <PackagePath>obj\Assets\StoreLogo.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.842</Modified>
+      <Modified>2022-05-03T19:19:20.445</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>obj\Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <Modified>2022-05-03T19:15:32.834</Modified>
+      <Modified>2022-05-03T19:19:20.446</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\CardX1.png">
+    <AppxPackagedFile Include="D:\DSI\DSI\CardX1.png">
       <PackagePath>CardX1.png</PackagePath>
-      <Modified>2022-04-04T19:54:05.935</Modified>
+      <Modified>2022-04-04T19:17:17.432</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\bg2.jpg">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\bg2.jpg">
       <PackagePath>Assets\bg2.jpg</PackagePath>
-      <Modified>2022-05-03T18:53:00.269</Modified>
+      <Modified>2022-05-03T10:42:57.922</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\mainBackground.jpg">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\mainBackground.jpg">
       <PackagePath>Assets\mainBackground.jpg</PackagePath>
-      <Modified>2022-05-03T18:53:00.503</Modified>
+      <Modified>2022-05-03T09:35:24.690</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Robot1.jpg">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Robot1.jpg">
       <PackagePath>Assets\Robot1.jpg</PackagePath>
-      <Modified>2022-05-03T18:53:00.602</Modified>
+      <Modified>2022-04-05T14:14:41.089</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Robot2.jpg">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\Robot2.jpg">
       <PackagePath>Assets\Robot2.jpg</PackagePath>
-      <Modified>2022-05-03T18:53:00.608</Modified>
+      <Modified>2022-04-05T14:14:41.095</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\bg2.jpg">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\bg2.jpg">
       <PackagePath>obj\Assets\bg2.jpg</PackagePath>
-      <Modified>2022-05-03T19:15:32.667</Modified>
+      <Modified>2022-05-03T19:19:20.461</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\mainBackground.jpg">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\mainBackground.jpg">
       <PackagePath>obj\Assets\mainBackground.jpg</PackagePath>
-      <Modified>2022-05-03T19:15:32.689</Modified>
+      <Modified>2022-05-03T19:19:20.480</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Robot1.jpg">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Robot1.jpg">
       <PackagePath>obj\Assets\Robot1.jpg</PackagePath>
-      <Modified>2022-05-03T19:15:32.639</Modified>
+      <Modified>2022-05-03T19:19:20.436</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Robot2.jpg">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Robot2.jpg">
       <PackagePath>obj\Assets\Robot2.jpg</PackagePath>
-      <Modified>2022-05-03T19:15:32.641</Modified>
+      <Modified>2022-05-03T19:19:20.437</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Suelo1.jpg">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Suelo1.jpg">
       <PackagePath>obj\Assets\Suelo1.jpg</PackagePath>
-      <Modified>2022-05-03T19:15:32.839</Modified>
+      <Modified>2022-05-03T19:19:20.445</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\obj\Assets\Suelo2.jpg">
+    <AppxPackagedFile Include="D:\DSI\DSI\obj\Assets\Suelo2.jpg">
       <PackagePath>obj\Assets\Suelo2.jpg</PackagePath>
-      <Modified>2022-05-03T19:15:32.835</Modified>
+      <Modified>2022-05-03T19:19:20.446</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\changes.mp3">
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\changes.mp3">
       <PackagePath>Assets\changes.mp3</PackagePath>
-      <Modified>2022-04-18T08:04:12.563</Modified>
+      <Modified>2022-05-04T18:27:07.562</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\DSI\DSI\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-04-04T18:14:42.997</Modified>
+      <Modified>2022-03-03T15:34:41.699</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\P3JoseMiguelVillacanas.xr.xml">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\P3JoseMiguelVillacanas.xr.xml">
       <PackagePath>P3JoseMiguelVillacanas.xr.xml</PackagePath>
-      <Modified>2022-05-04T14:40:33.345</Modified>
+      <Modified>2022-05-04T19:59:35.199</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-05-04T16:27:51.703</Modified>
+      <Modified>2022-05-04T20:26:46.631</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Hub.xbf">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\Hub.xbf">
       <PackagePath>Hub.xbf</PackagePath>
-      <Modified>2022-05-04T16:27:51.663</Modified>
+      <Modified>2022-05-04T20:26:46.601</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-05-04T16:27:51.703</Modified>
+      <Modified>2022-05-04T20:26:46.631</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Nivel1.xbf">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\Nivel1.xbf">
       <PackagePath>Nivel1.xbf</PackagePath>
-      <Modified>2022-05-04T16:27:51.681</Modified>
+      <Modified>2022-05-04T20:26:46.614</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Página1.xbf">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\Página1.xbf">
       <PackagePath>Página1.xbf</PackagePath>
-      <Modified>2022-05-04T16:27:51.688</Modified>
+      <Modified>2022-05-04T20:26:46.620</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Graficos.xbf">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\Graficos.xbf">
       <PackagePath>Graficos.xbf</PackagePath>
-      <Modified>2022-05-04T16:27:51.697</Modified>
+      <Modified>2022-05-04T20:26:46.626</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\RobotTeam.xbf">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\RobotTeam.xbf">
       <PackagePath>RobotTeam.xbf</PackagePath>
-      <Modified>2022-05-04T16:27:51.703</Modified>
+      <Modified>2022-05-04T20:26:46.631</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2020-12-02T00:52:06.000</Modified>
+      <Modified>2020-12-02T01:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-04T14:40:34.269</Modified>
+      <Modified>2022-05-04T20:26:27.030</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Core\P3JoseMiguelVillacanas.exe">
+    <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\Core\P3JoseMiguelVillacanas.exe">
       <PackagePath>P3JoseMiguelVillacanas.exe</PackagePath>
-      <Modified>2022-05-04T16:27:52.740</Modified>
+      <Modified>2022-05-04T20:26:47.778</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

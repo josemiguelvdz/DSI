@@ -159,7 +159,7 @@ namespace P3JoseMiguelVillacanas
                     {
                         (s.Children[0] as Image).Source = baldosa1.Source;
                     }
-                    atributos.setDiamantes(-50);
+                    atributos.setDiamantes(-100);
                     DiamantesTotales.Text = atributos.getDiamantes().ToString();
                 }
             }
@@ -190,7 +190,7 @@ namespace P3JoseMiguelVillacanas
                         }
                     }
                 EnergiaGratis.Value += 0.3;
-                HumanosBarra.Value += 1f; 
+                HumanosBarra.Value += 0.03; 
             }
         }
 

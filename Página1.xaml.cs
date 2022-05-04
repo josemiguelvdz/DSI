@@ -53,7 +53,7 @@ namespace P3JoseMiguelVillacanas
 
             mP.AutoPlay = false;
             mP.Source = MediaSource.CreateFromStorageFile(file);
-            mP.Play();
+            //mP.Play();
         }
 
         private void BackButton_Click(object sender, RoutedEventArgs e)

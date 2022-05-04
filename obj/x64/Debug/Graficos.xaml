@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Foreground="#FF21C2C5" FocusVisualPrimaryBrush="#FF21C2C5" Height="600" Width="1250">
 
     <Viewbox>
-        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="1250">
+        <Grid  Width="1480" Height="720">
 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="300px"/>

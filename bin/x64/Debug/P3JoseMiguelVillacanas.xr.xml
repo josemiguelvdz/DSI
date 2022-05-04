@@ -154,10 +154,6 @@
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="P3JoseMiguelVillacanas.Graficos" />
-    <RootType FullName="Windows.UI.Xaml.Controls.VariableSizedWrapGrid">
-      <RootMethod Name="GetRowSpan" />
-      <RootMethod Name="SetRowSpan" />
-    </RootType>
     <RootType FullName="P3JoseMiguelVillacanas.RobotTeam" />
   </Roots.RootTypes>
 </Roots>

@@ -33,76 +33,79 @@
             <Image Source="Assets/showEnergy.png" Width="300"></Image>
 
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <TextBlock x:ConnectionId='65' x:Name="EnergiaTotal" Text="0" Foreground="White" FontSize="50" Margin="40, 20, 0, 0" HorizontalAlignment="Center"></TextBlock>
-                <ProgressBar x:ConnectionId='66' x:Name="EnergiaGratis" Height="15" Width="130" Value="0" Maximum="100" Foreground="Yellow" Margin="70, 0, 0, 0"></ProgressBar>
+                <TextBlock x:ConnectionId='64' x:Name="EnergiaTotal" Text="0" Foreground="White" FontSize="50" Margin="40, 20, 0, 0" HorizontalAlignment="Center"></TextBlock>
+                <ProgressBar x:ConnectionId='65' x:Name="EnergiaGratis" Height="15" Width="130" Value="0" Maximum="100" Foreground="Yellow" Margin="70, 0, 0, 0"></ProgressBar>
             </StackPanel>
 
             <Canvas Grid.Row="1" Grid.Column="0" VerticalAlignment="Top">
                 <Image Source="Assets/showDiamond2.png" Width="290" Canvas.Left="10" ></Image>
-                <TextBlock x:ConnectionId='64' x:Name="DiamantesTotales" Text="0" FontWeight="Bold" Width="130" Height="50" FontSize="40" Canvas.Left="114" Canvas.Top="46" />
+                <TextBlock x:ConnectionId='63' x:Name="DiamantesTotales" Text="0" FontWeight="Bold" Width="130" Height="50" FontSize="40" Canvas.Left="114" Canvas.Top="46" />
             </Canvas>
 
-            <ProgressBar x:ConnectionId='3' x:Name="HumanosBarra" VerticalAlignment="Center" Value="0" Maximum="100" Foreground="Yellow" Width="500" Height="30" HorizontalAlignment="Right" Grid.Column="1" Grid.Row="2" Margin="0,0,95,0">
-                <ProgressBar.Background>
-                    <ImageBrush Stretch="Fill" ImageSource="Assets/bg2.jpg" AlignmentY="Top" AlignmentX="Center" />
-                </ProgressBar.Background>
-            </ProgressBar>
+            <Image Source="Assets/showPala.png" Grid.Column="1" Grid.Row="2" Width="600" Stretch="Fill" Height="200" Margin="0, -60, 0, 0"></Image>
+            <ProgressBar x:ConnectionId='3' x:Name="HumanosBarra" Value="0" Maximum="100" Foreground="Red" Width="500" Height="30" HorizontalAlignment="Center" Grid.Column="1" Grid.Row="2"/>
 
-
-
-            <!--<StackPanel Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center" Height="130">
-                
-            </StackPanel>-->
-            <!--<StackPanel Orientation="Horizontal"  HorizontalAlignment="Center" VerticalAlignment="Top" Spacing="10" Width="200" Grid.Column="0" Grid.Row="1">
-                <Image HorizontalAlignment="Center" Height="80"   VerticalAlignment="Center" Width="80" Source="/Assets/diamond.png"/>
-                <TextBlock x:Name="DiamantesTotales" Text="0" FontWeight="Bold" Height="50" Width="110" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" />
-            </StackPanel>-->
 
             <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="2" Width="260" Height="150" Margin="0, -35, 0, 0">
                 <StackPanel.Background>
                     <ImageBrush ImageSource="Assets/showPala.png"></ImageBrush>
                 </StackPanel.Background>
 
-                <StackPanel x:ConnectionId='63' x:Name="pala" CanDrag="True"                                                             Height="80" Margin="10, -10, 0, 0" Width="80">
+                <StackPanel x:ConnectionId='62' x:Name="pala" CanDrag="True"                                                             Height="80" Margin="10, -10, 0, 0" Width="80">
                     <Image HorizontalAlignment="Center" VerticalAlignment="Center" Source="/Assets/pala.png" />
                 </StackPanel>
                 <TextBlock Text="100" FontSize="50" VerticalAlignment="Center" Margin="10, 0, 0, 0" Foreground="White"></TextBlock>
                 <Image Source="Assets/diamond.png" Width="60" Height="60" Margin="0, 10, 0, 0"></Image>
-                
+
             </StackPanel>
 
             <Image Source="Assets/showRobots.png" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Stretch="Fill" Height="290" Width="830" Margin="0, -70, 0, 0" HorizontalAlignment="Left"></Image>
             <StackPanel x:ConnectionId='4' x:Name="Robots" Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" AllowDrop="True" VerticalAlignment="Center" Spacing="20"                           >
-                <StackPanel x:ConnectionId='57' x:Name="Robot1" HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"                                                              >
+                <StackPanel x:ConnectionId='56' x:Name="Robot1" HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"                                                              >
                     <Image Height="100" Width="100" Source="/Assets/Robots1.png"/>
                     <ProgressBar Value="0" Maximum="100" Foreground="Yellow"></ProgressBar>
+                    <Image Source="Assets/costeRobot.png" Width="110"></Image>
+                    <TextBlock Text="50" Foreground="White" FontSize="20" HorizontalAlignment="Center" Margin="5, -42, 0, 0"></TextBlock>
                 </StackPanel>
 
-                <StackPanel x:ConnectionId='58' x:Name="Robot2"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"                                                               >
+                <StackPanel x:ConnectionId='57' x:Name="Robot2"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"                                                               >
                     <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot3.png"/>
+                    <Image Source="Assets/costeRobot.png" Width="110"></Image>
+                    <TextBlock Text="100" Foreground="White" FontSize="20" HorizontalAlignment="Center" Margin="5, -42, 0, 0"></TextBlock>
                 </StackPanel>
 
-                <StackPanel x:ConnectionId='59' x:Name="Robot3"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"                                                             >
+                <StackPanel x:ConnectionId='58' x:Name="Robot3"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"                                                             >
                     <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot2.png"/>
+                    <Image Source="Assets/costeRobot.png" Width="110"></Image>
+                    <TextBlock Text="200" Foreground="White" FontSize="20" HorizontalAlignment="Center" Margin="5, -42, 0, 0"></TextBlock>
                 </StackPanel>
 
-                <StackPanel x:ConnectionId='60' x:Name="Robot4"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"                                                             >
+                <StackPanel x:ConnectionId='59' x:Name="Robot4"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"                                                             >
                     <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot4.png"/>
+                    <Image Source="Assets/costeRobot.png" Width="110"></Image>
+                    <TextBlock Text="250" Foreground="White" FontSize="20" HorizontalAlignment="Center" Margin="5, -42, 0, 0"></TextBlock>
                 </StackPanel>
 
-                <StackPanel x:ConnectionId='61' x:Name="Robot5"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"                                                             >
+                <StackPanel x:ConnectionId='60' x:Name="Robot5"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"                                                             >
                     <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot5.png"/>
+                    <Image Source="Assets/costeRobot.png" Width="110"></Image>
+                    <TextBlock Text="80" Foreground="White" FontSize="20" HorizontalAlignment="Center" Margin="5, -42, 0, 0"></TextBlock>
                 </StackPanel>
 
-                <StackPanel x:ConnectionId='62' x:Name="Robot6"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"                                                              >
+                <StackPanel x:ConnectionId='61' x:Name="Robot6"  HorizontalAlignment="Center" VerticalAlignment="Center" CanDrag="True"                                                              >
                     <Image HorizontalAlignment="Center" Height="100"   VerticalAlignment="Center" Width="100" Source="/Assets/Robot6.png"/>
+                    <Image Source="Assets/costeRobot.png" Width="110"></Image>
+                    <TextBlock Text="500" Foreground="White" FontSize="20" HorizontalAlignment="Center" Margin="5, -42, 0, 0"></TextBlock>
                 </StackPanel>
             </StackPanel>
-            <StackPanel Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Button x:ConnectionId='56' Content="Pausa" FontWeight="Bold" FontSize="24"               />
-            </StackPanel>
 
-            <StackPanel x:ConnectionId='5' Grid.Row="1" Grid.Column="1"  HorizontalAlignment="Right" VerticalAlignment="Center" Orientation="Vertical" Grid.RowSpan="1" AllowDrop="True" Grid.ColumnSpan="1"                            Width="650" Height="450" Margin="0,30,15,0">
+            <Button x:ConnectionId='5'               Background="Transparent" Grid.Column="2" Width="160">
+                <Grid>
+                    <Image Source="Assets/pauseButton.png"></Image>
+                </Grid>
+            </Button>
+
+            <StackPanel x:ConnectionId='6' Grid.Row="1" Grid.Column="1"  HorizontalAlignment="Right" VerticalAlignment="Center" Orientation="Vertical" Grid.RowSpan="1" AllowDrop="True" Grid.ColumnSpan="1"                            Width="650" Height="450" Margin="0,30,15,0">
 
                 <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" Height="90" Width="650" HorizontalAlignment="Center" VerticalAlignment="Center">
                     <StackPanel x:ConnectionId='47'  AllowDrop="True"                   Height="90" Width="72" >
@@ -257,65 +260,29 @@
 
 
             </StackPanel>
-            <GridView Grid.Column="1" Grid.Row="1 " HorizontalAlignment="Center">
-                <StackPanel x:ConnectionId='6' x:Name="Pausa" Orientation="Vertical" VerticalAlignment="Center" Spacing="20" Width="400px" Height="500px" Visibility="Collapsed">
-                    <StackPanel.Background>
-                        <ImageBrush Stretch="Fill" ImageSource="CardX1.png" AlignmentY="Top" AlignmentX="Center" />
-                    </StackPanel.Background>
+            <StackPanel x:ConnectionId='7' x:Name="Pausa" Orientation="Vertical"  Width="400px" Height="450px" Visibility="Collapsed" Grid.Column="1" Grid.Row="1">
+                <StackPanel.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/pauseMenu.png" AlignmentY="Top" AlignmentX="Center" />
+                </StackPanel.Background>
 
-                    <TextBlock x:ConnectionId='7' x:Name="PauseTitle" Text="Pausa" HorizontalAlignment="Center" FontSize="100px" Margin="50"></TextBlock>
+                <Button x:ConnectionId='8'                      Background="Transparent" Width="300" HorizontalAlignment="Center" Margin="0, 100, 0, 0">
+                    <Grid>
+                        <Image Source="Assets/continueButton.png" VerticalAlignment="Bottom"></Image>
+                    </Grid>
+                </Button>
 
-                    <Button x:ConnectionId='8' x:Name="Resume" Content="Continuar" HorizontalAlignment="Center" Width="200px" Height="50px" FontSize="20px"                     >
-                        <Button.Resources>
-                            <ResourceDictionary>
-                                <ResourceDictionary.ThemeDictionaries>
-                                    <ResourceDictionary x:Key="Dark">
-                                        <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Red"/>
-                                        <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="DarkGreen"/>
-                                    </ResourceDictionary>
-                                    <ResourceDictionary x:Key="Light">
-                                        <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Red"/>
-                                        <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="DarkGreen"/>
-                                    </ResourceDictionary>
-                                </ResourceDictionary.ThemeDictionaries>
-                            </ResourceDictionary>
-                        </Button.Resources>
+                <Button x:ConnectionId='9'                            Background="Transparent" Width="300" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Grid>
+                        <Image Source="Assets/confButton2.png"></Image>
+                    </Grid>
+                </Button>
 
-                    </Button>
-                    <Button x:ConnectionId='9' x:Name="ConfigButton" Content="Configuracion" HorizontalAlignment="Center"  Width="200px" Height="50px" FontSize="20px"                           >
-                        <Button.Resources>
-                            <ResourceDictionary>
-                                <ResourceDictionary.ThemeDictionaries>
-                                    <ResourceDictionary x:Key="Dark">
-                                        <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Red"/>
-                                        <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="DarkGreen"/>
-                                    </ResourceDictionary>
-                                    <ResourceDictionary x:Key="Light">
-                                        <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Red"/>
-                                        <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="DarkGreen"/>
-                                    </ResourceDictionary>
-                                </ResourceDictionary.ThemeDictionaries>
-                            </ResourceDictionary>
-                        </Button.Resources>
-                    </Button>
-                    <Button x:ConnectionId='10' x:Name="ExitButton" Content="Salir al menu" HorizontalAlignment="Center"  Width="200px" Height="50px" FontSize="20px"                         >
-                        <Button.Resources>
-                            <ResourceDictionary>
-                                <ResourceDictionary.ThemeDictionaries>
-                                    <ResourceDictionary x:Key="Dark">
-                                        <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Red"/>
-                                        <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="DarkGreen"/>
-                                    </ResourceDictionary>
-                                    <ResourceDictionary x:Key="Light">
-                                        <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Red"/>
-                                        <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="DarkGreen"/>
-                                    </ResourceDictionary>
-                                </ResourceDictionary.ThemeDictionaries>
-                            </ResourceDictionary>
-                        </Button.Resources>
-                    </Button>
-                </StackPanel>
-            </GridView>
+                <Button x:ConnectionId='10'                          Background="Transparent" Width="300" HorizontalAlignment="Center">
+                    <Grid>
+                        <Image Source="Assets/exitButton2.png"></Image>
+                    </Grid>
+                </Button>
+            </StackPanel>
 
         </Grid>
     </Viewbox>

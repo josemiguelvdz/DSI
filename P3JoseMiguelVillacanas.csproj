@@ -165,11 +165,15 @@
     <Content Include="Assets\Card X6.png" />
     <Content Include="Assets\changes.mp3" />
     <Content Include="Assets\confButton.png" />
+    <Content Include="Assets\confButton2.png" />
+    <Content Include="Assets\continueButton.png" />
+    <Content Include="Assets\costeRobot.png" />
     <Content Include="Assets\deck.png" />
     <Content Include="Assets\deck2.png" />
     <Content Include="Assets\diamond.png" />
     <Content Include="Assets\diamondButton.png" />
     <Content Include="Assets\exitButton.png" />
+    <Content Include="Assets\exitButton2.png" />
     <Content Include="Assets\fondoTienda.png" />
     <Content Include="Assets\gemas.png" />
     <Content Include="Assets\Icon78.png" />
@@ -227,6 +231,8 @@
     <Content Include="Assets\Panel Empty Green.png" />
     <Content Include="Assets\Panel Empty.png" />
     <Content Include="Assets\Panel Red.png" />
+    <Content Include="Assets\pauseButton.png" />
+    <Content Include="Assets\pauseMenu.png" />
     <Content Include="Assets\play.png" />
     <Content Include="Assets\playButton.png" />
     <Content Include="Assets\Robot1.jpg" />
@@ -237,6 +243,7 @@
     <Content Include="Assets\Robot5.png" />
     <Content Include="Assets\Robot6.png" />
     <Content Include="Assets\Robots1.png" />
+    <Content Include="Assets\robotTeam.png" />
     <Content Include="Assets\shopButton.png" />
     <Content Include="Assets\showDiamond.png" />
     <Content Include="Assets\showDiamond2.png" />

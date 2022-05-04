@@ -85,6 +85,15 @@
     <AppxPackagedFile Include="D:\DSI\DSI\Assets\confButton.png">
       <PackagePath>Assets\confButton.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\confButton2.png">
+      <PackagePath>Assets\confButton2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\continueButton.png">
+      <PackagePath>Assets\continueButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\costeRobot.png">
+      <PackagePath>Assets\costeRobot.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\Assets\deck.png">
       <PackagePath>Assets\deck.png</PackagePath>
     </AppxPackagedFile>
@@ -99,6 +108,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\Assets\exitButton.png">
       <PackagePath>Assets\exitButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\exitButton2.png">
+      <PackagePath>Assets\exitButton2.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\Assets\fondoTienda.png">
       <PackagePath>Assets\fondoTienda.png</PackagePath>
@@ -268,6 +280,12 @@
     <AppxPackagedFile Include="D:\DSI\DSI\Assets\Panel Red.png">
       <PackagePath>Assets\Panel Red.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\pauseButton.png">
+      <PackagePath>Assets\pauseButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\pauseMenu.png">
+      <PackagePath>Assets\pauseMenu.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\Assets\play.png">
       <PackagePath>Assets\play.png</PackagePath>
     </AppxPackagedFile>
@@ -291,6 +309,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\Assets\Robots1.png">
       <PackagePath>Assets\Robots1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\robotTeam.png">
+      <PackagePath>Assets\robotTeam.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\Assets\shopButton.png">
       <PackagePath>Assets\shopButton.png</PackagePath>

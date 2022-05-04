@@ -105,10 +105,13 @@
             </Button>
 
 
-            <Image x:Name="n1Img" Source="Assets/nivel1.png" PointerEntered="n1Img_PointerEntered_1"  PointerExited="n1Img_PointerExited" PointerPressed="Level1_Click" Width="225" Grid.Row="1"  Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
-            <Image x:Name="n2Img" Source="Assets/nivel2.png" PointerEntered="n2Img_PointerEntered"  PointerExited="n2Img_PointerExited" PointerPressed="Level2_Click" Width="250"  Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
-            <Image x:Name="n3Img" Source="Assets/nivel3.png" PointerEntered="n3Img_PointerEntered"  PointerExited="n3Img_PointerExited" PointerPressed="Level3_Click" Width="250"  Grid.Column="3" VerticalAlignment="Top" Grid.Row="1"/>
-            <Image x:Name="n4Img" Source="Assets/nivel4.png" PointerEntered="n4Img_PointerEntered"  PointerExited="n4Img_PointerExited" PointerPressed="Level4_Click" Width="250"  Grid.Column="3" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+            <Image x:Name="Level1" Source="Assets/nivel1.png" PointerEntered="n1Img_PointerEntered_1"  PointerExited="n1Img_PointerExited" PointerPressed="Level1_Click" Width="225" Grid.Row="1"  Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+            <Image x:Name="Level2Blocked" Source="Assets/nivel2Block.png" PointerEntered="n2Img_PointerEntered"  PointerExited="n2Img_PointerExited" PointerPressed="Level2_Click" Width="250"  Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+            <Image x:Name="Level2" Source="Assets/nivel2.png" PointerEntered="n2Img_PointerEntered"  PointerExited="n2Img_PointerExited" PointerPressed="Level2_Click" Width="250"  Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Visibility="Collapsed"/>
+            <Image x:Name="Level3Blocked" Source="Assets/nivel3Block.png" PointerEntered="n3Img_PointerEntered"  PointerExited="n3Img_PointerExited" PointerPressed="Level3_Click" Width="250"  Grid.Column="3" VerticalAlignment="Top" Grid.Row="1"/>
+            <Image x:Name="Level3" Source="Assets/nivel3.png" PointerEntered="n3Img_PointerEntered"  PointerExited="n3Img_PointerExited" PointerPressed="Level3_Click" Width="250"  Grid.Column="3" VerticalAlignment="Top" Grid.Row="1" Visibility="Collapsed"/>
+            <Image x:Name="Level4Blocked" Source="Assets/nivel4Block.png" PointerEntered="n4Img_PointerEntered"  PointerExited="n4Img_PointerExited" PointerPressed="Level4_Click" Width="250"  Grid.Column="3" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+            <Image x:Name="Level4" Source="Assets/nivel4.png" PointerEntered="n4Img_PointerEntered"  PointerExited="n4Img_PointerExited" PointerPressed="Level4_Click" Width="250"  Grid.Column="3" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" Visibility="Collapsed"/>
 
         </Grid>
     </Viewbox>

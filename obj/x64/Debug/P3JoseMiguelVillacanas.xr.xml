@@ -88,6 +88,7 @@
       <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Visibility" />
       <RootProperty Name="Height" />
       <RootProperty Name="AllowDrop" />
       <RootProperty Name="Stretch" />

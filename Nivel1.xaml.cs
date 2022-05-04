@@ -29,25 +29,26 @@ namespace P3JoseMiguelVillacanas
 
     public sealed partial class Nivel1 : Page
     {
-        private int diamonds=0;
+        bool inGame = true;
         bool pausado = false;
         private int energia = 100;
         List<object> robotsEnergia = new List<object>();
         int aux = 0;
         DispatcherTimer energiaTimer;
+        Atributos atributos;
 
         public Nivel1()
         {
+            this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
             this.InitializeComponent();
             TimerSetup();
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            if (e.Parameter is int)
-            {
-                diamonds = (int)e.Parameter;
-            }
+            atributos = (Atributos)e.Parameter;
+            DiamantesTotales.Text = atributos.getDiamantes().ToString();
+            inGame = true;
             base.OnNavigatedTo(e);
         }
 
@@ -61,15 +62,29 @@ namespace P3JoseMiguelVillacanas
 
         void TimerSetup_Tick(object sender, object e)
         { //Función de respuesta al Timer cada 0.01s
-            if (!pausado)
+            if (!pausado && inGame)
             {
                 subeProgressBar();
                 EnergiaTotal.Text = energia.ToString();
-                DiamantesTotales.Text = diamonds.ToString();
+                DiamantesTotales.Text = atributos.getDiamantes().ToString();
                 if (EnergiaGratis.Value == 100)
                 {
                     energia += 25;
                     EnergiaGratis.Value = 0;
+                }
+                if (HumanosBarra.Value == 100)
+                {
+                    HumanosBarra.Value =0;
+                    bool f=true;
+                    int i = 0;
+                    while(f && i < 4)
+                    {
+                        f = atributos.getNivel(i);
+                        i++;
+                    }
+                    if (!f && atributos.getNivelActual()==i-2) atributos.setNivel(i-1);
+                    inGame = false;
+                    goHUB();
                 }
   
             }
@@ -130,7 +145,7 @@ namespace P3JoseMiguelVillacanas
                         energia -= 100;
                     }
                 }
-                else if (((i.Children[0] as Image).Source as BitmapImage).UriSource.AbsolutePath == "/Assets/pala.png" && diamonds >= 50)
+                else if (((i.Children[0] as Image).Source as BitmapImage).UriSource.AbsolutePath == "/Assets/pala.png" && atributos.getDiamantes() >= 50)
                 {
                     if (s.Children[0] as ProgressBar != null)
                     {
@@ -144,7 +159,8 @@ namespace P3JoseMiguelVillacanas
                     {
                         (s.Children[0] as Image).Source = baldosa1.Source;
                     }
-                    diamonds -= 50;
+                    atributos.setDiamantes(-50);
+                    DiamantesTotales.Text = atributos.getDiamantes().ToString();
                 }
             }
             
@@ -174,7 +190,7 @@ namespace P3JoseMiguelVillacanas
                         }
                     }
                 EnergiaGratis.Value += 0.3;
-                HumanosBarra.Value += 0.01f; 
+                HumanosBarra.Value += 1f; 
             }
         }
 
@@ -186,12 +202,17 @@ namespace P3JoseMiguelVillacanas
 
         private void ConfigButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Graficos));
+            Frame.Navigate(typeof(Graficos),atributos);
         }
 
         private void ExitButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Página1), diamonds);
+            Frame.Navigate(typeof(Página1), atributos);
+        }
+
+        private void goHUB()
+        {
+            Frame.Navigate(typeof(Hub), atributos);
         }
     }
 }

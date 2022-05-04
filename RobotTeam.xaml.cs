@@ -23,14 +23,21 @@ namespace P3JoseMiguelVillacanas
     /// </summary>
     public sealed partial class RobotTeam : Page
     {
+        Atributos atributos;
         public RobotTeam()
         {
             this.InitializeComponent();
         }
 
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            atributos = (Atributos)e.Parameter;
+            base.OnNavigatedTo(e);
+        }
+
         private void ReturnToMenu_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Hub));
+            Frame.Navigate(typeof(Hub),atributos);
         }
 
         private void image_DragStarting(UIElement sender, DragStartingEventArgs args)

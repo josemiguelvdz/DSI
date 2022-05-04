@@ -119,6 +119,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Atributos.cs" />
     <Compile Include="Hub.xaml.cs">
       <DependentUpon>Hub.xaml</DependentUpon>
     </Compile>
@@ -162,6 +163,7 @@
     <Content Include="Assets\Card X3.png" />
     <Content Include="Assets\Card X5.png" />
     <Content Include="Assets\Card X6.png" />
+    <Content Include="Assets\changes.mp3" />
     <Content Include="Assets\confButton.png" />
     <Content Include="Assets\deck.png" />
     <Content Include="Assets\deck2.png" />
@@ -213,9 +215,13 @@
     <Content Include="Assets\mainLogo.png" />
     <Content Include="Assets\menu.png" />
     <Content Include="Assets\nivel1.png" />
+    <Content Include="Assets\nivel1Block.png" />
     <Content Include="Assets\nivel2.png" />
+    <Content Include="Assets\nivel2Block.png" />
     <Content Include="Assets\nivel3.png" />
+    <Content Include="Assets\nivel3Block.png" />
     <Content Include="Assets\nivel4.png" />
+    <Content Include="Assets\nivel4Block.png" />
     <Content Include="Assets\niveles background.png" />
     <Content Include="Assets\pala.png" />
     <Content Include="Assets\Panel Empty Green.png" />
@@ -306,7 +312,7 @@
     <Content Include="obj\Assets\Robot3.png" />
     <Content Include="obj\Assets\Robots1.png" />
     <Content Include="obj\Assets\sol.png" />
-    <Content Include="obj\Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\SplashScreen.png" />
     <Content Include="obj\Assets\Square150x150Logo.scale-200.png" />
     <Content Include="obj\Assets\Square44x44Logo.scale-200.png" />
     <Content Include="obj\Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />

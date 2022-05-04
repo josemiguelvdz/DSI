@@ -207,9 +207,7 @@
                             </Button>
                         </StackPanel>
                     </ScrollViewer>
-
                 </Grid>
-
             </Grid>
             
             <StackPanel x:Name="ShowDiamante" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Left" Height="150" Visibility="Collapsed">

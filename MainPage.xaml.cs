@@ -22,11 +22,12 @@ namespace P3JoseMiguelVillacanas
     /// </summary>
     public sealed partial class MainPage : Page
     {
-
+        Atributos atributos = new Atributos();
         public MainPage()
         {
             this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
             this.InitializeComponent();
+            atributos.setDiamantes(500);
 
         }
 
@@ -37,12 +38,12 @@ namespace P3JoseMiguelVillacanas
 
         private void PlayButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Página1));
+            Frame.Navigate(typeof(Página1),atributos);
         }
 
         private void Image_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Página1));
+            Frame.Navigate(typeof(Página1),atributos);
         }
     }
 }

@@ -17,6 +17,7 @@ Assets\Card X3 (2).png
 Assets\Card X3.png
 Assets\Card X5.png
 Assets\Card X6.png
+Assets\changes.mp3
 Assets\confButton.png
 Assets\deck.png
 Assets\deck2.png
@@ -68,9 +69,13 @@ Assets\mainButton.png
 Assets\mainLogo.png
 Assets\menu.png
 Assets\nivel1.png
+Assets\nivel1Block.png
 Assets\nivel2.png
+Assets\nivel2Block.png
 Assets\nivel3.png
+Assets\nivel3Block.png
 Assets\nivel4.png
+Assets\nivel4Block.png
 Assets\niveles background.png
 Assets\pala.png
 Assets\Panel Empty Green.png
@@ -87,6 +92,7 @@ Assets\showDiamond.png
 Assets\skinButton.png
 Assets\skincard.png
 Assets\sol.png
+Assets\SplashScreen.png
 App.xbf
 Graficos.xbf
 Hub.xbf
@@ -169,7 +175,6 @@ obj\Assets\Robot2.jpg
 obj\Assets\Robot3.png
 obj\Assets\Robots1.png
 obj\Assets\sol.png
-obj\Assets\SplashScreen.scale-200.png
 obj\Assets\Square150x150Logo.scale-200.png
 obj\Assets\Square44x44Logo.scale-200.png
 obj\Assets\Square44x44Logo.targetsize-24_altform-unplated.png

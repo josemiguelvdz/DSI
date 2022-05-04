@@ -14,7 +14,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using System.Numerics;
-using System.Collections.ObjectModel;
+using Windows.Media.Playback;
+using Windows.Media.Core;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -26,24 +27,34 @@ namespace P3JoseMiguelVillacanas
     /// 
     public sealed partial class Página1 : Page
     {
-        private int diamonds=500;
+        MediaPlayer mP;
+        bool playing;
+        Atributos atributos;
         public Página1()
         {
             this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
             this.InitializeComponent();
-            //DiamantesTotales.Text = diamonds.ToString();
+            mP = new MediaPlayer();
+            playing = false;
+            Musica();
 
         }
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            if (e.Parameter is int)
-            {
-                diamonds = (int)e.Parameter;
-                // DiamantesTotales.Text = diamonds.ToString();
-            }
+            atributos =(Atributos) e.Parameter;
+            Diamonds.Text = atributos.getDiamantes().ToString();
             base.OnNavigatedTo(e);
         }
 
+        private async void Musica()
+        {
+            Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync(@"Assets");
+            Windows.Storage.StorageFile file = await folder.GetFileAsync("changes.mp3");
+
+            mP.AutoPlay = false;
+            mP.Source = MediaSource.CreateFromStorageFile(file);
+            mP.Play();
+        }
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
@@ -53,12 +64,12 @@ namespace P3JoseMiguelVillacanas
 
         private void PlayButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Hub),diamonds);
+            Frame.Navigate(typeof(Hub),atributos);
         }
 
         private void ConfigButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Graficos));
+            Frame.Navigate(typeof(Graficos),atributos);
         }
 
         private void ShopButton_Click(object sender, RoutedEventArgs e)
@@ -121,7 +132,8 @@ namespace P3JoseMiguelVillacanas
 
         private void BuyButton_Click(object sender, RoutedEventArgs e)
         {
-            diamonds += 2000;
+            atributos.setDiamantes(2000);
+            Diamonds.Text = atributos.getDiamantes().ToString();
         }
     }
 }

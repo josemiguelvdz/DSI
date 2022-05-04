@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel.DataTransfer;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -30,6 +31,33 @@ namespace P3JoseMiguelVillacanas
         private void ReturnToMenu_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(Hub));
+        }
+
+        private void image_DragStarting(UIElement sender, DragStartingEventArgs args)
+        {
+            Image O = sender as Image;
+
+            string id = O.Name.ToString();
+
+            args.Data.SetText(id);
+
+            args.Data.RequestedOperation = DataPackageOperation.Move;
+        }
+
+        private async void Image_Drop(object sender, DragEventArgs e)
+        {
+            Image s = sender as Image;
+
+            Image i = FindName(await e.DataView.GetTextAsync()) as Image;
+            Image iAux =new Image();
+            iAux.Source = i.Source;
+            i.Source = s.Source;
+            s.Source = iAux.Source;
+        }
+
+        private void Image_DragOver(object sender, DragEventArgs e)
+        {
+            e.AcceptedOperation = DataPackageOperation.Move;
         }
     }
 }

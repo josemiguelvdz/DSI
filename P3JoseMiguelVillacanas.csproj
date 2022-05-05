@@ -136,9 +136,6 @@
     <Compile Include="Página1.xaml.cs">
       <DependentUpon>Página1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Graficos.xaml.cs">
-      <DependentUpon>Graficos.xaml</DependentUpon>
-    </Compile>
     <Compile Include="RobotTeam.xaml.cs">
       <DependentUpon>RobotTeam.xaml</DependentUpon>
     </Compile>
@@ -153,6 +150,7 @@
     <Content Include="Assets\background.png" />
     <Content Include="Assets\background2.png" />
     <Content Include="Assets\baldosa1.png" />
+    <Content Include="Assets\banderaDeFrancia.jpg" />
     <Content Include="Assets\banderaDeGabon.png" />
     <Content Include="Assets\banderaEspaña.png" />
     <Content Include="Assets\bg2.jpg" />
@@ -254,6 +252,7 @@
     <Content Include="Assets\Robots1.png" />
     <Content Include="Assets\robotTeam.png" />
     <Content Include="Assets\shopButton.png" />
+    <Content Include="Assets\showCoste.png" />
     <Content Include="Assets\showDiamond.png" />
     <Content Include="Assets\showDiamond2.png" />
     <Content Include="Assets\showEnergy.png" />
@@ -369,10 +368,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Página1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Graficos.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

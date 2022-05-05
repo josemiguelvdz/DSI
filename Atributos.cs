@@ -3,15 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.Media.Playback;
+using Windows.Media.Core;
 
 namespace P3JoseMiguelVillacanas
 {
     class Atributos
     {
+        MediaPlayer mP = new MediaPlayer();
         int diamantes=0;
         double volumen = 100;
         int nivelActual;
         bool [] niveles = { true, false, false, false };  
+
+        public async void initMusica()
+        {
+            Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync(@"Assets");
+            Windows.Storage.StorageFile file = await folder.GetFileAsync("changes.mp3");
+
+            mP.AutoPlay = false;
+            mP.Source = MediaSource.CreateFromStorageFile(file);
+            mP.Play();
+        }
 
         public void setDiamantes(int d)
         {
@@ -40,14 +53,9 @@ namespace P3JoseMiguelVillacanas
             return nivelActual;
         }
 
-        public void setVolume(double v)
+        public void changeVolume(double v)
         {
-            volumen = v;
-        }
-
-        public double getVolume()
-        {
-            return volumen/100;
+            mP.Volume = v;
         }
 
     }

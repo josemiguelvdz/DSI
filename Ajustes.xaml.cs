@@ -40,9 +40,14 @@ namespace P3JoseMiguelVillacanas
             Frame rootFrame = Window.Current.Content as Frame;
             if (rootFrame.CanGoBack)
             {
-                atributos.setVolume(SliderMusica.Value);
                 rootFrame.GoBack();
             }
+        }
+
+        private void SliderMusica_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
+        {
+            if(atributos!=null)
+                atributos.changeVolume(SliderMusica.Value/100.0);
         }
     }
 }

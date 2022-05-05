@@ -37,11 +37,11 @@
                 <Image Width="200" Height="80"  Source="Assets/confButton.png" Margin="-200,0,0,-200"/>
 
 
-                <Slider x:Name="SliderMusica" Value="100"   Width="200" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20,0,0,210"/>
+                <Slider x:Name="SliderMusica" Value="100"   Width="200" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20,0,0,210" ValueChanged="SliderMusica_ValueChanged"/>
                 <Slider x:Name="SliderBrillo" Value="100" Margin="-200,0,0,10" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <ComboBox Width="80" Height="50" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-200,0,0,-200">
+                <ComboBox Width="100" Height="50" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-200,0,0,-200">
                     <Image Width="40" Height="40"  Source="Assets/banderaEspaña.png" />
-                    <Image Width="40" Height="40"  Source="Assets/Francia.png" />
+                    <Image Width="40" Height="40"  Source="Assets/banderaDeFrancia.jpg" />
                     <Image Width="40" Height="40"  Source="Assets/banderaDeGabon.png" />
                 </ComboBox>
             </StackPanel>

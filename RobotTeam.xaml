@@ -30,26 +30,28 @@
 
             <Image Source="Assets/mazoBackground.png" VerticalAlignment="Top" Width="320" Margin="0, 50, 0, 0"></Image>
             <Image Source="Assets/disponibleBackground.png" VerticalAlignment="Bottom" Width="320"></Image>
+            <Image Source="Assets/showCoste.png" VerticalAlignment="Top" Width="200" Margin="805,160,275,0"></Image>
+            <TextBlock x:Name="Media" Foreground="White" FontSize="32" HorizontalAlignment="Left" Margin="897,199,0,482" Width="71" Text="150"/>
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="20" Margin="0, 50, 0, 0">
                 <StackPanel Orientation="Vertical" Spacing="15" Height="280" Width="425">
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Spacing="10" Margin="0, 10, 0, 0">
                         <StackPanel Orientation="Vertical">
                             <Image x:Name="RobotEnUso1" Source="/Assets/Robots1.png" Width="80" Height="110" CanDrag="True"  DragStarting="image_DragStarting"  DragOver="Image_DragOver" AllowDrop="True" Drop="Image_Drop"></Image>
                             <Image Source="Assets/costeRobot.png" Width="80" Margin="0, -30, 0, 0"></Image>
-                            <TextBlock Text="50" Foreground="White" FontSize="16" HorizontalAlignment="Center" Margin="5, -31, 0, 0"></TextBlock>
+                            <TextBlock x:Name="ValorRobotEnUso1" Text="50" Foreground="White" FontSize="16" HorizontalAlignment="Center" Margin="5, -31, 0, 0"></TextBlock>
                         </StackPanel>
 
 
                         <StackPanel Orientation="Vertical">
                             <Image x:Name="RobotEnUso2" Source="/Assets/Robot3.png" Width="80" Height="110" CanDrag="True"  DragStarting="image_DragStarting"  DragOver="Image_DragOver" AllowDrop="True" Drop="Image_Drop"></Image>
                             <Image Source="Assets/costeRobot.png" Width="80" Margin="0, -30, 0, 0"></Image>
-                            <TextBlock Text="75" Foreground="White" FontSize="16" HorizontalAlignment="Center" Margin="5, -31, 0, 0"></TextBlock>
+                            <TextBlock x:Name="ValorRobotEnUso2" Text="75" Foreground="White" FontSize="16" HorizontalAlignment="Center" Margin="5, -31, 0, 0"></TextBlock>
                         </StackPanel>
 
                         <StackPanel Orientation="Vertical">
                             <Image x:Name="RobotEnUso3" Source="/Assets/Robot2.png" Width="80" Height="110" CanDrag="True"  DragStarting="image_DragStarting"  DragOver="Image_DragOver" AllowDrop="True" Drop="Image_Drop"></Image>
                             <Image Source="Assets/costeRobot.png" Width="80" Margin="0, -30, 0, 0"></Image>
-                            <TextBlock Text="100" Foreground="White" FontSize="16" HorizontalAlignment="Center" Margin="5, -31, 0, 0"></TextBlock>
+                            <TextBlock x:Name="ValorRobotEnUso3" Text="100" Foreground="White" FontSize="16" HorizontalAlignment="Center" Margin="5, -31, 0, 0"></TextBlock>
                         </StackPanel>
 
                     </StackPanel>
@@ -57,18 +59,18 @@
                         <StackPanel Orientation="Vertical">
                             <Image x:Name="RobotEnUso4" Source="/Assets/Robot4.png" Width="80" Height="110" CanDrag="True"  DragStarting="image_DragStarting"  DragOver="Image_DragOver" AllowDrop="True" Drop="Image_Drop"></Image>
                             <Image Source="Assets/costeRobot.png" Width="80" Margin="0, -30, 0, 0"></Image>
-                            <TextBlock Text="125" Foreground="White" FontSize="16" HorizontalAlignment="Center" Margin="5, -31, 0, 0"></TextBlock>
+                            <TextBlock x:Name="ValorRobotEnUso4" Text="125" Foreground="White" FontSize="16" HorizontalAlignment="Center" Margin="5, -31, 0, 0"></TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Vertical">
                             <Image x:Name="RobotEnUso5" Source="/Assets/Robot5.png" Width="80" Height="110" CanDrag="True"  DragStarting="image_DragStarting"  DragOver="Image_DragOver" AllowDrop="True" Drop="Image_Drop"></Image>
                             <Image Source="Assets/costeRobot.png" Width="80" Margin="0, -30, 0, 0"></Image>
-                            <TextBlock Text="150" Foreground="White" FontSize="16" HorizontalAlignment="Center" Margin="5, -31, 0, 0"></TextBlock>
+                            <TextBlock x:Name="ValorRobotEnUso5" Text="150" Foreground="White" FontSize="16" HorizontalAlignment="Center" Margin="5, -31, 0, 0"></TextBlock>
                         </StackPanel>
-                        
+
                         <StackPanel Orientation="Vertical">
                             <Image x:Name="RobotEnUso6" Source="/Assets/Robot6.png" Width="80" Height="110" CanDrag="True"  DragStarting="image_DragStarting"  DragOver="Image_DragOver" AllowDrop="True" Drop="Image_Drop"></Image>
                             <Image Source="Assets/costeRobot.png" Width="80" Margin="0, -30, 0, 0"></Image>
-                            <TextBlock Text="200" Foreground="White" FontSize="16" HorizontalAlignment="Center" Margin="5, -31, 0, 0"></TextBlock>
+                            <TextBlock x:Name="ValorRobotEnUso6" Text="200" Foreground="White" FontSize="16" HorizontalAlignment="Center" Margin="5, -31, 0, 0"></TextBlock>
                         </StackPanel>
 
                     </StackPanel>

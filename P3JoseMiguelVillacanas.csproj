@@ -172,8 +172,10 @@
     <Content Include="Assets\deck2.png" />
     <Content Include="Assets\diamond.png" />
     <Content Include="Assets\diamondButton.png" />
+    <Content Include="Assets\disponibleBackground.png" />
     <Content Include="Assets\exitButton.png" />
     <Content Include="Assets\exitButton2.png" />
+    <Content Include="Assets\exitButton3.png" />
     <Content Include="Assets\fondoTienda.png" />
     <Content Include="Assets\gemas.png" />
     <Content Include="Assets\Icon78.png" />
@@ -217,6 +219,7 @@
     <Content Include="Assets\mainBackground.jpg" />
     <Content Include="Assets\mainButton.png" />
     <Content Include="Assets\mainLogo.png" />
+    <Content Include="Assets\mazoBackground.png" />
     <Content Include="Assets\menu.png" />
     <Content Include="Assets\nivel1.png" />
     <Content Include="Assets\nivel1Block.png" />

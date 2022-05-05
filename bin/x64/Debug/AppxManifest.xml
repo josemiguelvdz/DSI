@@ -31,7 +31,7 @@
           </uap:ShowNameOnTiles>
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
-        <uap:LockScreen BadgeLogo="Assets\Square150x150Logo.png" Notification="badge" />
+        <uap:LockScreen BadgeLogo="Assets\Square150x150Logo.png" Notification="badge"/>
       </uap:VisualElements>
     </Application>
   </Applications>

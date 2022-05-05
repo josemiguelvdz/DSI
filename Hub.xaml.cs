@@ -100,7 +100,7 @@ namespace P3JoseMiguelVillacanas
 
         private void RobotTeam_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(RobotTeam));
+            Frame.Navigate(typeof(RobotTeam),atributos);
         }
 
  

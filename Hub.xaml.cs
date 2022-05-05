@@ -59,7 +59,7 @@ namespace P3JoseMiguelVillacanas
 
         private void Settings_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Graficos),atributos);
+            Frame.Navigate(typeof(Ajustes),atributos);
         }
 
         private void Level1_Click(object sender, RoutedEventArgs e)

@@ -22,9 +22,26 @@ namespace P3JoseMiguelVillacanas
     /// </summary>
     public sealed partial class Ajustes : Page
     {
+        Atributos atributos;
         public Ajustes()
         {
+            this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
             this.InitializeComponent();
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            atributos = (Atributos)e.Parameter;
+            base.OnNavigatedTo(e);
+        }
+
+        private void ExitMenuButton_Click(object sender, RoutedEventArgs e)
+        {
+            Frame rootFrame = Window.Current.Content as Frame;
+            if (rootFrame.CanGoBack)
+            {
+                rootFrame.GoBack();
+            }
         }
     }
 }

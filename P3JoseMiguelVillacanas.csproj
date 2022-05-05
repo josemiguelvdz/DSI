@@ -153,6 +153,8 @@
     <Content Include="Assets\background.png" />
     <Content Include="Assets\background2.png" />
     <Content Include="Assets\baldosa1.png" />
+    <Content Include="Assets\banderaDeGabon.png" />
+    <Content Include="Assets\banderaEspaña.png" />
     <Content Include="Assets\bg2.jpg" />
     <Content Include="Assets\bg3.png" />
     <Content Include="Assets\Button Active.png" />
@@ -180,6 +182,7 @@
     <Content Include="Assets\exitButton2.png" />
     <Content Include="Assets\exitButton3.png" />
     <Content Include="Assets\fondoTienda.png" />
+    <Content Include="Assets\Francia.png" />
     <Content Include="Assets\gemas.png" />
     <Content Include="Assets\Icon78.png" />
     <Content Include="Assets\Icons\01.png" />

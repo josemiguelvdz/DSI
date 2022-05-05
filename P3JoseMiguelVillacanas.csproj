@@ -155,6 +155,7 @@
     <Content Include="Assets\banderaEspaña.png" />
     <Content Include="Assets\bg2.jpg" />
     <Content Include="Assets\bg3.png" />
+    <Content Include="Assets\brightnessButton.png" />
     <Content Include="Assets\Button Active.png" />
     <Content Include="Assets\Button Disable.png" />
     <Content Include="Assets\Button Hover.png" />
@@ -169,6 +170,7 @@
     <Content Include="Assets\changes.mp3" />
     <Content Include="Assets\confButton.png" />
     <Content Include="Assets\confButton2.png" />
+    <Content Include="Assets\confMenu.png" />
     <Content Include="Assets\continueButton.png" />
     <Content Include="Assets\costeRobot.png" />
     <Content Include="Assets\deck.png" />
@@ -217,6 +219,7 @@
     <Content Include="Assets\Icons\33.png" />
     <Content Include="Assets\Icons\34.png" />
     <Content Include="Assets\Icons\35.png" />
+    <Content Include="Assets\languageButton.png" />
     <Content Include="Assets\legendabot.png" />
     <Content Include="Assets\legendButton.png" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -225,6 +228,7 @@
     <Content Include="Assets\mainLogo.png" />
     <Content Include="Assets\mazoBackground.png" />
     <Content Include="Assets\menu.png" />
+    <Content Include="Assets\musicButton.png" />
     <Content Include="Assets\nivel1.png" />
     <Content Include="Assets\nivel1Block.png" />
     <Content Include="Assets\nivel2.png" />

@@ -29,7 +29,6 @@ namespace P3JoseMiguelVillacanas
 
     public sealed partial class Nivel1 : Page
     {
-        bool inGame = true;
         bool pausado = false;
         private int energia = 100;
         List<object> robotsEnergia = new List<object>();
@@ -39,7 +38,6 @@ namespace P3JoseMiguelVillacanas
 
         public Nivel1()
         {
-            this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
             this.InitializeComponent();
             TimerSetup();
         }
@@ -48,7 +46,6 @@ namespace P3JoseMiguelVillacanas
         {
             atributos = (Atributos)e.Parameter;
             DiamantesTotales.Text = atributos.getDiamantes().ToString();
-            inGame = true;
             base.OnNavigatedTo(e);
         }
 
@@ -62,7 +59,7 @@ namespace P3JoseMiguelVillacanas
 
         void TimerSetup_Tick(object sender, object e)
         { //Función de respuesta al Timer cada 0.01s
-            if (!pausado && inGame)
+            if (!pausado)
             {
                 subeProgressBar();
                 EnergiaTotal.Text = energia.ToString();
@@ -83,7 +80,7 @@ namespace P3JoseMiguelVillacanas
                         i++;
                     }
                     if (!f && atributos.getNivelActual()==i-2) atributos.setNivel(i-1);
-                    inGame = false;
+                    energiaTimer.Stop();
                     goHUB();
                 }
   
@@ -139,10 +136,30 @@ namespace P3JoseMiguelVillacanas
                 }
                 else if (s.Children[0] as Image != null && ((s.Children[0] as Image).Source as BitmapImage).UriSource.AbsolutePath == ((baldosa1.Source) as BitmapImage).UriSource.AbsolutePath)
                 {
-                    if (((i.Children[0] as Image).Source as BitmapImage).UriSource.AbsolutePath == "/Assets/Robot3.png" && energia >= 100)
+                    if (((i.Children[0] as Image).Source as BitmapImage).UriSource.AbsolutePath == "/Assets/Robot3.png" && energia >= 75)
+                    {
+                        (s.Children[0] as Image).Source = (i.Children[0] as Image).Source;
+                        energia -= 75;
+                    }
+                    else if (((i.Children[0] as Image).Source as BitmapImage).UriSource.AbsolutePath == "/Assets/Robot2.png" && energia >= 100)
                     {
                         (s.Children[0] as Image).Source = (i.Children[0] as Image).Source;
                         energia -= 100;
+                    }
+                    else if (((i.Children[0] as Image).Source as BitmapImage).UriSource.AbsolutePath == "/Assets/Robot4.png" && energia >= 125)
+                    {
+                        (s.Children[0] as Image).Source = (i.Children[0] as Image).Source;
+                        energia -= 125;
+                    }
+                    else if (((i.Children[0] as Image).Source as BitmapImage).UriSource.AbsolutePath == "/Assets/Robot5.png" && energia >= 150)
+                    {
+                        (s.Children[0] as Image).Source = (i.Children[0] as Image).Source;
+                        energia -= 150;
+                    }
+                    else if (((i.Children[0] as Image).Source as BitmapImage).UriSource.AbsolutePath == "/Assets/Robot6.png" && energia >= 200)
+                    {
+                        (s.Children[0] as Image).Source = (i.Children[0] as Image).Source;
+                        energia -= 200;
                     }
                 }
                 else if (((i.Children[0] as Image).Source as BitmapImage).UriSource.AbsolutePath == "/Assets/pala.png" && atributos.getDiamantes() >= 50)

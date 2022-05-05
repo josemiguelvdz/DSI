@@ -8,7 +8,8 @@ namespace P3JoseMiguelVillacanas
 {
     class Atributos
     {
-        public int diamantes=0;
+        int diamantes=0;
+        double volumen = 100;
         int nivelActual;
         bool [] niveles = { true, false, false, false };  
 
@@ -37,6 +38,16 @@ namespace P3JoseMiguelVillacanas
         public int getNivelActual()
         {
             return nivelActual;
+        }
+
+        public void setVolume(double v)
+        {
+            volumen = v;
+        }
+
+        public double getVolume()
+        {
+            return volumen/100;
         }
 
     }

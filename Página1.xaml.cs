@@ -27,21 +27,20 @@ namespace P3JoseMiguelVillacanas
     /// 
     public sealed partial class Página1 : Page
     {
-        MediaPlayer mP;
-        bool playing;
+        public MediaPlayer mP;
         Atributos atributos;
         public Página1()
         {
             this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
             this.InitializeComponent();
             mP = new MediaPlayer();
-            playing = false;
             Musica();
 
         }
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             atributos =(Atributos) e.Parameter;
+            mP.Volume = atributos.getVolume();
             Diamonds.Text = atributos.getDiamantes().ToString();
             base.OnNavigatedTo(e);
         }
@@ -53,7 +52,7 @@ namespace P3JoseMiguelVillacanas
 
             mP.AutoPlay = false;
             mP.Source = MediaSource.CreateFromStorageFile(file);
-            //mP.Play();
+            mP.Play();
         }
 
         private void BackButton_Click(object sender, RoutedEventArgs e)

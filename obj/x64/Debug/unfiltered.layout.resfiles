@@ -19,11 +19,15 @@ Assets\Card X5.png
 Assets\Card X6.png
 Assets\changes.mp3
 Assets\confButton.png
+Assets\confButton2.png
+Assets\continueButton.png
+Assets\costeRobot.png
 Assets\deck.png
 Assets\deck2.png
 Assets\diamond.png
 Assets\diamondButton.png
 Assets\exitButton.png
+Assets\exitButton2.png
 Assets\fondoTienda.png
 Assets\gemas.png
 Assets\Icon78.png
@@ -81,6 +85,8 @@ Assets\pala.png
 Assets\Panel Empty Green.png
 Assets\Panel Empty.png
 Assets\Panel Red.png
+Assets\pauseButton.png
+Assets\pauseMenu.png
 Assets\play.png
 Assets\playButton.png
 Assets\Robot1.jpg
@@ -91,6 +97,7 @@ Assets\Robot4.png
 Assets\Robot5.png
 Assets\Robot6.png
 Assets\Robots1.png
+Assets\robotTeam.png
 Assets\shopButton.png
 Assets\showDiamond.png
 Assets\showDiamond2.png

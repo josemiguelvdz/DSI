@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\DSI\DSI\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-04T20:26:47.781</Modified>
+      <Modified>2022-05-04T23:24:58.643</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\P3JoseMiguelVillacanas.exe">
       <PackagePath>entrypoint\P3JoseMiguelVillacanas.exe</PackagePath>
-      <Modified>2022-05-04T20:26:26.372</Modified>
+      <Modified>2022-05-04T23:24:44.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -114,6 +114,18 @@
       <PackagePath>Assets\confButton.png</PackagePath>
       <Modified>2022-05-03T18:35:45.424</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\confButton2.png">
+      <PackagePath>Assets\confButton2.png</PackagePath>
+      <Modified>2022-05-04T22:47:10.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\continueButton.png">
+      <PackagePath>Assets\continueButton.png</PackagePath>
+      <Modified>2022-05-04T22:45:52.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\costeRobot.png">
+      <PackagePath>Assets\costeRobot.png</PackagePath>
+      <Modified>2022-05-04T22:26:28.964</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\Assets\deck.png">
       <PackagePath>Assets\deck.png</PackagePath>
       <Modified>2022-04-05T18:13:07.870</Modified>
@@ -133,6 +145,10 @@
     <AppxPackagedFile Include="D:\DSI\DSI\Assets\exitButton.png">
       <PackagePath>Assets\exitButton.png</PackagePath>
       <Modified>2022-05-03T18:50:18.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\exitButton2.png">
+      <PackagePath>Assets\exitButton2.png</PackagePath>
+      <Modified>2022-05-04T22:48:58.375</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\Assets\fondoTienda.png">
       <PackagePath>Assets\fondoTienda.png</PackagePath>
@@ -358,6 +374,14 @@
       <PackagePath>Assets\Panel Red.png</PackagePath>
       <Modified>2022-01-24T14:11:22.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\pauseButton.png">
+      <PackagePath>Assets\pauseButton.png</PackagePath>
+      <Modified>2022-05-04T22:35:38.741</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\pauseMenu.png">
+      <PackagePath>Assets\pauseMenu.png</PackagePath>
+      <Modified>2022-05-04T22:41:27.624</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\Assets\play.png">
       <PackagePath>Assets\play.png</PackagePath>
       <Modified>2022-04-27T11:55:07.104</Modified>
@@ -389,6 +413,10 @@
     <AppxPackagedFile Include="D:\DSI\DSI\Assets\Robots1.png">
       <PackagePath>Assets\Robots1.png</PackagePath>
       <Modified>2022-05-04T20:08:52.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\DSI\DSI\Assets\robotTeam.png">
+      <PackagePath>Assets\robotTeam.png</PackagePath>
+      <Modified>2022-05-04T23:22:40.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\Assets\shopButton.png">
       <PackagePath>Assets\shopButton.png</PackagePath>
@@ -785,35 +813,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\P3JoseMiguelVillacanas.xr.xml">
       <PackagePath>P3JoseMiguelVillacanas.xr.xml</PackagePath>
-      <Modified>2022-05-04T19:59:35.199</Modified>
+      <Modified>2022-05-04T23:24:44.715</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-05-04T20:26:46.631</Modified>
+      <Modified>2022-05-04T23:24:57.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\Hub.xbf">
       <PackagePath>Hub.xbf</PackagePath>
-      <Modified>2022-05-04T20:26:46.601</Modified>
+      <Modified>2022-05-04T23:24:57.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-05-04T20:26:46.631</Modified>
+      <Modified>2022-05-04T23:24:57.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\Nivel1.xbf">
       <PackagePath>Nivel1.xbf</PackagePath>
-      <Modified>2022-05-04T20:26:46.614</Modified>
+      <Modified>2022-05-04T23:24:57.740</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\Página1.xbf">
       <PackagePath>Página1.xbf</PackagePath>
-      <Modified>2022-05-04T20:26:46.620</Modified>
+      <Modified>2022-05-04T23:24:57.745</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\Graficos.xbf">
       <PackagePath>Graficos.xbf</PackagePath>
-      <Modified>2022-05-04T20:26:46.626</Modified>
+      <Modified>2022-05-04T23:24:57.752</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\RobotTeam.xbf">
       <PackagePath>RobotTeam.xbf</PackagePath>
-      <Modified>2022-05-04T20:26:46.631</Modified>
+      <Modified>2022-05-04T23:24:57.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -821,11 +849,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-04T20:26:27.030</Modified>
+      <Modified>2022-05-04T23:24:45.589</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\DSI\DSI\bin\x64\Debug\Core\P3JoseMiguelVillacanas.exe">
       <PackagePath>P3JoseMiguelVillacanas.exe</PackagePath>
-      <Modified>2022-05-04T20:26:47.778</Modified>
+      <Modified>2022-05-04T23:24:58.639</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

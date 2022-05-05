@@ -69,7 +69,7 @@ namespace P3JoseMiguelVillacanas
 
         private void ConfigButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Graficos),atributos);
+            Frame.Navigate(typeof(Ajustes),atributos);
         }
 
         private void ShopButton_Click(object sender, RoutedEventArgs e)

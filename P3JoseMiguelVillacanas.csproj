@@ -152,7 +152,6 @@
     <Content Include="Assets\baldosa1.png" />
     <Content Include="Assets\banderaDeFrancia.jpg" />
     <Content Include="Assets\banderaDeGabon.jpg" />
-    <Content Include="Assets\banderaDeGabon.png" />
     <Content Include="Assets\banderaEspaña.png" />
     <Content Include="Assets\bg2.jpg" />
     <Content Include="Assets\bg3.png" />
@@ -228,6 +227,7 @@
     <Content Include="Assets\mainBackground.jpg" />
     <Content Include="Assets\mainButton.png" />
     <Content Include="Assets\mainLogo.png" />
+    <Content Include="Assets\mainTheme.mp3" />
     <Content Include="Assets\mazoBackground.png" />
     <Content Include="Assets\menu.png" />
     <Content Include="Assets\musicButton.png" />

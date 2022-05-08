@@ -3,7 +3,6 @@ D:\DSI\DSI\bin\x64\Debug\Hub.xbf
 D:\DSI\DSI\bin\x64\Debug\MainPage.xbf
 D:\DSI\DSI\bin\x64\Debug\Nivel1.xbf
 D:\DSI\DSI\bin\x64\Debug\Página1.xbf
-D:\DSI\DSI\bin\x64\Debug\Graficos.xbf
 D:\DSI\DSI\bin\x64\Debug\RobotTeam.xbf
 D:\DSI\DSI\bin\x64\Debug\P3JoseMiguelVillacanas.xr.xml
 D:\DSI\DSI\bin\x64\Debug\P3JoseMiguelVillacanas.exe
@@ -25,8 +24,6 @@ D:\DSI\DSI\obj\x64\Debug\Nivel1.g.i.cs
 D:\DSI\DSI\obj\x64\Debug\Nivel1.g.cs
 D:\DSI\DSI\obj\x64\Debug\Página1.g.i.cs
 D:\DSI\DSI\obj\x64\Debug\Página1.g.cs
-D:\DSI\DSI\obj\x64\Debug\Graficos.g.i.cs
-D:\DSI\DSI\obj\x64\Debug\Graficos.g.cs
 D:\DSI\DSI\obj\x64\Debug\RobotTeam.g.i.cs
 D:\DSI\DSI\obj\x64\Debug\RobotTeam.g.cs
 D:\DSI\DSI\obj\x64\Debug\XamlTypeInfo.g.cs
@@ -35,14 +32,12 @@ D:\DSI\DSI\obj\x64\Debug\Hub.xaml
 D:\DSI\DSI\obj\x64\Debug\MainPage.xaml
 D:\DSI\DSI\obj\x64\Debug\Nivel1.xaml
 D:\DSI\DSI\obj\x64\Debug\Página1.xaml
-D:\DSI\DSI\obj\x64\Debug\Graficos.xaml
 D:\DSI\DSI\obj\x64\Debug\RobotTeam.xaml
 D:\DSI\DSI\obj\x64\Debug\App.xbf
 D:\DSI\DSI\obj\x64\Debug\Hub.xbf
 D:\DSI\DSI\obj\x64\Debug\MainPage.xbf
 D:\DSI\DSI\obj\x64\Debug\Nivel1.xbf
 D:\DSI\DSI\obj\x64\Debug\Página1.xbf
-D:\DSI\DSI\obj\x64\Debug\Graficos.xbf
 D:\DSI\DSI\obj\x64\Debug\RobotTeam.xbf
 D:\DSI\DSI\obj\x64\Debug\XamlSaveStateFile.xml
 D:\DSI\DSI\obj\x64\Debug\P3JoseMiguelVillacanas.csproj.CoreCompileInputs.cache
@@ -138,3 +133,8 @@ C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\Ajustes.g.i.cs
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\Ajustes.g.cs
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\Ajustes.xaml
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\Ajustes.xbf
+D:\DSI\DSI\bin\x64\Debug\Ajustes.xbf
+D:\DSI\DSI\obj\x64\Debug\Ajustes.g.i.cs
+D:\DSI\DSI\obj\x64\Debug\Ajustes.g.cs
+D:\DSI\DSI\obj\x64\Debug\Ajustes.xaml
+D:\DSI\DSI\obj\x64\Debug\Ajustes.xbf

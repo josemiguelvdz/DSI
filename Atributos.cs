@@ -19,7 +19,7 @@ namespace P3JoseMiguelVillacanas
         public async void initMusica()
         {
             Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync(@"Assets");
-            Windows.Storage.StorageFile file = await folder.GetFileAsync("changes.mp3");
+            Windows.Storage.StorageFile file = await folder.GetFileAsync("HimnoDelMadrid.mp3");
 
             mP.AutoPlay = false;
             mP.Source = MediaSource.CreateFromStorageFile(file);

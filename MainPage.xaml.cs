@@ -27,6 +27,8 @@ namespace P3JoseMiguelVillacanas
         {
             this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
             this.InitializeComponent();
+            atributos.initMusica();
+            atributos.changeVolume(100);
             atributos.setDiamantes(500);
 
         }

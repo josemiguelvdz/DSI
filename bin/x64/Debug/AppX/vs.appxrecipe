@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-05T08:24:09.848</Modified>
+      <Modified>2022-05-05T14:04:36.921</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\P3JoseMiguelVillacanas.exe">
       <PackagePath>entrypoint\P3JoseMiguelVillacanas.exe</PackagePath>
-      <Modified>2022-05-05T08:24:09.178</Modified>
+      <Modified>2022-05-05T14:04:18.939</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -62,9 +62,21 @@
       <PackagePath>Assets\baldosa1.png</PackagePath>
       <Modified>2022-05-03T18:53:00.266</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\banderaDeGabon.png">
+      <PackagePath>Assets\banderaDeGabon.png</PackagePath>
+      <Modified>2022-05-05T08:57:28.365</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\banderaEspaña.png">
+      <PackagePath>Assets\banderaEspaña.png</PackagePath>
+      <Modified>2022-05-05T09:35:43.831</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\bg3.png">
       <PackagePath>Assets\bg3.png</PackagePath>
       <Modified>2022-05-03T18:53:00.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\brightnessButton.png">
+      <PackagePath>Assets\brightnessButton.png</PackagePath>
+      <Modified>2022-05-05T10:18:48.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Button Active.png">
       <PackagePath>Assets\Button Active.png</PackagePath>
@@ -118,6 +130,10 @@
       <PackagePath>Assets\confButton2.png</PackagePath>
       <Modified>2022-05-05T08:15:20.022</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\confMenu.png">
+      <PackagePath>Assets\confMenu.png</PackagePath>
+      <Modified>2022-05-05T10:18:48.285</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\continueButton.png">
       <PackagePath>Assets\continueButton.png</PackagePath>
       <Modified>2022-05-05T08:15:20.028</Modified>
@@ -142,6 +158,10 @@
       <PackagePath>Assets\diamondButton.png</PackagePath>
       <Modified>2022-05-04T08:28:22.832</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\disponibleBackground.png">
+      <PackagePath>Assets\disponibleBackground.png</PackagePath>
+      <Modified>2022-05-05T08:30:30.861</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\exitButton.png">
       <PackagePath>Assets\exitButton.png</PackagePath>
       <Modified>2022-05-03T19:15:30.042</Modified>
@@ -150,9 +170,17 @@
       <PackagePath>Assets\exitButton2.png</PackagePath>
       <Modified>2022-05-05T08:15:20.036</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\exitButton3.png">
+      <PackagePath>Assets\exitButton3.png</PackagePath>
+      <Modified>2022-05-05T08:30:30.867</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\fondoTienda.png">
       <PackagePath>Assets\fondoTienda.png</PackagePath>
       <Modified>2022-05-03T21:22:16.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Francia.png">
+      <PackagePath>Assets\Francia.png</PackagePath>
+      <Modified>2022-05-05T08:57:10.314</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\gemas.png">
       <PackagePath>Assets\gemas.png</PackagePath>
@@ -298,6 +326,10 @@
       <PackagePath>Assets\Icons\35.png</PackagePath>
       <Modified>2022-05-03T18:53:00.501</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\languageButton.png">
+      <PackagePath>Assets\languageButton.png</PackagePath>
+      <Modified>2022-05-05T10:18:48.289</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\legendabot.png">
       <PackagePath>Assets\legendabot.png</PackagePath>
       <Modified>2022-05-04T09:42:25.428</Modified>
@@ -318,9 +350,17 @@
       <PackagePath>Assets\mainLogo.png</PackagePath>
       <Modified>2022-05-03T18:53:00.505</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\mazoBackground.png">
+      <PackagePath>Assets\mazoBackground.png</PackagePath>
+      <Modified>2022-05-05T08:30:30.874</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\menu.png">
       <PackagePath>Assets\menu.png</PackagePath>
       <Modified>2022-05-03T18:53:00.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\musicButton.png">
+      <PackagePath>Assets\musicButton.png</PackagePath>
+      <Modified>2022-05-05T10:18:48.293</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\nivel1.png">
       <PackagePath>Assets\nivel1.png</PackagePath>
@@ -421,6 +461,10 @@
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\shopButton.png">
       <PackagePath>Assets\shopButton.png</PackagePath>
       <Modified>2022-05-04T08:28:22.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\showCoste.png">
+      <PackagePath>Assets\showCoste.png</PackagePath>
+      <Modified>2022-05-05T09:43:30.699</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\showDiamond.png">
       <PackagePath>Assets\showDiamond.png</PackagePath>
@@ -763,6 +807,14 @@
       <PackagePath>CardX1.png</PackagePath>
       <Modified>2022-04-04T19:54:05.935</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\banderaDeFrancia.jpg">
+      <PackagePath>Assets\banderaDeFrancia.jpg</PackagePath>
+      <Modified>2022-05-05T09:52:51.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\banderaDeGabon.jpg">
+      <PackagePath>Assets\banderaDeGabon.jpg</PackagePath>
+      <Modified>2022-05-05T13:16:34.273</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\bg2.jpg">
       <PackagePath>Assets\bg2.jpg</PackagePath>
       <Modified>2022-05-03T18:53:00.269</Modified>
@@ -807,45 +859,45 @@
       <PackagePath>Assets\changes.mp3</PackagePath>
       <Modified>2022-04-18T08:04:12.563</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\HimnoDelMadrid.mp3">
+      <PackagePath>Assets\HimnoDelMadrid.mp3</PackagePath>
+      <Modified>2022-05-05T14:02:05.610</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2022-04-04T18:14:42.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\P3JoseMiguelVillacanas.xr.xml">
       <PackagePath>P3JoseMiguelVillacanas.xr.xml</PackagePath>
-      <Modified>2022-05-05T08:24:09.046</Modified>
+      <Modified>2022-05-05T10:19:27.783</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-05-05T08:24:09.084</Modified>
+      <Modified>2022-05-05T14:04:35.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Ajustes.xbf">
       <PackagePath>Ajustes.xbf</PackagePath>
-      <Modified>2022-05-05T08:24:09.084</Modified>
+      <Modified>2022-05-05T14:04:35.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Hub.xbf">
       <PackagePath>Hub.xbf</PackagePath>
-      <Modified>2022-05-05T08:24:09.084</Modified>
+      <Modified>2022-05-05T14:04:35.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-05-05T08:24:09.084</Modified>
+      <Modified>2022-05-05T14:04:35.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Nivel1.xbf">
       <PackagePath>Nivel1.xbf</PackagePath>
-      <Modified>2022-05-05T08:24:09.067</Modified>
+      <Modified>2022-05-05T14:04:35.918</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Página1.xbf">
       <PackagePath>Página1.xbf</PackagePath>
-      <Modified>2022-05-05T08:24:09.073</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Graficos.xbf">
-      <PackagePath>Graficos.xbf</PackagePath>
-      <Modified>2022-05-05T08:24:09.080</Modified>
+      <Modified>2022-05-05T14:04:35.926</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\RobotTeam.xbf">
       <PackagePath>RobotTeam.xbf</PackagePath>
-      <Modified>2022-05-05T08:24:09.084</Modified>
+      <Modified>2022-05-05T14:04:35.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -853,11 +905,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-05T08:16:11.234</Modified>
+      <Modified>2022-05-05T14:04:19.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Core\P3JoseMiguelVillacanas.exe">
       <PackagePath>P3JoseMiguelVillacanas.exe</PackagePath>
-      <Modified>2022-05-05T08:24:09.844</Modified>
+      <Modified>2022-05-05T14:04:36.916</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

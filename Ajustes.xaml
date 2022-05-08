@@ -39,7 +39,7 @@
                 <ComboBox Width="100" Height="50" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-200,0,0,-200">
                     <Image Width="40" Height="40"  Source="Assets/banderaEspaña.png" />
                     <Image Width="40" Height="40"  Source="Assets/banderaDeFrancia.jpg" />
-                    <Image Width="40" Height="40"  Source="Assets/banderaDeGabon.png" />
+                    <Image Width="40" Height="40"  Source="Assets/banderaDeGabon.jpg" />
                 </ComboBox>
             </StackPanel>
             <Button x:Name="ExitMenuButton" Background="Transparent" Click="ExitMenuButton_Click" Width="100" Height="100"

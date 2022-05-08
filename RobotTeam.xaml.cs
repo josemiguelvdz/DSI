@@ -33,7 +33,7 @@ namespace P3JoseMiguelVillacanas
         {
             atributos = (Atributos)e.Parameter;
             int suma = 0;
-            suma += int.Parse( ValorRobotEnUso1.Text);
+            suma += int.Parse(ValorRobotEnUso1.Text);
             suma += int.Parse(ValorRobotEnUso2.Text);
             suma += int.Parse(ValorRobotEnUso3.Text);
             suma += int.Parse(ValorRobotEnUso4.Text);
@@ -45,7 +45,7 @@ namespace P3JoseMiguelVillacanas
 
         private void ReturnToMenu_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Hub),atributos);
+            Frame.Navigate(typeof(Hub), atributos);
         }
 
         private void image_DragStarting(UIElement sender, DragStartingEventArgs args)
@@ -65,7 +65,7 @@ namespace P3JoseMiguelVillacanas
 
             Image i = FindName(await e.DataView.GetTextAsync()) as Image;
             StackPanel s1 = i.Parent as StackPanel;
-            Image iAux =new Image();
+            Image iAux = new Image();
             string sAux = ((s1 as StackPanel).Children[2] as TextBlock).Text.ToString();
             iAux.Source = i.Source;
             (s1.Children[2] as TextBlock).Text = ((s.Parent as StackPanel).Children[2] as TextBlock).Text;
@@ -81,7 +81,7 @@ namespace P3JoseMiguelVillacanas
             suma += int.Parse(ValorRobotEnUso4.Text);
             suma += int.Parse(ValorRobotEnUso5.Text);
             suma += int.Parse(ValorRobotEnUso6.Text);
-            Media.Text = (suma/6).ToString();
+            Media.Text = (suma / 6).ToString();
         }
 
         private void Image_DragOver(object sender, DragEventArgs e)

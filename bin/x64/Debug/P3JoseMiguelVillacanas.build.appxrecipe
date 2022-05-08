@@ -46,8 +46,17 @@
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\baldosa1.png">
       <PackagePath>Assets\baldosa1.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\banderaDeGabon.png">
+      <PackagePath>Assets\banderaDeGabon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\banderaEspaña.png">
+      <PackagePath>Assets\banderaEspaña.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\bg3.png">
       <PackagePath>Assets\bg3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\brightnessButton.png">
+      <PackagePath>Assets\brightnessButton.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Button Active.png">
       <PackagePath>Assets\Button Active.png</PackagePath>
@@ -88,6 +97,9 @@
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\confButton2.png">
       <PackagePath>Assets\confButton2.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\confMenu.png">
+      <PackagePath>Assets\confMenu.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\continueButton.png">
       <PackagePath>Assets\continueButton.png</PackagePath>
     </AppxPackagedFile>
@@ -106,14 +118,23 @@
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\diamondButton.png">
       <PackagePath>Assets\diamondButton.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\disponibleBackground.png">
+      <PackagePath>Assets\disponibleBackground.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\exitButton.png">
       <PackagePath>Assets\exitButton.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\exitButton2.png">
       <PackagePath>Assets\exitButton2.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\exitButton3.png">
+      <PackagePath>Assets\exitButton3.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\fondoTienda.png">
       <PackagePath>Assets\fondoTienda.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Francia.png">
+      <PackagePath>Assets\Francia.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\gemas.png">
       <PackagePath>Assets\gemas.png</PackagePath>
@@ -223,6 +244,9 @@
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\Icons\35.png">
       <PackagePath>Assets\Icons\35.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\languageButton.png">
+      <PackagePath>Assets\languageButton.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\legendabot.png">
       <PackagePath>Assets\legendabot.png</PackagePath>
     </AppxPackagedFile>
@@ -238,8 +262,14 @@
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\mainLogo.png">
       <PackagePath>Assets\mainLogo.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\mazoBackground.png">
+      <PackagePath>Assets\mazoBackground.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\menu.png">
       <PackagePath>Assets\menu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\musicButton.png">
+      <PackagePath>Assets\musicButton.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\nivel1.png">
       <PackagePath>Assets\nivel1.png</PackagePath>
@@ -315,6 +345,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\shopButton.png">
       <PackagePath>Assets\shopButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\showCoste.png">
+      <PackagePath>Assets\showCoste.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\showDiamond.png">
       <PackagePath>Assets\showDiamond.png</PackagePath>
@@ -572,6 +605,12 @@
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\CardX1.png">
       <PackagePath>CardX1.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\banderaDeFrancia.jpg">
+      <PackagePath>Assets\banderaDeFrancia.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\banderaDeGabon.jpg">
+      <PackagePath>Assets\banderaDeGabon.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\bg2.jpg">
       <PackagePath>Assets\bg2.jpg</PackagePath>
     </AppxPackagedFile>
@@ -605,6 +644,9 @@
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\changes.mp3">
       <PackagePath>Assets\changes.mp3</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Assets\HimnoDelMadrid.mp3">
+      <PackagePath>Assets\HimnoDelMadrid.mp3</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
@@ -628,9 +670,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Página1.xbf">
       <PackagePath>Página1.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Graficos.xbf">
-      <PackagePath>Graficos.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\RobotTeam.xbf">
       <PackagePath>RobotTeam.xbf</PackagePath>

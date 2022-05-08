@@ -72,7 +72,6 @@ C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Hub.xbf
 C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\MainPage.xbf
 C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Nivel1.xbf
 C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Página1.xbf
-C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\Graficos.xbf
 C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\RobotTeam.xbf
 C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\P3JoseMiguelVillacanas.xr.xml
 C:\Users\Rodrigo\Desktop\DSI\bin\x64\Debug\P3JoseMiguelVillacanas.exe
@@ -92,8 +91,6 @@ C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\Nivel1.g.i.cs
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\Nivel1.g.cs
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\Página1.g.i.cs
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\Página1.g.cs
-C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\Graficos.g.i.cs
-C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\Graficos.g.cs
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\RobotTeam.g.i.cs
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\RobotTeam.g.cs
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\XamlTypeInfo.g.cs
@@ -102,14 +99,12 @@ C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\Hub.xaml
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\MainPage.xaml
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\Nivel1.xaml
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\Página1.xaml
-C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\Graficos.xaml
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\RobotTeam.xaml
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\App.xbf
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\Hub.xbf
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\MainPage.xbf
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\Nivel1.xbf
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\Página1.xbf
-C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\Graficos.xbf
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\RobotTeam.xbf
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\XamlSaveStateFile.xml
 C:\Users\Rodrigo\Desktop\DSI\obj\x64\Debug\P3JoseMiguelVillacanas.csproj.CoreCompileInputs.cache

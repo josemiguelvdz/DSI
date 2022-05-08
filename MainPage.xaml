@@ -29,7 +29,7 @@
                    TextAlignment="Center" 
                    FontWeight="Bold"/>
                 <Image Source="Assets/mainLogo.png" Width="600" Height="auto"></Image>
-                <Image Source="Assets/mainButton.png" Width="471" PointerPressed="Image_PointerPressed"></Image>
+               
                 <Button x:Name="PlayButton"
                 Content="PULSE AQUÍ PARA CONTINUAR" 
                 Height="56"
@@ -39,6 +39,13 @@
                 FontWeight="Bold" 
                 Click="PlayButton_Click"/>
             </StackPanel>
+            
+            <Button x:Name="PlayButton2" Background="Transparent" Click="PlayButton_Click" Width="450"  HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                <Grid>
+                    <Image Source="Assets/mainButton.png" Margin="0 , 0, 0 , 40"></Image>
+                </Grid>
+            </Button>
+            
         </Grid>
     </Viewbox>
    

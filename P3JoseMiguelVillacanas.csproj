@@ -151,6 +151,7 @@
     <Content Include="Assets\background2.png" />
     <Content Include="Assets\baldosa1.png" />
     <Content Include="Assets\banderaDeFrancia.jpg" />
+    <Content Include="Assets\banderaDeGabon.jpg" />
     <Content Include="Assets\banderaDeGabon.png" />
     <Content Include="Assets\banderaEspaña.png" />
     <Content Include="Assets\bg2.jpg" />
@@ -184,6 +185,7 @@
     <Content Include="Assets\fondoTienda.png" />
     <Content Include="Assets\Francia.png" />
     <Content Include="Assets\gemas.png" />
+    <Content Include="Assets\HimnoDelMadrid.mp3" />
     <Content Include="Assets\Icon78.png" />
     <Content Include="Assets\Icons\01.png" />
     <Content Include="Assets\Icons\02.png" />
